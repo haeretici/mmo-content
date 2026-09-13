@@ -1,0 +1,355 @@
+{
+    "id": "soul_of_dragonking_pyrestone",
+    "label": "Soul Of Dragonking Pyrestone",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A soul of dragonking pyrestone.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 250,
+    "level": 797,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 0,
+    "lootValue": 32092.740740741,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 100,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "ranged_1",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 7,
+            "element": "fire",
+            "min": 110,
+            "max": 495,
+            "target": true,
+            "effect": "me_firearea",
+            "shootEffect": "ani_fire"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 7,
+            "element": "fire",
+            "min": 110,
+            "max": 495,
+            "radius": 4,
+            "target": true,
+            "effect": "me_firearea",
+            "shootEffect": "ani_fire"
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 4,
+            "element": "manadrain",
+            "min": 110,
+            "max": 495,
+            "radius": 8,
+            "target": false,
+            "effect": "me_magic_blue"
+        },
+        {
+            "id": "charged_energy_elemental_electrify_4",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "physical",
+            "min": 1100,
+            "max": 1100,
+            "radius": 5,
+            "target": false,
+            "effect": "me_yellowenergy"
+        },
+        {
+            "id": "wave_5",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "energy",
+            "min": 710,
+            "max": 895,
+            "length": 9,
+            "spread": 4,
+            "target": false,
+            "effect": "me_energyarea"
+        },
+        {
+            "id": "wave_6",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "fire",
+            "min": 710,
+            "max": 895,
+            "length": 9,
+            "spread": 4,
+            "target": false,
+            "effect": "me_hitbyfire"
+        },
+        {
+            "id": "wave_7",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "fire",
+            "min": 710,
+            "max": 895,
+            "length": 9,
+            "spread": 3,
+            "target": false,
+            "effect": "me_firearea"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 15,
+            "min": 450,
+            "max": 550,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "fire",
+    "loot": [
+        {
+            "chance": 100000,
+            "name": "gold token"
+        },
+        {
+            "chance": 100000,
+            "name": "silver token"
+        },
+        {
+            "chance": 97000,
+            "maxCount": 100,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 97000,
+            "maxCount": 100,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 1000,
+            "name": "Yellow Gem",
+            "id": "yellow_gem"
+        },
+        {
+            "chance": 5000,
+            "name": "red dragon scale"
+        },
+        {
+            "chance": 500,
+            "name": "piece of draconian steel"
+        },
+        {
+            "chance": 500,
+            "name": "crystal of power"
+        },
+        {
+            "chance": 300,
+            "name": "Shield of Corruption",
+            "id": "shield_of_corruption"
+        },
+        {
+            "chance": 3000,
+            "maxCount": 5,
+            "name": "Small Topaz",
+            "id": "small_topaz"
+        },
+        {
+            "chance": 3000,
+            "maxCount": 5,
+            "name": "Small Emerald",
+            "id": "small_emerald"
+        },
+        {
+            "chance": 500,
+            "name": "Gold Ingot",
+            "id": "gold_ingot"
+        },
+        {
+            "chance": 100,
+            "name": "Twin Battle Staff",
+            "id": "twin_battle_staff"
+        },
+        {
+            "chance": 3000,
+            "maxCount": 5,
+            "name": "Small Amethyst",
+            "id": "small_amethyst"
+        },
+        {
+            "chance": 500,
+            "name": "Modified Crossbow",
+            "id": "modified_crossbow"
+        },
+        {
+            "chance": 1000,
+            "name": "Blue Gem",
+            "id": "blue_gem"
+        },
+        {
+            "chance": 3000,
+            "maxCount": 3,
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion"
+        },
+        {
+            "chance": 15,
+            "unique": true,
+            "name": "Wyrm Scale Helmet",
+            "id": "wyrm_scale_helmet"
+        },
+        {
+            "chance": 1000,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "chance": 3000,
+            "maxCount": 5,
+            "name": "violet crystal shard"
+        },
+        {
+            "chance": 3000,
+            "maxCount": 5,
+            "name": "green crystal shard"
+        },
+        {
+            "chance": 500,
+            "name": "piece of royal steel"
+        },
+        {
+            "chance": 3000,
+            "maxCount": 3,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 1000,
+            "name": "Green Gem",
+            "id": "green_gem"
+        },
+        {
+            "chance": 5000,
+            "name": "red dragon leather"
+        },
+        {
+            "chance": 500,
+            "name": "magic sulphur"
+        },
+        {
+            "chance": 500,
+            "unique": true,
+            "name": "part of a rune"
+        },
+        {
+            "chance": 3000,
+            "maxCount": 5,
+            "name": "blue crystal shard"
+        },
+        {
+            "chance": 500,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "chance": 3000,
+            "maxCount": 3,
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion"
+        },
+        {
+            "chance": 500,
+            "name": "Spellbook of Mind Control",
+            "id": "spellbook_of_mind_control"
+        },
+        {
+            "chance": 300,
+            "unique": true,
+            "name": "Snake God's Sceptre",
+            "id": "snake_gods_sceptre"
+        },
+        {
+            "chance": 90000,
+            "maxCount": 6,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 3000,
+            "maxCount": 5,
+            "name": "Small Ruby",
+            "id": "small_ruby"
+        }
+    ],
+    "changeTarget": {
+        "interval": 5000,
+        "chance": 0
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "wild_desert_dragon",
+    "threatDps": 353.8125,
+    "burstDps": 353.8125,
+    "avgHit": 589.6875,
+    "maxHit": 1100,
+    "manaCost": 0
+}

@@ -1,0 +1,272 @@
+{
+    "id": "juvenile_serpent_guardian",
+    "label": "Juvenile Serpent Guardian",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A juvenile serpent guardian.",
+    "hp": 7500,
+    "hpMax": 7500,
+    "speed": 195,
+    "level": 626,
+    "armor": 75,
+    "mitigation": 2.19,
+    "maxBlock": 0,
+    "exp": 4500,
+    "lootValue": 2322.2789462936,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": -10,
+        "energy": 5,
+        "earth": 5,
+        "holy": -20,
+        "death": 5
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 169
+        },
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 50,
+            "range": 4,
+            "element": "energy",
+            "min": 127,
+            "max": 169,
+            "length": 4,
+            "spread": 0,
+            "target": false,
+            "effect": "me_energyarea"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 40,
+            "range": 3,
+            "element": "energy",
+            "min": 169,
+            "max": 212,
+            "radius": 3,
+            "target": false,
+            "effect": "me_energyhit"
+        },
+        {
+            "id": "ranged_3",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 7,
+            "element": "earth",
+            "min": 169,
+            "max": 212,
+            "target": true,
+            "shootEffect": "ani_eartharrow"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 20,
+            "min": 100,
+            "max": 150,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Magical",
+        "toKill": 2500,
+        "firstUnlock": 100,
+        "secondUnlock": 1000,
+        "charmsPoints": 50,
+        "stars": 4,
+        "occurrence": 1
+    },
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 70000,
+            "maxCount": 19
+        },
+        {
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion",
+            "chance": 14700,
+            "maxCount": 4
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 1300,
+            "maxCount": 4
+        },
+        {
+            "name": "blue crystal shard",
+            "chance": 6160,
+            "maxCount": 3
+        },
+        {
+            "name": "bashmu tongue",
+            "chance": 5840,
+            "maxCount": 3
+        },
+        {
+            "name": "bashmu feather",
+            "chance": 4620,
+            "maxCount": 2
+        },
+        {
+            "name": "green crystal shard",
+            "chance": 3666
+        },
+        {
+            "name": "cyan crystal fragment",
+            "chance": 3340
+        },
+        {
+            "chance": 2390,
+            "maxCount": 1,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 2340,
+            "maxCount": 1
+        },
+        {
+            "name": "Stormbound Legs",
+            "id": "stormbound_legs",
+            "chance": 2230
+        },
+        {
+            "name": "Diamond Sceptre",
+            "id": "diamond_sceptre",
+            "chance": 2180
+        },
+        {
+            "name": "Stormbound Pendant",
+            "id": "stormbound_pendant",
+            "chance": 2180
+        },
+        {
+            "name": "bashmu fang",
+            "chance": 2120
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "chance": 2070
+        },
+        {
+            "name": "War Hammer",
+            "id": "war_hammer",
+            "chance": 1540
+        },
+        {
+            "name": "violet crystal shard",
+            "chance": 1490
+        },
+        {
+            "name": "Wyrmbone Staff",
+            "id": "wyrmbone_staff",
+            "chance": 1430
+        },
+        {
+            "name": "Amber Staff",
+            "id": "amber_staff",
+            "chance": 1270
+        },
+        {
+            "name": "Stormbound Boots",
+            "id": "stormbound_boots",
+            "chance": 1270
+        },
+        {
+            "name": "Green Gem",
+            "id": "green_gem",
+            "chance": 1220
+        },
+        {
+            "name": "Spellweaver's Robe",
+            "id": "spellweavers_robe",
+            "chance": 1110
+        },
+        {
+            "name": "Pair of Iron Fists",
+            "id": "pair_of_iron_fists",
+            "chance": 1010
+        },
+        {
+            "name": "Bone Skull Staff",
+            "id": "bone_skull_staff",
+            "chance": 960
+        },
+        {
+            "name": "Crystal Mace",
+            "id": "crystal_mace",
+            "chance": 800
+        },
+        {
+            "name": "Maelstrom Mace",
+            "id": "maelstrom_mace",
+            "chance": 530
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 20
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "tempest_serpent_berserker",
+    "threatDps": 136.4,
+    "burstDps": 136.4,
+    "avgHit": 129.9048,
+    "maxHit": 212,
+    "manaCost": 0
+}

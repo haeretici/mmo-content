@@ -1,0 +1,226 @@
+{
+    "id": "hazardous_wraith",
+    "label": "Hazardous Wraith",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A hazardous wraith.",
+    "hp": 70000,
+    "hpMax": 70000,
+    "speed": 100,
+    "level": 848,
+    "armor": 0,
+    "mitigation": 4.45,
+    "maxBlock": 0,
+    "exp": 66000,
+    "lootValue": 22946.564885496,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 4,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": false,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 777
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 3000,
+            "chance": 20,
+            "range": 7,
+            "element": "earth",
+            "min": 742,
+            "max": 989,
+            "radius": 3,
+            "target": true,
+            "effect": "me_green_rings",
+            "shootEffect": "ani_poisonarrow"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "earth",
+            "min": 636,
+            "max": 883,
+            "length": 6,
+            "spread": 4,
+            "target": false,
+            "effect": "me_green_rings"
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "intervalMs": 3000,
+            "chance": 20,
+            "range": 4,
+            "element": "ice",
+            "min": 742,
+            "max": 777,
+            "radius": 3,
+            "target": false,
+            "effect": "me_icetornado"
+        },
+        {
+            "id": "area_4",
+            "kind": "area",
+            "intervalMs": 3000,
+            "chance": 20,
+            "range": 7,
+            "element": "ice",
+            "min": 742,
+            "max": 918,
+            "radius": 4,
+            "target": true,
+            "effect": "me_iceattack"
+        },
+        {
+            "id": "ice_chain_5",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 7,
+            "element": "physical",
+            "min": 918,
+            "max": 1060
+        }
+    ],
+    "race": "undead",
+    "loot": [
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "chance": 97640,
+            "maxCount": 4
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 77950,
+            "maxCount": 5
+        },
+        {
+            "name": "Gold Ingot",
+            "id": "gold_ingot",
+            "chance": 23620
+        },
+        {
+            "name": "Hailburst Rod",
+            "id": "hailburst_rod",
+            "chance": 10240
+        },
+        {
+            "name": "Green Gem",
+            "id": "green_gem",
+            "chance": 7090
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 5510
+        },
+        {
+            "name": "gemmed figurine",
+            "chance": 4720
+        },
+        {
+            "name": "hazardous robe",
+            "chance": 4720
+        },
+        {
+            "name": "hazardous heart",
+            "chance": 3940
+        },
+        {
+            "name": "Blue Gem",
+            "id": "blue_gem",
+            "chance": 3150
+        },
+        {
+            "name": "Boreal Rod",
+            "id": "boreal_rod",
+            "chance": 2360
+        },
+        {
+            "name": "Frostbound Robe",
+            "id": "frostbound_robe",
+            "chance": 2360
+        },
+        {
+            "chance": 1570,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "name": "Wand of Everblazing",
+            "id": "wand_of_everblazing",
+            "chance": 790
+        },
+        {
+            "chance": 790,
+            "name": "Collar of Blue Plasma",
+            "id": "collar_of_blue_plasma"
+        },
+        {
+            "name": "bag you desire",
+            "chance": 15
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 0
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": true,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "organic_matter",
+    "threatDps": 470.0667,
+    "burstDps": 551.9,
+    "avgHit": 569.7778,
+    "maxHit": 1060,
+    "manaCost": 0
+}

@@ -1,0 +1,235 @@
+{
+    "id": "rot_elemental",
+    "label": "Rot Elemental",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A rot elemental.",
+    "hp": 850,
+    "hpMax": 850,
+    "speed": 115,
+    "level": 409,
+    "armor": 41,
+    "mitigation": 1.07,
+    "maxBlock": 0,
+    "exp": 750,
+    "lootValue": 127.09485530547,
+    "aggro": true,
+    "resists": {
+        "physical": 10,
+        "fire": 0,
+        "ice": 30,
+        "energy": -5,
+        "earth": 100,
+        "holy": 20,
+        "death": 20
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": false,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "condition": {
+                "type": "poison",
+                "totalDamage": 64,
+                "intervalMs": 4000
+            },
+            "min": 0,
+            "max": 0,
+            "statusOnly": true
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 13,
+            "range": 7,
+            "element": "earth",
+            "min": 34,
+            "max": 57,
+            "radius": 3,
+            "target": true,
+            "effect": "me_poisonarea",
+            "shootEffect": "ani_gloothspear"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "earth",
+            "min": 34,
+            "max": 52,
+            "length": 6,
+            "spread": 0,
+            "target": false,
+            "effect": "me_poisonarea"
+        },
+        {
+            "id": "condition_3",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 7,
+            "element": "earth",
+            "min": 0,
+            "max": 0,
+            "target": true,
+            "effect": "me_poisonarea",
+            "shootEffect": "ani_poison",
+            "statusOnly": true,
+            "condition": {
+                "type": "poison",
+                "totalDamage": 68,
+                "intervalMs": 2000
+            },
+            "legacyName": "condition"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 7,
+            "min": 40,
+            "max": 60,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        },
+        {
+            "id": "haste_1",
+            "kind": "haste",
+            "intervalMs": 2000,
+            "chance": 9,
+            "speedChange": 470,
+            "durationSec": 7,
+            "effect": "me_smoke"
+        }
+    ],
+    "race": "venom",
+    "bestiary": {
+        "class": "Undead",
+        "toKill": 1000,
+        "firstUnlock": 50,
+        "secondUnlock": 500,
+        "charmsPoints": 25,
+        "stars": 3,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "chance": 100000,
+            "maxCount": 80,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 10390,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 10310,
+            "name": "Strong Health Potion",
+            "id": "strong_health_potion"
+        },
+        {
+            "chance": 9990,
+            "name": "Strong Mana Potion",
+            "id": "strong_mana_potion"
+        },
+        {
+            "chance": 4320,
+            "name": "glob of glooth"
+        },
+        {
+            "chance": 1630,
+            "name": "Vitality Ring",
+            "id": "vitality_ring"
+        },
+        {
+            "chance": 1110,
+            "name": "Small Sapphire",
+            "id": "small_sapphire"
+        },
+        {
+            "chance": 1140,
+            "maxCount": 2,
+            "name": "Small Topaz",
+            "id": "small_topaz"
+        },
+        {
+            "chance": 940,
+            "maxCount": 2,
+            "name": "Small Emerald",
+            "id": "small_emerald"
+        },
+        {
+            "chance": 80,
+            "name": "Green Gem",
+            "id": "green_gem"
+        },
+        {
+            "chance": 130,
+            "name": "Steamwork Amulet",
+            "id": "steamwork_amulet"
+        },
+        {
+            "chance": 60,
+            "name": "Steamwork Axe",
+            "id": "steamwork_axe"
+        },
+        {
+            "chance": 460,
+            "name": "Steamwork Spear",
+            "id": "steamwork_spear"
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 2
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "arcane_elemental_vanguard",
+    "threatDps": 41.0075,
+    "burstDps": 41.0075,
+    "avgHit": 47.4079,
+    "maxHit": 68,
+    "manaCost": 0
+}

@@ -1,0 +1,16 @@
+Plaza Sand Path	Sand Path
+Industrial Dirt Path	Dirt Path
+Plaza Ruined Wall	Ruined Wall
+Plaza Shore Water	Shore Water
+Rooftop Wood Path	Wood Path
+Alley Acid Pool	Acid Pool
+Plaza Snow Floor	Snow Floor
+City Moss Floor	Moss Floor
+Rooftop Stone Wall	Stone Wall
+City Sand Path	Sand Path path
+Neon Leaf Floor	Leaf Floor
+Neon Pit Edge	Pit Edge
+Industrial Grass Floor	Grass Floor
+Alley Shore Water	Shore Water water
+Lab Cave Wall	Cave Wall
+Concrete Bridge Tile	Bridge Tile

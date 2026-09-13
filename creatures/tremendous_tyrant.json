@@ -1,0 +1,234 @@
+{
+    "id": "tremendous_tyrant",
+    "label": "Tremendous Tyrant",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A tremendous tyrant.",
+    "hp": 11500,
+    "hpMax": 11500,
+    "speed": 115,
+    "level": 668,
+    "armor": 71,
+    "mitigation": 1.88,
+    "maxBlock": 0,
+    "exp": 6950,
+    "lootValue": 4612.8709198813,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 15,
+        "energy": 20,
+        "earth": -20,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": false
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 166
+        },
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 40,
+            "range": 4,
+            "element": "ice",
+            "min": 248,
+            "max": 269,
+            "length": 5,
+            "spread": 0,
+            "target": false,
+            "effect": "me_iceattack"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 4,
+            "element": "ice",
+            "min": 248,
+            "max": 290,
+            "radius": 4,
+            "target": false,
+            "effect": "me_icearea",
+            "shootEffect": "ani_ice"
+        },
+        {
+            "id": "ranged_3",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 30,
+            "range": 5,
+            "element": "holy",
+            "min": 311,
+            "max": 393,
+            "target": true,
+            "effect": "me_holyarea",
+            "shootEffect": "ani_holy"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Vermin",
+        "toKill": 2500,
+        "firstUnlock": 100,
+        "secondUnlock": 1000,
+        "charmsPoints": 50,
+        "stars": 4,
+        "occurrence": 1
+    },
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 70000,
+            "maxCount": 24
+        },
+        {
+            "name": "Gold Ingot",
+            "id": "gold_ingot",
+            "chance": 11820,
+            "maxCount": 2
+        },
+        {
+            "chance": 14550,
+            "maxCount": 1,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "name": "violet crystal shard",
+            "chance": 6360,
+            "maxCount": 3
+        },
+        {
+            "name": "green crystal shard",
+            "chance": 5450
+        },
+        {
+            "name": "blue crystal shard",
+            "chance": 5450
+        },
+        {
+            "name": "tremendous tyrant shell",
+            "chance": 4550
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "chance": 9090,
+            "maxCount": 1
+        },
+        {
+            "name": "Spellbook of Warding",
+            "id": "spellbook_of_warding",
+            "chance": 8180
+        },
+        {
+            "name": "Wand of Starstorm",
+            "id": "wand_of_starstorm",
+            "chance": 910
+        },
+        {
+            "name": "Frost Rapier",
+            "id": "frost_rapier",
+            "chance": 1820
+        },
+        {
+            "name": "Hailburst Rod",
+            "id": "hailburst_rod",
+            "chance": 2730
+        },
+        {
+            "name": "Knight Axe",
+            "id": "knight_axe",
+            "chance": 4550
+        },
+        {
+            "name": "Wyrmbone Staff",
+            "id": "wyrmbone_staff",
+            "chance": 3640
+        },
+        {
+            "name": "tremendous tyrant head",
+            "chance": 8180
+        },
+        {
+            "name": "Wand of Cosmic Energy",
+            "id": "wand_of_cosmic_energy",
+            "chance": 2730
+        },
+        {
+            "name": "Warrior's Shield",
+            "id": "warriors_shield",
+            "chance": 1820
+        },
+        {
+            "name": "Elven Amulet",
+            "id": "elven_amulet",
+            "chance": 2730
+        },
+        {
+            "name": "Focus Cape",
+            "id": "focus_cape",
+            "chance": 1820
+        },
+        {
+            "name": "Frostbound Robe",
+            "id": "frostbound_robe",
+            "chance": 4555
+        }
+    ],
+    "changeTarget": {
+        "interval": 10000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "ember_ruins_horror",
+    "threatDps": 172.9,
+    "burstDps": 172.9,
+    "avgHit": 182,
+    "maxHit": 393,
+    "manaCost": 0
+}

@@ -1,0 +1,295 @@
+{
+    "id": "brainstealer_horror",
+    "label": "Brainstealer Horror",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A brainstealer horror.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 425,
+    "level": 872,
+    "armor": 0,
+    "mitigation": 3.27,
+    "maxBlock": 0,
+    "exp": 72000,
+    "lootValue": 78665.853658537,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 100
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 900
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 7,
+            "element": "death",
+            "min": 1200,
+            "max": 1900,
+            "radius": 4,
+            "target": true,
+            "effect": "me_mortarea",
+            "shootEffect": "ani_suddendeath"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 700,
+            "max": 1000,
+            "radius": 4,
+            "effect": "me_drawblood"
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 1200,
+            "max": 1600,
+            "length": 8,
+            "spread": 0,
+            "effect": "me_electricalspark"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 15,
+            "min": 1450,
+            "max": 5350,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "undead",
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "mincount": 10,
+            "maxcount": 50,
+            "chance": 100000
+        },
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "mincount": 1,
+            "maxcount": 5,
+            "chance": 100000
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 50000
+        },
+        {
+            "name": "Savant Potion",
+            "id": "savant_potion",
+            "chance": 50000
+        },
+        {
+            "name": "moonstone",
+            "chance": 50000
+        },
+        {
+            "name": "Ultimate Dual Potion",
+            "id": "ultimate_dual_potion",
+            "chance": 50000
+        },
+        {
+            "name": "White Gem",
+            "id": "white_gem",
+            "chance": 50000
+        },
+        {
+            "name": "brainstealer's tissue",
+            "chance": 6000
+        },
+        {
+            "name": "brainstealer's brain",
+            "chance": 5000
+        },
+        {
+            "name": "brainstealer's brainwave",
+            "chance": 2500
+        },
+        {
+            "name": "Occult Breeches",
+            "id": "occult_breeches",
+            "chance": 180
+        },
+        {
+            "name": "Occult Cowl",
+            "id": "occult_cowl",
+            "chance": 240
+        },
+        {
+            "name": "Occult Hood",
+            "id": "occult_hood",
+            "chance": 225
+        },
+        {
+            "name": "Occult Bow",
+            "id": "occult_bow",
+            "chance": 210
+        },
+        {
+            "name": "Occult Quiver",
+            "id": "occult_quiver",
+            "chance": 250
+        },
+        {
+            "name": "Occult Claymore",
+            "id": "occult_claymore",
+            "chance": 130
+        },
+        {
+            "name": "Occult Greataxe",
+            "id": "occult_greataxe",
+            "chance": 110
+        },
+        {
+            "name": "Occult Warmace",
+            "id": "occult_warmace",
+            "chance": 320
+        },
+        {
+            "name": "Occult Shield",
+            "id": "occult_shield",
+            "chance": 180
+        },
+        {
+            "name": "Occult Cuirass",
+            "id": "occult_cuirass",
+            "chance": 160
+        },
+        {
+            "name": "Occult Folio",
+            "id": "occult_folio",
+            "chance": 170
+        },
+        {
+            "name": "Occult Tome",
+            "id": "occult_tome",
+            "chance": 190
+        },
+        {
+            "name": "Occult Rod",
+            "id": "occult_rod",
+            "chance": 200
+        },
+        {
+            "name": "Occult Wand",
+            "id": "occult_wand",
+            "chance": 180
+        },
+        {
+            "name": "Gilded Occult Claymore",
+            "id": "gilded_occult_claymore",
+            "chance": 140
+        },
+        {
+            "name": "Gilded Occult Greataxe",
+            "id": "gilded_occult_greataxe",
+            "chance": 120
+        },
+        {
+            "name": "Gilded Occult Warmace",
+            "id": "gilded_occult_warmace",
+            "chance": 100
+        },
+        {
+            "name": "Gilded Occult Wand",
+            "id": "gilded_occult_wand",
+            "chance": 80
+        },
+        {
+            "name": "Gilded Occult Rod",
+            "id": "gilded_occult_rod",
+            "chance": 60
+        },
+        {
+            "name": "Gilded Occult Bow",
+            "id": "gilded_occult_bow",
+            "chance": 50
+        },
+        {
+            "name": "eldritch crystal",
+            "chance": 30
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "invisible": true
+    },
+    "customSprite": "ember_ruins_horror",
+    "threatDps": 535,
+    "burstDps": 535,
+    "avgHit": 713.3333,
+    "maxHit": 1900,
+    "summon": {
+        "maxSummons": 2,
+        "summons": [
+            {
+                "name": "Brain Parasite",
+                "id": "brain_parasite",
+                "chance": 20,
+                "interval": 4000,
+                "count": 1
+            }
+        ]
+    }
+}

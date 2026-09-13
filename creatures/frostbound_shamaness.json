@@ -1,0 +1,324 @@
+{
+    "id": "frostbound_shamaness",
+    "label": "Frostbound Shamaness",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A frostbound shamaness.",
+    "hp": 15000,
+    "hpMax": 15000,
+    "speed": 110,
+    "level": 695,
+    "armor": 0,
+    "mitigation": 1,
+    "maxBlock": 0,
+    "exp": 9000,
+    "lootValue": 5127.125,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 50,
+        "ice": 100,
+        "energy": -10,
+        "earth": 50,
+        "holy": 30,
+        "death": -10
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 70,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": false,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 644
+        },
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "ice",
+            "min": 0,
+            "max": 115,
+            "length": 8,
+            "spread": 0,
+            "target": false,
+            "effect": "me_iceattack"
+        },
+        {
+            "id": "ranged_2",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 7,
+            "element": "ice",
+            "min": 0,
+            "max": 126,
+            "target": false,
+            "shootEffect": "ani_snowball"
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "ice",
+            "min": 345,
+            "max": 862,
+            "length": 8,
+            "spread": 0,
+            "target": false,
+            "effect": "me_icearea"
+        },
+        {
+            "id": "slow_5",
+            "kind": "status",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 7,
+            "element": "physical",
+            "min": 0,
+            "max": 0,
+            "statusOnly": true,
+            "condition": {
+                "type": "slow",
+                "speedChange": -330,
+                "durationSec": 20
+            },
+            "effect": "me_icetornado",
+            "target": false
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 10000,
+            "chance": 1,
+            "min": 7500,
+            "max": 7515,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        },
+        {
+            "id": "heal_1",
+            "kind": "heal",
+            "intervalMs": 3000,
+            "chance": 15,
+            "min": 200,
+            "max": 500,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "chance": 92000,
+            "maxCount": 200,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 92000,
+            "name": "silver raid token"
+        },
+        {
+            "chance": 57000,
+            "name": "shard"
+        },
+        {
+            "chance": 42000,
+            "name": "Crystal Sword",
+            "id": "crystal_sword"
+        },
+        {
+            "chance": 42000,
+            "maxCount": 5,
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion"
+        },
+        {
+            "chance": 42000,
+            "name": "Frost Rapier",
+            "id": "frost_rapier"
+        },
+        {
+            "chance": 42000,
+            "name": "Vitality Ring",
+            "id": "vitality_ring"
+        },
+        {
+            "chance": 35000,
+            "name": "Marksman Potion",
+            "id": "marksman_potion"
+        },
+        {
+            "chance": 35000,
+            "name": "Frostbound Shoes",
+            "id": "frostbound_shoes"
+        },
+        {
+            "chance": 35000,
+            "name": "Savant Potion",
+            "id": "savant_potion"
+        },
+        {
+            "chance": 35000,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 35000,
+            "maxCount": 2,
+            "name": "white piece of cloth"
+        },
+        {
+            "chance": 28000,
+            "name": "Berserk Potion",
+            "id": "berserk_potion"
+        },
+        {
+            "chance": 28000,
+            "name": "Blue Gem",
+            "id": "blue_gem"
+        },
+        {
+            "chance": 28000,
+            "name": "Mystic Turban",
+            "id": "mystic_turban"
+        },
+        {
+            "chance": 21000,
+            "name": "Frostbound Amulet",
+            "id": "frostbound_amulet"
+        },
+        {
+            "chance": 21000,
+            "maxCount": 5,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 14000,
+            "name": "blue piece of cloth"
+        },
+        {
+            "chance": 14000,
+            "name": "Crystal Mace",
+            "id": "crystal_mace"
+        },
+        {
+            "chance": 14000,
+            "name": "Wyrm Necklace",
+            "id": "wyrm_necklace"
+        },
+        {
+            "chance": 14000,
+            "name": "Frostbound Kilt",
+            "id": "frostbound_kilt"
+        },
+        {
+            "chance": 14000,
+            "name": "Frostbound Robe",
+            "id": "frostbound_robe"
+        },
+        {
+            "chance": 14000,
+            "name": "Gold Ingot",
+            "id": "gold_ingot"
+        },
+        {
+            "chance": 14000,
+            "maxCount": 5,
+            "name": "Great Health Potion",
+            "id": "great_health_potion"
+        },
+        {
+            "chance": 14000,
+            "name": "Pair of Earmuffs",
+            "id": "pair_of_earmuffs"
+        },
+        {
+            "chance": 14000,
+            "name": "Bone Skull Staff",
+            "id": "bone_skull_staff"
+        },
+        {
+            "chance": 7000,
+            "name": "Boots of Swiftness",
+            "id": "boots_of_swiftness"
+        },
+        {
+            "chance": 7000,
+            "name": "Frostbound Mask",
+            "id": "frostbound_mask"
+        },
+        {
+            "chance": 7000,
+            "name": "red piece of cloth"
+        },
+        {
+            "chance": 7000,
+            "name": "Trapped Lightning",
+            "id": "trapped_lightning"
+        },
+        {
+            "chance": 3000,
+            "name": "Icy Culottes",
+            "id": "icy_culottes"
+        },
+        {
+            "chance": 3000,
+            "name": "Queen's Sceptre",
+            "id": "queens_sceptre"
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "magma_cloud_giant_shaman",
+    "threatDps": 200.35,
+    "burstDps": 200.35,
+    "avgHit": 286.2143,
+    "maxHit": 862,
+    "manaCost": 0
+}

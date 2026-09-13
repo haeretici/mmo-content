@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "id": "floor_00",
+  "label": "Floor 00",
+  "floors": [
+    {
+      "z": 0,
+      "cols": 24,
+      "rows": 24,
+      "palette": [
+        null
+      ],
+      "subLayers": [
+        {
+          "id": "ground",
+          "zOrder": 0,
+          "blob": null,
+          "empty": true
+        },
+        {
+          "id": "path",
+          "zOrder": 1,
+          "blob": null,
+          "empty": true
+        },
+        {
+          "id": "scenery",
+          "zOrder": 2,
+          "blob": null,
+          "empty": true
+        },
+        {
+          "id": "furniture",
+          "zOrder": 3,
+          "blob": null,
+          "empty": true
+        },
+        {
+          "id": "vertical",
+          "zOrder": 4,
+          "blob": null,
+          "empty": true
+        }
+      ],
+      "channels": {
+        "friction": "floors/0/friction.u8.gz",
+        "sight": "floors/0/sight.u8.gz",
+        "flags": "floors/0/flags.u8.gz"
+      },
+      "overrideMask": null,
+      "stairs": []
+    }
+  ],
+  "spawns": [],
+  "world": null
+}

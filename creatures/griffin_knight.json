@@ -1,0 +1,253 @@
+{
+    "id": "griffin_knight",
+    "label": "Griffin Knight",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A griffin knight.",
+    "hp": 9000,
+    "hpMax": 9000,
+    "speed": 110,
+    "level": 644,
+    "armor": 86,
+    "mitigation": 2.37,
+    "maxBlock": 0,
+    "exp": 6300,
+    "lootValue": 1751.0973451327,
+    "aggro": true,
+    "resists": {
+        "physical": 30,
+        "fire": 0,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": -10,
+        "death": 50
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 370
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 18,
+            "range": 4,
+            "element": "earth",
+            "min": 370,
+            "max": 462,
+            "radius": 2,
+            "target": false,
+            "effect": "me_groundshaker"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 14,
+            "range": 4,
+            "element": "holy",
+            "min": 268,
+            "max": 333,
+            "length": 5,
+            "spread": 0,
+            "target": false,
+            "effect": "me_blockhit"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Undead",
+        "toKill": 2500,
+        "firstUnlock": 100,
+        "secondUnlock": 1000,
+        "charmsPoints": 50,
+        "stars": 4,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "chance": 70080,
+            "maxCount": 8,
+            "name": "Ham",
+            "id": "ham"
+        },
+        {
+            "name": "soul orb",
+            "chance": 35000
+        },
+        {
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion",
+            "chance": 33000,
+            "maxCount": 3
+        },
+        {
+            "name": "Great Health Potion",
+            "id": "great_health_potion",
+            "chance": 33000,
+            "maxCount": 3
+        },
+        {
+            "name": "flask of demonic blood",
+            "chance": 30000,
+            "maxCount": 4
+        },
+        {
+            "name": "Small Amethyst",
+            "id": "small_amethyst",
+            "chance": 24950,
+            "maxCount": 3
+        },
+        {
+            "name": "Nightshade Star",
+            "id": "nightshade_star",
+            "chance": 24670,
+            "maxCount": 10
+        },
+        {
+            "name": "Small Diamond",
+            "id": "small_diamond",
+            "chance": 15700,
+            "maxCount": 3
+        },
+        {
+            "name": "Small Ruby",
+            "id": "small_ruby",
+            "chance": 15333,
+            "maxCount": 3
+        },
+        {
+            "name": "Small Emerald",
+            "id": "small_emerald",
+            "chance": 15110,
+            "maxCount": 3
+        },
+        {
+            "name": "Onyx Arrow",
+            "id": "onyx_arrow",
+            "chance": 14480,
+            "maxCount": 15
+        },
+        {
+            "name": "Small Topaz",
+            "id": "small_topaz",
+            "chance": 4580,
+            "maxCount": 3
+        },
+        {
+            "name": "Titan Axe",
+            "id": "titan_axe",
+            "chance": 3000
+        },
+        {
+            "chance": 3000,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "name": "Spiked Squelcher",
+            "id": "spiked_squelcher",
+            "chance": 2200
+        },
+        {
+            "name": "Guardian Armor",
+            "id": "guardian_armor",
+            "chance": 1980
+        },
+        {
+            "name": "griffin crest",
+            "chance": 1250
+        },
+        {
+            "name": "War Axe",
+            "id": "war_axe",
+            "chance": 1230
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 1060
+        },
+        {
+            "name": "damaged armor plates",
+            "chance": 990
+        },
+        {
+            "name": "Green Gem",
+            "id": "green_gem",
+            "chance": 880
+        },
+        {
+            "name": "Gilded Plate",
+            "id": "gilded_plate",
+            "chance": 840
+        },
+        {
+            "name": "Grandmaster Shield",
+            "id": "grandmaster_shield",
+            "chance": 620
+        },
+        {
+            "name": "Heavy Mace",
+            "id": "heavy_mace",
+            "chance": 460
+        },
+        {
+            "chance": 370,
+            "name": "closed trap"
+        },
+        {
+            "chance": 100,
+            "name": "Fiendbone Amulet",
+            "id": "fiendbone_amulet"
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "crystal_fungal_knight_berserker",
+    "threatDps": 150.975,
+    "burstDps": 150.975,
+    "avgHit": 228.75,
+    "maxHit": 462,
+    "manaCost": 0
+}

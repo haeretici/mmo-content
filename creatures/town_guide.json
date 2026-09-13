@@ -1,0 +1,61 @@
+{
+    "id": "town_guide",
+    "label": "Guide",
+    "notes": "Scenario / tutorial talkable NPC. Mission reply is gated on player.storage town_guide.mission. Vendor-lite shop on Trade. C.4 wander radius 2 + idle voices. Not a hunt target.",
+    "customSprite": "town_guide",
+    "displayScale": 1,
+    "hp": 80,
+    "hpMax": 80,
+    "speed": 80,
+    "level": 1,
+    "armor": 0,
+    "mitigation": 100,
+    "exp": 0,
+    "lootValue": 0,
+    "aggro": false,
+    "isNpc": true,
+    "kind": "npc",
+    "dialogId": "town_guide",
+    "walkInterval": 2000,
+    "walkRadius": 2,
+    "voices": [
+        {
+            "text": "Need directions?"
+        },
+        {
+            "text": "The arena is north of the fountain."
+        }
+    ],
+    "voiceInterval": 15000,
+    "voiceChance": 25,
+    "shop": {
+        "currency": "gold_coin",
+        "items": [
+            {
+                "item": "bread",
+                "buy": 4,
+                "sell": 1
+            },
+            {
+                "item": "cookie",
+                "buy": 2,
+                "sell": 1
+            },
+            {
+                "item": "torch",
+                "buy": 8,
+                "when": {
+                    "storage": "town_guide.mission",
+                    "min": 1
+                }
+            }
+        ]
+    },
+    "canBlock": false,
+    "attacks": [],
+    "flags": {
+        "attackable": false,
+        "hostile": false,
+        "isNpc": true
+    }
+}

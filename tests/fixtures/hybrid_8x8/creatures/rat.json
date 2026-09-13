@@ -1,0 +1,37 @@
+{
+    "id": "rat",
+    "label": "Cave Rat",
+    "hp": 30,
+    "hpMax": 30,
+    "armor": 1,
+    "mitigation": 0.1,
+    "maxBlock": 0,
+    "canBlock": false,
+    "exp": 10,
+    "aggro": true,
+    "resists": {
+        "physical": 0
+    },
+    "flags": {
+        "targetDistance": 1,
+        "aggroRange": 7,
+        "loseTargetDistance": 12
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 26
+        }
+    ],
+    "loot": [
+        { "id": "gold_coin", "name": "Gold Coin", "chance": 85000, "maxCount": 2 },
+        { "id": "cookie", "name": "Cookie", "chance": 750 },
+        { "id": "cheese", "name": "Cheese", "chance": 30000 }
+    ]
+}

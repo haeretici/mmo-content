@@ -1,0 +1,278 @@
+{
+    "id": "death_dragon",
+    "label": "Death Dragon",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A death dragon.",
+    "hp": 8350,
+    "hpMax": 8350,
+    "speed": 165,
+    "level": 636,
+    "armor": 0,
+    "mitigation": 2,
+    "maxBlock": 0,
+    "exp": 320,
+    "lootValue": 0,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 100
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 700,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 9,
+            "range": 7,
+            "element": "earth",
+            "min": 179,
+            "max": 715,
+            "radius": 4,
+            "target": true,
+            "effect": "me_poisonarea",
+            "shootEffect": "ani_poison"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 9,
+            "range": 7,
+            "element": "lifedrain",
+            "min": 179,
+            "max": 715,
+            "radius": 4,
+            "target": true,
+            "effect": "me_mortarea",
+            "shootEffect": "ani_death"
+        },
+        {
+            "id": "ranged_3",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 11,
+            "range": 7,
+            "element": "physical",
+            "min": 0,
+            "max": 1099,
+            "target": false,
+            "effect": "me_mortarea",
+            "shootEffect": "ani_death"
+        },
+        {
+            "id": "wave_5",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 9,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 357,
+            "max": 1251,
+            "length": 8,
+            "spread": 3,
+            "target": false,
+            "effect": "me_magic_red"
+        },
+        {
+            "id": "wave_6",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 9,
+            "range": 4,
+            "element": "death",
+            "min": 715,
+            "max": 983,
+            "length": 8,
+            "spread": 3,
+            "target": false,
+            "effect": "me_smallclouds"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 15,
+            "min": 200,
+            "max": 250,
+            "hpBelow": 0.7,
+            "effect": "me_magic_red"
+        }
+    ],
+    "race": "undead",
+    "loot": [
+        {
+            "chance": 14580,
+            "name": "demonic essence"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 198,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 23740,
+            "maxCount": 3,
+            "name": "Great Health Potion",
+            "id": "great_health_potion"
+        },
+        {
+            "chance": 25660,
+            "maxCount": 3,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 14580,
+            "name": "hardened bone"
+        },
+        {
+            "chance": 49790,
+            "maxCount": 5,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 1630,
+            "name": "Gold Ingot",
+            "id": "gold_ingot"
+        },
+        {
+            "chance": 32260,
+            "name": "unholy bone"
+        },
+        {
+            "chance": 1140,
+            "name": "life crystal"
+        },
+        {
+            "chance": 4290,
+            "name": "Wyrmbone Staff",
+            "id": "wyrmbone_staff"
+        },
+        {
+            "chance": 1630,
+            "name": "War Axe",
+            "id": "war_axe"
+        },
+        {
+            "chance": 24630,
+            "maxCount": 5,
+            "name": "Nightshade Star",
+            "id": "nightshade_star"
+        },
+        {
+            "chance": 15720,
+            "maxCount": 15,
+            "name": "Power Bolt",
+            "id": "power_bolt"
+        },
+        {
+            "chance": 850,
+            "name": "Gilded Plate",
+            "id": "gilded_plate"
+        },
+        {
+            "chance": 850,
+            "name": "Spellweaver's Robe",
+            "id": "spellweavers_robe"
+        },
+        {
+            "chance": 4930,
+            "name": "Guardian Armor",
+            "id": "guardian_armor"
+        },
+        {
+            "chance": 500,
+            "name": "Divine Plate",
+            "id": "divine_plate"
+        },
+        {
+            "chance": 530,
+            "name": "Skullcracker Armor",
+            "id": "skullcracker_armor"
+        },
+        {
+            "chance": 21290,
+            "maxCount": 2,
+            "name": "Black Pearl",
+            "id": "black_pearl"
+        },
+        {
+            "chance": 27610,
+            "maxCount": 2,
+            "name": "Small Sapphire",
+            "id": "small_sapphire"
+        },
+        {
+            "chance": 1170,
+            "name": "Blue Gem",
+            "id": "blue_gem"
+        },
+        {
+            "chance": 920,
+            "name": "Royal Helmet",
+            "id": "royal_helmet"
+        },
+        {
+            "chance": 1950,
+            "name": "Death Ring",
+            "id": "death_ring"
+        },
+        {
+            "chance": 5040,
+            "name": "golden mug"
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 5
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "wild_desert_dragon",
+    "threatDps": 144.8375,
+    "burstDps": 144.8375,
+    "avgHit": 616.3298,
+    "maxHit": 1251,
+    "manaCost": 0
+}

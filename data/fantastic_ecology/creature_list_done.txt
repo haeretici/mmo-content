@@ -1,0 +1,112 @@
+Sand Lava Salamander Pollinator	Lava Salamander
+Ivy Sand Ray	Sand Ray
+Thunder Ice Beetle	Ice Beetle
+Cave Ember Moth Predator	Ember Moth
+Sand Walking Glacier Predator	Walking Glacier
+Canopy Tundra Elemental	Tundra Elemental
+Cave Tidal Guardian Scavenger	Tidal Guardian
+Lava Rootwalker Sporecaster	Rootwalker Sporecaster
+Boreal Blooming Colossus	Blooming Colossus
+Canopy Glacier Sporeling Sporecaster	Glacier Sporeling
+Umbral Storm Cloud Beast Warden	Storm Cloud Beast
+River Mangrove Crawler Rootbinder	Mangrove Crawler
+Boreal Crystal Wyrm Migrator	Crystal Wyrm
+Nightbloom Coral Drake Broodmother	Coral Drake
+Zephyr Basalt Tortoise	Basalt Tortoise
+Spore Pearl Crab Warden	Pearl Crab
+Mycelial Ember Moth Migrator	Mycelial Ember Moth
+Crystal Coral Drake Apex	Crystal Coral Drake
+Marsh Pollen Sprite	Marsh Pollen Sprite
+Mossy River Wisp	Mossy River Wisp
+Thunder Tidal Guardian Pollinator	Thunder Tidal Guardian
+Pollen Glacier Fox Symbiote	Pollen Glacier Fox
+Thorn Storm Heron	Thorn Storm Heron
+Cave Coral Shelf Bloombeast	Cave Coral Shelf Bloombeast
+Reef Boreal Elk Tidewalker	Reef Boreal Elk
+Volcanic Amber Wolf Sporecaster	Volcanic Amber Wolf
+Umbral Fungal Bear Migrator	Umbral Fungal Bear
+Volcanic Moss Golem Herdleader	Volcanic Moss Golem
+Willow Bloom Hydra	Willow Bloom Hydra
+Mossy Basalt Tortoise Pollinator	Mossy Basalt Tortoise
+Boreal Walking Glacier Warden	Boreal Walking Glacier
+Petal Canopy Panther Symbiote	Petal Canopy Panther
+Brine Lava Salamander Migrator	Brine Lava Salamander
+Cave Moss Golem Symbiote	Cave Moss Golem
+Boreal Kelp Leviathan Guardian	Boreal Kelp Leviathan
+Ember Verdant Stalker	Ember Verdant Stalker
+Fungal Mangrove Crawler	Fungal Mangrove Crawler
+Prismatic Walking Glacier	Prismatic Walking Glacier
+Obsidian Sporeling Bloomcaller	Sporeling Bloomcaller
+Delta Canopy Panther Herdleader	Delta Canopy Panther
+Rooted Living Wildfire Forager	Rooted Living Wildfire
+Coral Boreal Elk Migrator	Coral Boreal Elk
+Dune Glacier Fox Rootbinder	Dune Glacier Fox
+Delta Sand Ray	Delta Sand Ray
+Fjord Spore Drake	Fjord Spore Drake
+Obsidian Storm Heron Forager	Obsidian Storm Heron
+Wind Pearl Crab	Wind Pearl Crab
+Ivy Coral Drake Tidewalker	Ivy Coral Drake
+Tidal Root Serpent	Tidal Root Serpent
+Dune Fungal Bear	Dune Fungal Bear
+Lava Root Serpent Scavenger	Lava Root Serpent
+Sap Storm Heron Bloomcaller	Sap Storm Heron
+Petal Basalt Tortoise	Petal Basalt Tortoise
+Canopy Pearl Crab Broodmother	Canopy Pearl Crab
+Basalt Spore Drake Predator	Basalt Spore Drake
+Crystal Mangrove Crawler Herdleader	Crystal Mangrove Crawler
+River Pollen Sprite	River Pollen Sprite
+Marsh Delta Sporeling Tidewalker	Marsh Delta Sporeling
+Thunder Crystal Wyrm Herdleader	Thunder Crystal Wyrm
+Canopy Ice Beetle Scavenger	Canopy Ice Beetle
+Canopy Mangrove Crawler Herdleader	Canopy Mangrove Crawler
+Umbral Spore Drake Guardian	Umbral Spore Drake
+Prismatic Walking Glacier Rootbinder	Prismatic Walking Glacier
+Verdant Tidal Guardian Guardian	Verdant Tidal Guardian
+Amber Canopy Panther Bloomcaller	Amber Canopy Panther
+Fungal Crystal Stag	Fungal Crystal Stag
+Quartz Root Serpent Rootbinder	Quartz Root Serpent
+Fjord Moss Golem Apex	Fjord Moss Golem
+Luminous Ice Beetle Predator	Luminous Ice Beetle
+Umbral Ember Moth Warden	Umbral Ember Moth
+Geyser Blooming Colossus Guardian	Geyser Blooming Colossus
+Pearl Basalt Tortoise Tidewalker	Pearl Basalt Tortoise
+Jade Tide Serpent Apex	Jade Tide Serpent
+Pollen Woodland Sporeling Symbiote	Pollen Woodland Sporeling
+Lava Storm Heron Rootbinder	Lava Storm Heron
+Pollen Fungal Bear Bloomcaller	Pollen Fungal Bear
+Rooted Storm Heron Guardian	Rooted Storm Heron
+Basalt Pollen Sprite Symbiote	Basalt Pollen Sprite
+Ember Storm Cloud Beast	Ember Storm Cloud Beast
+Reef Kelp Leviathan Predator	Reef Kelp Leviathan
+Delta Storm Heron Broodmother	Delta Storm Heron
+Blooming Elemental Pollinator	Elemental Pollinator
+Umbral Bloom Hydra Predator	Umbral Bloom Hydra
+Crystal Lava Salamander Broodmother	Crystal Lava Salamander
+Obsidian Lava Salamander Warden	Obsidian Lava Salamander
+River Geyser Sprite Guardian	River Geyser Sprite
+Canopy Rootwalker Symbiote	Rootwalker Symbiote
+Kelp Tidal Guardian	Kelp Tidal Guardian
+Reef Geyser Sprite	Reef Geyser Sprite
+Fungal Moss Golem	Fungal Moss Golem
+Thorn Walking Glacier Bloomcaller	Thorn Walking Glacier
+Brine Tidal Guardian	Brine Tidal Guardian
+Mossy Sand Ray Warden	Mossy Sand Ray
+Prismatic Living Wildfire Migrator	Prismatic Living Wildfire
+Basalt Boreal Elk	Basalt Boreal Elk
+Thorn Elemental Predator	Elemental Predator
+Ember Walking Glacier Bloomcaller	Ember Walking Glacier
+Coral Lava Salamander Symbiote	Coral Lava Salamander
+Jade Ice Beetle Scavenger	Jade Ice Beetle
+Tide Canopy Panther Broodmother	Tide Canopy Panther
+Wind Crystal Stag Warden	Wind Crystal Stag
+Basalt Ice Beetle Forager	Basalt Ice Beetle
+Ivy Ember Moth	Ivy Ember Moth
+Azure Canopy Panther Tidewalker	Azure Canopy Panther
+Jade Elemental	Jade Elemental
+Hollow Ember Moth Pollinator	Hollow Ember Moth
+Marsh Storm Cloud Beast Scavenger	Marsh Storm Cloud Beast
+Geyser Woodland Bloombeast	Geyser Woodland Bloombeast
+Fjord Tide Serpent Nestkeeper	Fjord Tide Serpent
+Lava River Wisp Migrator	Lava River Wisp
+Cave Coral Drake Symbiote	Cave Coral Drake
+Tidal Ice Beetle Migrator	Tidal Ice Beetle

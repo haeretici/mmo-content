@@ -1,0 +1,237 @@
+{
+    "id": "candy_baron",
+    "label": "Candy Baron",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A candy baron.",
+    "hp": 9500,
+    "hpMax": 9500,
+    "speed": 250,
+    "level": 649,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 15550,
+    "lootValue": 4891.7052631579,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": -5,
+        "ice": 0,
+        "energy": 25,
+        "earth": 20,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 98,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 715
+        },
+        {
+            "id": "ranged_1",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 6,
+            "element": "death",
+            "min": 390,
+            "max": 650,
+            "target": true,
+            "effect": "me_mortarea"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 18,
+            "range": 4,
+            "element": "energy",
+            "min": 260,
+            "max": 390,
+            "radius": 12,
+            "target": false,
+            "effect": "me_pixie_explosion"
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 18,
+            "range": 4,
+            "element": "earth",
+            "min": 325,
+            "max": 533,
+            "radius": 12,
+            "target": false,
+            "effect": "me_hearts"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 3000,
+            "chance": 25,
+            "min": 400,
+            "max": 1500,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        },
+        {
+            "id": "haste_1",
+            "kind": "haste",
+            "intervalMs": 2000,
+            "chance": 15,
+            "speedChange": 320,
+            "durationSec": 5,
+            "effect": "me_magic_red"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 100000,
+            "maxCount": 95
+        },
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 100000,
+            "maxCount": 11
+        },
+        {
+            "name": "small enchanted sapphire",
+            "chance": 8900
+        },
+        {
+            "chance": 94465,
+            "maxCount": 1,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "name": "White Gem",
+            "id": "white_gem",
+            "chance": 5600,
+            "maxCount": 1
+        },
+        {
+            "chance": 1000,
+            "name": "Peppermint Backpack",
+            "id": "peppermint_backpack"
+        },
+        {
+            "chance": 555,
+            "name": "Biscuit Barrier",
+            "id": "biscuit_barrier"
+        },
+        {
+            "chance": 1009,
+            "name": "Candy-Coated Quiver",
+            "id": "candy_coated_quiver"
+        },
+        {
+            "chance": 555,
+            "name": "Cocoa Grimoire",
+            "id": "cocoa_grimoire"
+        },
+        {
+            "chance": 555,
+            "name": "Creamy Grimoire",
+            "id": "creamy_grimoire"
+        },
+        {
+            "chance": 2300,
+            "name": "Candy Necklace",
+            "id": "candy_necklace"
+        },
+        {
+            "chance": 7650,
+            "name": "Ring of Temptation",
+            "id": "ring_of_temptation"
+        },
+        {
+            "chance": 11655,
+            "maxCount": 1,
+            "name": "churro heart"
+        },
+        {
+            "chance": 46555,
+            "maxCount": 1,
+            "name": "dark chocolate coin"
+        },
+        {
+            "chance": 15300,
+            "maxCount": 1,
+            "name": "brigadeiro"
+        },
+        {
+            "chance": 14650,
+            "maxCount": 1,
+            "name": "Ring of Temptation",
+            "id": "ring_of_temptation"
+        },
+        {
+            "chance": 54465,
+            "maxCount": 1,
+            "name": "milk chocolate coin"
+        },
+        {
+            "chance": 2367,
+            "maxCount": 1,
+            "name": "pastry dragon"
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 20
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "rat_lord_munster",
+    "threatDps": 155.61,
+    "burstDps": 155.61,
+    "avgHit": 409.5,
+    "maxHit": 715,
+    "manaCost": 0
+}

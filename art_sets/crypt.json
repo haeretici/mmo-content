@@ -1,0 +1,34 @@
+{
+  "id": "crypt",
+  "label": "Crypt",
+  "notes": "Slim crypt pack for macro contrast vs cave. Ash floors, brick walls, carpet path.",
+  "genre": "rpg_fantasy",
+  "kind": "tiles",
+  "roles": {
+    "floor": [
+      { "id": "ancient_ash_floor", "weight": 10, "roleId": "floor" },
+      { "id": "mossy_ash_floor", "weight": 6, "roleId": "floor" }
+    ],
+    "path": [
+      { "id": "dark_carpet_path", "weight": 3, "roleId": "path" }
+    ],
+    "wall": [
+      { "id": "ancient_brick_wall", "weight": 12, "roleId": "wall" }
+    ],
+    "water": [
+      { "id": "dark_shallow_water", "weight": 4, "roleId": "water" }
+    ],
+    "stairs_up": [
+      {
+        "id": "sacred_stone_stairs",
+        "weight": 5,
+        "roleId": "stairs_up",
+        "render": { "anchor": "bottom_center" }
+      }
+    ]
+  },
+  "rules": {
+    "blockedEdgeOnly": true,
+    "pathMix": 0.16
+  }
+}

@@ -1,0 +1,284 @@
+{
+    "id": "scorpion_lycan_utua",
+    "label": "Scorpion Lycan Utua",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A scorpion lycan utua.",
+    "hp": 6400,
+    "hpMax": 6400,
+    "speed": 110,
+    "level": 610,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 5100,
+    "lootValue": 7500.9130434783,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 25,
+        "ice": 0,
+        "energy": 15,
+        "earth": 40,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 60,
+        "random": 40
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 55,
+            "condition": {
+                "type": "poison",
+                "totalDamage": 184,
+                "intervalMs": 4000
+            }
+        },
+        {
+            "id": "melee_1",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 30,
+            "range": 1,
+            "element": "earth",
+            "min": 37,
+            "max": 55,
+            "target": true,
+            "effect": "me_poisonarea",
+            "shootEffect": "ani_poison"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 25,
+            "range": 4,
+            "element": "earth",
+            "min": 55,
+            "max": 83,
+            "radius": 3,
+            "length": 3,
+            "spread": 3,
+            "target": true,
+            "effect": "me_poisonarea",
+            "shootEffect": "ani_poisonarrow"
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 4000,
+            "chance": 40,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 0,
+            "max": 74,
+            "length": 4,
+            "spread": 3,
+            "effect": "me_drawblood"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 10,
+            "min": 60,
+            "max": 100,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "undead",
+    "loot": [
+        {
+            "chance": 100000,
+            "minCount": 1,
+            "maxCount": 17,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 100000,
+            "minCount": 1,
+            "maxCount": 5,
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion"
+        },
+        {
+            "chance": 54050,
+            "minCount": 1,
+            "maxCount": 5,
+            "name": "scorpion tail"
+        },
+        {
+            "chance": 10810,
+            "name": "emerald bangle"
+        },
+        {
+            "chance": 8650,
+            "name": "coral brooch"
+        },
+        {
+            "chance": 7570,
+            "name": "Stormbound Legs",
+            "id": "stormbound_legs"
+        },
+        {
+            "chance": 4320,
+            "name": "Utua's poison"
+        },
+        {
+            "chance": 3240,
+            "name": "gemmed figurine"
+        },
+        {
+            "chance": 3240,
+            "name": "Skull Helmet",
+            "id": "skull_helmet"
+        },
+        {
+            "chance": 3240,
+            "name": "Violet Gem",
+            "id": "violet_gem"
+        },
+        {
+            "chance": 2700,
+            "name": "Maelstrom Mace",
+            "id": "maelstrom_mace"
+        },
+        {
+            "chance": 2700,
+            "name": "Gold Ingot",
+            "id": "gold_ingot"
+        },
+        {
+            "chance": 2700,
+            "name": "Green Gem",
+            "id": "green_gem"
+        },
+        {
+            "chance": 2160,
+            "name": "Crystal Mace",
+            "id": "crystal_mace"
+        },
+        {
+            "chance": 2160,
+            "name": "Emberbound Legs",
+            "id": "emberbound_legs"
+        },
+        {
+            "chance": 2160,
+            "name": "Mercenary Sword",
+            "id": "mercenary_sword"
+        },
+        {
+            "chance": 2160,
+            "name": "Warrior's Axe",
+            "id": "warriors_axe"
+        },
+        {
+            "chance": 1620,
+            "name": "Frostbound Kilt",
+            "id": "frostbound_kilt"
+        },
+        {
+            "chance": 1620,
+            "name": "Noble Axe",
+            "id": "noble_axe"
+        },
+        {
+            "chance": 1080,
+            "name": "Savant Potion",
+            "id": "savant_potion"
+        },
+        {
+            "chance": 1080,
+            "name": "Ring of Green Plasma",
+            "id": "ring_of_green_plasma"
+        },
+        {
+            "chance": 540,
+            "name": "fist on a stick"
+        },
+        {
+            "chance": 540,
+            "name": "Guardian Axe",
+            "id": "guardian_axe"
+        },
+        {
+            "chance": 540,
+            "name": "Arcane Plate Armor",
+            "id": "arcane_plate_armor"
+        },
+        {
+            "chance": 540,
+            "name": "red silk flower"
+        },
+        {
+            "chance": 540,
+            "name": "Spellweaver's Robe",
+            "id": "spellweavers_robe"
+        },
+        {
+            "chance": 360,
+            "name": "Fiendish Shield",
+            "id": "fiendish_shield"
+        },
+        {
+            "chance": 360,
+            "name": "Frostbound Robe",
+            "id": "frostbound_robe"
+        },
+        {
+            "chance": 360,
+            "name": "raw watermelon tourmaline"
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "venomous_ocean_scorpion_ravager",
+    "threatDps": 124.975,
+    "burstDps": 128.675,
+    "avgHit": 37.6857,
+    "maxHit": 83,
+    "manaCost": 0
+}

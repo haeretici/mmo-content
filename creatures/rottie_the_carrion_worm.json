@@ -1,0 +1,133 @@
+{
+    "id": "rottie_the_carrion_worm",
+    "label": "Rottie The Carrion Worm",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A rottie the carrion worm.",
+    "hp": 65,
+    "hpMax": 65,
+    "speed": 90,
+    "level": 151,
+    "armor": 0,
+    "mitigation": 0.38,
+    "maxBlock": 0,
+    "exp": 40,
+    "lootValue": 49.891304347826,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": false,
+        "canPushCreatures": false,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "element": "physical",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "min": 4,
+            "max": 35,
+            "target": true
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "chance": 6230,
+            "maxCount": 30,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 2850,
+            "name": "Copper Shield",
+            "id": "copper_shield"
+        },
+        {
+            "chance": 3260,
+            "maxCount": 2,
+            "name": "Meat",
+            "id": "meat"
+        },
+        {
+            "chance": 32500,
+            "maxCount": 5,
+            "name": "worm"
+        },
+        {
+            "chance": 3335,
+            "name": "Mace",
+            "id": "mace"
+        },
+        {
+            "chance": 3160,
+            "maxCount": 2,
+            "name": "Ham",
+            "id": "ham"
+        },
+        {
+            "chance": 3335,
+            "name": "Sword",
+            "id": "sword"
+        },
+        {
+            "chance": 900,
+            "name": "Katana",
+            "id": "katana"
+        },
+        {
+            "chance": 1250,
+            "name": "Legion Helmet",
+            "id": "legion_helmet"
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 0
+    },
+    "immunities": {
+        "paralyze": false,
+        "outfit": false,
+        "invisible": false,
+        "bleed": false
+    },
+    "customSprite": "rottie_the_carrion_worm",
+    "threatDps": 9.75,
+    "burstDps": 9.75,
+    "avgHit": 19.5,
+    "maxHit": 35,
+    "manaCost": 0
+}

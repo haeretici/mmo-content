@@ -1,0 +1,268 @@
+{
+    "id": "unarmored_voidborn",
+    "label": "Unarmored Voidborn",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "An unarmored voidborn.",
+    "hp": 250000,
+    "hpMax": 250000,
+    "speed": 125,
+    "level": 975,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 15000,
+    "lootValue": 25199.571428571,
+    "aggro": true,
+    "resists": {
+        "physical": -200,
+        "fire": -200,
+        "ice": -200,
+        "energy": -200,
+        "earth": -200,
+        "holy": -200,
+        "death": -200
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 95,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": false,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 2501
+        },
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 4,
+            "element": "death",
+            "min": 0,
+            "max": 1819,
+            "length": 7,
+            "spread": 5,
+            "target": false,
+            "effect": "me_smallclouds"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 30,
+            "range": 4,
+            "element": "energy",
+            "min": 1137,
+            "max": 2000,
+            "radius": 5,
+            "target": false,
+            "effect": "me_energyhit"
+        }
+    ],
+    "race": "undead",
+    "loot": [
+        {
+            "name": "magic sulphur",
+            "chance": 8920,
+            "maxCount": 10
+        },
+        {
+            "name": "Gold Ingot",
+            "id": "gold_ingot",
+            "chance": 21200,
+            "maxCount": 10
+        },
+        {
+            "chance": 26900,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "name": "Berserker",
+            "id": "berserker",
+            "chance": 8920
+        },
+        {
+            "name": "Abyss Hammer",
+            "id": "abyss_hammer",
+            "chance": 7620
+        },
+        {
+            "name": "Skull Helmet",
+            "id": "skull_helmet",
+            "chance": 9700
+        },
+        {
+            "name": "silver token",
+            "chance": 2732
+        },
+        {
+            "name": "gold token",
+            "chance": 1532
+        },
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 100000,
+            "maxCount": 200
+        },
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 29840,
+            "maxCount": 25
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "chance": 29460
+        },
+        {
+            "name": "Blue Gem",
+            "id": "blue_gem",
+            "chance": 21892
+        },
+        {
+            "name": "skull fetish",
+            "chance": 7270
+        },
+        {
+            "name": "Bonebreaker",
+            "id": "bonebreaker",
+            "chance": 9510
+        },
+        {
+            "name": "mysterious remains",
+            "chance": 100000
+        },
+        {
+            "name": "Small Diamond",
+            "id": "small_diamond",
+            "chance": 12760,
+            "maxCount": 10
+        },
+        {
+            "name": "Small Amethyst",
+            "id": "small_amethyst",
+            "chance": 14700,
+            "maxCount": 10
+        },
+        {
+            "name": "Small Topaz",
+            "id": "small_topaz",
+            "chance": 11520,
+            "maxCount": 10
+        },
+        {
+            "name": "Small Sapphire",
+            "id": "small_sapphire",
+            "chance": 13790,
+            "maxCount": 10
+        },
+        {
+            "name": "Small Emerald",
+            "id": "small_emerald",
+            "chance": 14700,
+            "maxCount": 10
+        },
+        {
+            "name": "Small Amethyst",
+            "id": "small_amethyst",
+            "chance": 12259,
+            "maxCount": 10
+        },
+        {
+            "name": "energy bar",
+            "chance": 16872,
+            "maxCount": 3
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 27652,
+            "maxCount": 10
+        },
+        {
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion",
+            "chance": 33721,
+            "maxCount": 10
+        },
+        {
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion",
+            "chance": 25690,
+            "maxCount": 5
+        },
+        {
+            "chance": 12798,
+            "name": "Collar of Blue Plasma",
+            "id": "collar_of_blue_plasma"
+        },
+        {
+            "name": "piece of royal steel",
+            "chance": 15890
+        },
+        {
+            "name": "Shadow Sceptre",
+            "id": "shadow_sceptre",
+            "chance": 7890
+        },
+        {
+            "chance": 14542,
+            "name": "Ring of Red Plasma",
+            "id": "ring_of_red_plasma"
+        },
+        {
+            "name": "Earthbound Hood",
+            "id": "earthbound_hood",
+            "chance": 16892
+        }
+    ],
+    "changeTarget": {
+        "interval": 5000,
+        "chance": 50
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "spider_webster",
+    "threatDps": 951.475,
+    "burstDps": 951.475,
+    "avgHit": 1268.6333,
+    "maxHit": 2501,
+    "manaCost": 0
+}

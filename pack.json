@@ -1,0 +1,15 @@
+{
+    "id": "standard",
+    "name": "Standard",
+    "version": 1,
+    "defaultMap": "firstlight_isle",
+    "features": {
+        "autoAttack": true,
+        "ammoConsumption": true,
+        "runeConsumption": true,
+        "monsterSummons": true,
+        "expProgression": true,
+        "skillProgression": true,
+        "corpseLoot": true
+    }
+}

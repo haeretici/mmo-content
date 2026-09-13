@@ -1,0 +1,194 @@
+{
+    "id": "insectoid_stalker",
+    "label": "Insectoid Stalker",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "An insectoid stalker.",
+    "hp": 3700,
+    "hpMax": 3700,
+    "speed": 195,
+    "level": 555,
+    "armor": 53,
+    "mitigation": 1.62,
+    "maxBlock": 0,
+    "exp": 2600,
+    "lootValue": 954.38881664499,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 15,
+        "ice": -3,
+        "energy": -5,
+        "earth": 100,
+        "holy": -10,
+        "death": 10
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 95,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": false,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 282
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 7,
+            "element": "earth",
+            "min": 142,
+            "max": 293,
+            "radius": 3,
+            "target": true,
+            "effect": "me_green_rings",
+            "shootEffect": "ani_poison"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "haste_0",
+            "kind": "haste",
+            "intervalMs": 2000,
+            "chance": 15,
+            "speedChange": 450,
+            "durationSec": 5,
+            "effect": "me_magic_red"
+        }
+    ],
+    "race": "venom",
+    "bestiary": {
+        "class": "Vermin",
+        "toKill": 1000,
+        "firstUnlock": 50,
+        "secondUnlock": 500,
+        "charmsPoints": 25,
+        "stars": 3,
+        "occurrence": 2
+    },
+    "loot": [
+        {
+            "name": "Small Ruby",
+            "id": "small_ruby",
+            "chance": 11900,
+            "maxCount": 5
+        },
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 50000,
+            "maxCount": 100
+        },
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 50000,
+            "maxCount": 100
+        },
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 45000,
+            "maxCount": 4
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 770
+        },
+        {
+            "chance": 2700,
+            "name": "Death Ring",
+            "id": "death_ring"
+        },
+        {
+            "name": "Titan Axe",
+            "id": "titan_axe",
+            "chance": 920
+        },
+        {
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion",
+            "chance": 11500,
+            "maxCount": 2
+        },
+        {
+            "chance": 1700,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 6250,
+            "maxCount": 2
+        },
+        {
+            "name": "spidris mandible",
+            "chance": 14960
+        },
+        {
+            "name": "compound eye",
+            "chance": 12500
+        },
+        {
+            "name": "Calopteryx Cape",
+            "id": "calopteryx_cape",
+            "chance": 370
+        },
+        {
+            "name": "Carapace Shield",
+            "id": "carapace_shield",
+            "chance": 720
+        },
+        {
+            "name": "Hive Scythe",
+            "id": "hive_scythe",
+            "chance": 690
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": false,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "twilight_desert_stalker",
+    "threatDps": 92.25,
+    "burstDps": 92.25,
+    "avgHit": 153.75,
+    "maxHit": 293,
+    "manaCost": 0
+}

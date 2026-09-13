@@ -1,0 +1,224 @@
+{
+    "id": "burning_gladiator",
+    "label": "Burning Gladiator",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A burning gladiator.",
+    "hp": 10000,
+    "hpMax": 10000,
+    "speed": 145,
+    "level": 654,
+    "armor": 89,
+    "mitigation": 2.45,
+    "maxBlock": 0,
+    "exp": 7350,
+    "lootValue": 1848.1532524807,
+    "aggro": true,
+    "resists": {
+        "physical": 20,
+        "fire": 30,
+        "ice": -20,
+        "energy": 20,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 70,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": false,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 364
+        },
+        {
+            "id": "firering_1",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 1,
+            "element": "physical",
+            "min": 199,
+            "max": 331,
+            "target": false
+        },
+        {
+            "id": "firex_2",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 1,
+            "element": "physical",
+            "min": 199,
+            "max": 331,
+            "target": false
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 17,
+            "range": 4,
+            "element": "fire",
+            "min": 199,
+            "max": 331,
+            "radius": 2,
+            "target": false,
+            "effect": "me_fireattack"
+        },
+        {
+            "id": "wave_4",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "energy",
+            "min": 199,
+            "max": 331,
+            "length": 3,
+            "spread": 0,
+            "target": false,
+            "effect": "me_energyhit"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Human",
+        "toKill": 2500,
+        "firstUnlock": 100,
+        "secondUnlock": 1000,
+        "charmsPoints": 50,
+        "stars": 4,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 100000,
+            "maxCount": 3
+        },
+        {
+            "name": "fafnar symbol",
+            "chance": 6600
+        },
+        {
+            "chance": 5600,
+            "name": "secret instruction"
+        },
+        {
+            "chance": 5600,
+            "name": "secret instruction"
+        },
+        {
+            "chance": 5600,
+            "name": "secret instruction"
+        },
+        {
+            "name": "Wyrm Necklace",
+            "id": "wyrm_necklace",
+            "chance": 4700
+        },
+        {
+            "name": "Stormbound Pendant",
+            "id": "stormbound_pendant",
+            "chance": 4100
+        },
+        {
+            "name": "Emberbound Amulet",
+            "id": "emberbound_amulet",
+            "chance": 3700
+        },
+        {
+            "name": "Strange Talisman",
+            "id": "strange_talisman",
+            "chance": 3000
+        },
+        {
+            "name": "Emberbound Boots",
+            "id": "emberbound_boots",
+            "chance": 2700
+        },
+        {
+            "chance": 2400,
+            "name": "empty honey glass"
+        },
+        {
+            "name": "Elven Amulet",
+            "id": "elven_amulet",
+            "chance": 2100
+        },
+        {
+            "name": "Stormbound Legs",
+            "id": "stormbound_legs",
+            "chance": 2000
+        },
+        {
+            "name": "Stormbound Headband",
+            "id": "stormbound_headband",
+            "chance": 1700
+        },
+        {
+            "name": "Stormbound Boots",
+            "id": "stormbound_boots",
+            "chance": 1400
+        },
+        {
+            "name": "Spellweaver's Robe",
+            "id": "spellweavers_robe",
+            "chance": 850
+        },
+        {
+            "chance": 570,
+            "name": "Gryphon Mask",
+            "id": "gryphon_mask"
+        },
+        {
+            "name": "sea horse figurine",
+            "chance": 140
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": false,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "crystal_lizard_warrior",
+    "threatDps": 159.9,
+    "burstDps": 159.9,
+    "avgHit": 210.3947,
+    "maxHit": 364,
+    "manaCost": 0
+}

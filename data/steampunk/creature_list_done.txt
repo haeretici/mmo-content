@@ -1,0 +1,96 @@
+Ornate Iron Horse Watchman	Iron Horse
+Valve Boiler Beast	Boiler Beast
+Polished Valve Serpent	Valve Serpent
+Mechanical Aether Wisp Foreman	Aether Wisp
+Hex Clockwork Colossus Pilot	Clockwork Colossus
+Clockwork Walking Locomotive Guardian	Walking Locomotive
+Iron Clockwork Knight	Clockwork Knight
+Cinder Steam Elemental Engineer	Steam Elemental
+Chrono Automaton Guard	Automaton Guard
+Copper Factory Warden	Factory Warden
+Gilded Piston Titan Engineer	Piston Titan
+Spring Pressure Drake	Pressure Drake
+Sooty Steam-Powered Leviathan Inventor	Steam-Powered Leviathan
+Hex Gasket Imp Mechanic	Gasket Imp
+Chrono Dirigible Squid Sentinel	Dirigible Squid
+Wrought Mechanical Minotaur	Mechanical Minotaur
+Tin Steam Mantis Stoker	Tin Steam Mantis
+Gadget Mechanical Minotaur	Gadget Mechanical Minotaur
+Hammered Soot Phantom	Hammered Soot Phantom
+Windup Pressure Drake Warden	Windup Pressure Drake
+Smog Steam-Powered Leviathan Warden	Smog Steam-Powered Leviathan
+Copper Clockwork Colossus Surveyor	Copper Clockwork Colossus
+Rusted Steam Golem	Rusted Steam Golem
+Bronze Steamworks Phantom Skyraider	Bronze Steamworks Phantom
+Hex Soot Phantom Sentinel	Hex Soot Phantom
+Victorian Colossus Sentinel	Colossus Sentinel
+Polished Skyrail Behemoth Artificer	Polished Skyrail Behemoth
+Pressure Aetherforge Golem	Pressure Aetherforge Golem
+Brass Boiler Beast Inventor	Brass Boiler Beast
+Whirring Gasworks Locomotive Navigator	Whirring Gasworks Locomotive
+Iron Golem	Iron Golem
+Gasket Bridge District Mantis	Gasket Bridge District Mantis
+Tin Steamworks Soldier Deckhand	Tin Steamworks Soldier
+Boiler Cog Hound Watchman	Boiler Cog Hound
+Burnished Copper Scarab	Burnished Copper Scarab
+Smog Steam-Powered Leviathan Deckhand	Smog Steam-Powered Leviathan
+Aether Titan Stoker	Titan Stoker
+Victorian Gear Hydra Overseer	Victorian Gear Hydra
+Lacquered Factory Squid Engineer	Lacquered Factory Squid
+Vented Imp Warden	Imp Warden
+Clockwork Iron Horse	Clockwork Iron Horse
+Coal Airship Kraken Engineer	Coal Airship Kraken
+Spark Warden Stoker	Warden Stoker
+Mechanical Airship Kraken Foreman	Mechanical Airship Kraken
+Gasket Clockwork Owl	Gasket Clockwork Owl
+Factory Boiler Crab Skyraider	Factory Boiler Crab
+Ember Steam Elemental Mechanic	Ember Steam Elemental
+Polished Windup Soldier Watchman	Polished Windup Soldier
+Chrono Gear Wolf Inventor	Chrono Gear Wolf
+Cogged Titan Stoker	Titan Stoker
+Hammered Golem Stoker	Golem Stoker
+Boiler Sky Dock Phantom	Boiler Sky Dock Phantom
+Ticked Colossus Aeronaut	Colossus Aeronaut
+Ornate Windup Panther	Ornate Windup Panther
+Smog Minotaur	Smog Minotaur
+Soot Ornate Sentinel	Soot Ornate Sentinel
+Whirring Ornate Sentinel Raider	Whirring Ornate Sentinel
+Industrial Cog Spider Aeronaut	Industrial Cog Spider
+Lacquered Wisp Navigator	Wisp Navigator
+Iron Mechanical Minotaur Sentinel	Iron Mechanical Minotaur
+Burnished Drake	Burnished Drake
+Soot Owl Inventor	Owl Inventor
+Fog Gear Hydra Guardian	Fog Gear Hydra
+Hex Automaton Watchman	Automaton Watchman
+Aetherial Walking Locomotive Overseer	Aetherial Walking Locomotive
+Gear Windup Panther	Gear Windup Panther
+Aether Clockwork Colossus	Aether Clockwork Colossus
+Cast-Iron Valve Serpent	Cast-Iron Valve Serpent
+Cogged Squid Stoker	Squid Stoker
+Clockwork Walking Locomotive Mechanic	Clockwork Walking Locomotive
+Bronze Drake Raider	Drake Raider
+Victorian Elemental	Victorian Elemental
+Windup Spring Fox	Windup Spring Fox
+Cogged Scarab Inventor	Scarab Inventor
+Boiler Kraken Deckhand	Kraken Deckhand
+Ornate Dockyard Spider	Ornate Dockyard Spider
+Piston Skybridge Leviathan Guardian	Piston Skybridge Leviathan
+Polished Ogre Sentinel	Ogre Sentinel
+Coal Boiler Crab Porter	Coal Boiler Crab
+Vented Rail Yard Wisp	Vented Rail Yard Wisp
+Valve Aether Wisp	Valve Aether Wisp
+Soot Valve Hawk Navigator	Soot Valve Hawk
+Rusted Brass Hawk Watchman	Rusted Brass Hawk
+Polished Minotaur Engineer	Minotaur Engineer
+Gadget Rail Yard Titan	Gadget Rail Yard Titan
+Gear Ornate Sentinel Captain	Gear Ornate Sentinel
+Coal Mechanical Minotaur	Coal Mechanical Minotaur
+Dirigible Boiler Crab Surveyor	Dirigible Boiler Crab
+Bronze Boiler Room Mantis Captain	Bronze Boiler Room Mantis
+Tin Warden Mechanic	Warden Mechanic
+Burnished Skyrail Behemoth Tinker	Burnished Skyrail Behemoth
+Iron Windup Panther Porter	Iron Windup Panther
+Valve Colossus	Valve Colossus
+Boiler Cog Spider Tinker	Boiler Cog Spider
+Iron Chrono Beetle Warden	Iron Chrono Beetle
+Whirring Gasket Imp Porter	Whirring Gasket Imp

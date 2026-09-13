@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "defaultId": "firstlight_isle",
+    "maps": [
+        {
+            "id": "v01",
+            "label": "Reference continent (synthetic 2560\u00d72048)"
+        },
+        {
+            "id": "firstlight_isle",
+            "label": "Firstlight Isle"
+        }
+    ]
+}

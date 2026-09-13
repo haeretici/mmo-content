@@ -1,0 +1,312 @@
+{
+    "version": 1,
+    "genre": "super_heroes",
+    "kind": "tiles",
+    "updatedAt": "2026-07-26T17:43:43.283Z",
+    "items": [
+        {
+            "id": "alley_acid_pool",
+            "technical": "Alley Acid Pool",
+            "alias": "Acid Pool",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "water",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Alley_Acid_Pool.png",
+                "transformed": null
+            },
+            "tags": [
+                "water"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "alley_shore_water",
+            "technical": "Alley Shore Water",
+            "alias": "Shore Water water",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "water",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Alley_Shore_Water.png",
+                "transformed": null
+            },
+            "tags": [
+                "water"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "city_moss_floor",
+            "technical": "City Moss Floor",
+            "alias": "Moss Floor",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "floor",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/City_Moss_Floor.png",
+                "transformed": null
+            },
+            "tags": [
+                "floor"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "city_sand_path",
+            "technical": "City Sand Path",
+            "alias": "Sand Path path",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "path",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/City_Sand_Path.png",
+                "transformed": null
+            },
+            "tags": [
+                "path"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "concrete_bridge_tile",
+            "technical": "Concrete Bridge Tile",
+            "alias": "Bridge Tile",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "special",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Concrete_Bridge_Tile.png",
+                "transformed": null
+            },
+            "tags": [
+                "special"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "industrial_dirt_path",
+            "technical": "Industrial Dirt Path",
+            "alias": "Dirt Path",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "path",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Industrial_Dirt_Path.png",
+                "transformed": null
+            },
+            "tags": [
+                "path"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "industrial_grass_floor",
+            "technical": "Industrial Grass Floor",
+            "alias": "Grass Floor",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "floor",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Industrial_Grass_Floor.png",
+                "transformed": null
+            },
+            "tags": [
+                "floor"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "lab_cave_wall",
+            "technical": "Lab Cave Wall",
+            "alias": "Cave Wall",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "wall",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Lab_Cave_Wall.png",
+                "transformed": null
+            },
+            "tags": [
+                "wall"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "neon_leaf_floor",
+            "technical": "Neon Leaf Floor",
+            "alias": "Leaf Floor",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "floor",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Neon_Leaf_Floor.png",
+                "transformed": null
+            },
+            "tags": [
+                "floor"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "neon_pit_edge",
+            "technical": "Neon Pit Edge",
+            "alias": "Pit Edge",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "special",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Neon_Pit_Edge.png",
+                "transformed": null
+            },
+            "tags": [
+                "special"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "plaza_ruined_wall",
+            "technical": "Plaza Ruined Wall",
+            "alias": "Ruined Wall",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "wall",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Plaza_Ruined_Wall.png",
+                "transformed": null
+            },
+            "tags": [
+                "wall"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "plaza_sand_path",
+            "technical": "Plaza Sand Path",
+            "alias": "Sand Path",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "path",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Plaza_Sand_Path.png",
+                "transformed": null
+            },
+            "tags": [
+                "path"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "plaza_shore_water",
+            "technical": "Plaza Shore Water",
+            "alias": "Shore Water",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "water",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Plaza_Shore_Water.png",
+                "transformed": null
+            },
+            "tags": [
+                "water"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "plaza_snow_floor",
+            "technical": "Plaza Snow Floor",
+            "alias": "Snow Floor",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "floor",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Plaza_Snow_Floor.png",
+                "transformed": null
+            },
+            "tags": [
+                "floor"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "rooftop_stone_wall",
+            "technical": "Rooftop Stone Wall",
+            "alias": "Stone Wall",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "wall",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Rooftop_Stone_Wall.png",
+                "transformed": null
+            },
+            "tags": [
+                "wall"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        },
+        {
+            "id": "rooftop_wood_path",
+            "technical": "Rooftop Wood Path",
+            "alias": "Wood Path",
+            "genre": "super_heroes",
+            "kind": "tiles",
+            "category": "path",
+            "opaqueAlpha": true,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/tiles/original/Rooftop_Wood_Path.png",
+                "transformed": null
+            },
+            "tags": [
+                "path"
+            ],
+            "source": "pipeline",
+            "createdAt": "2026-07-26"
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "id": "orc_warlord_ruzad",
+    "label": "Orc Warlord Ruzad",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "An orc warlord ruzad.",
+    "hp": 1500,
+    "hpMax": 1500,
+    "speed": 135,
+    "level": 465,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 1700,
+    "lootValue": 1200.0526315789,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 80,
+        "ice": 0,
+        "energy": 1,
+        "earth": -10,
+        "holy": 10,
+        "death": -10
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": false
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 224
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "chance": 25000,
+            "name": "orc leather"
+        },
+        {
+            "chance": 18500,
+            "maxCount": 45,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 14500,
+            "maxCount": 18,
+            "name": "Throwing Star",
+            "id": "throwing_star"
+        },
+        {
+            "chance": 11300,
+            "maxCount": 2,
+            "name": "Fish",
+            "id": "fish"
+        },
+        {
+            "chance": 5700,
+            "name": "Orcish Axe",
+            "id": "orcish_axe"
+        },
+        {
+            "chance": 5700,
+            "name": "Hunting Spear",
+            "id": "hunting_spear"
+        },
+        {
+            "chance": 5610,
+            "name": "Plate Armor",
+            "id": "plate_armor"
+        },
+        {
+            "chance": 4680,
+            "name": "Plate Legs",
+            "id": "plate_legs"
+        },
+        {
+            "chance": 4050,
+            "name": "Scimitar",
+            "id": "scimitar"
+        },
+        {
+            "chance": 2690,
+            "name": "Protection Amulet",
+            "id": "protection_amulet"
+        },
+        {
+            "chance": 2200,
+            "name": "Two Handed Sword",
+            "id": "two_handed_sword"
+        },
+        {
+            "chance": 1900,
+            "name": "Dark Helmet",
+            "id": "dark_helmet"
+        },
+        {
+            "chance": 750,
+            "name": "Emberbound Boots",
+            "id": "emberbound_boots"
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "ember_ogre_ravager",
+    "threatDps": 56,
+    "burstDps": 56,
+    "avgHit": 112,
+    "maxHit": 224,
+    "manaCost": 0,
+    "summon": {
+        "maxSummons": 2,
+        "summons": [
+            {
+                "name": "Orc Berserker",
+                "id": "orc_berserker",
+                "chance": 30,
+                "interval": 2000,
+                "count": 2
+            }
+        ]
+    }
+}

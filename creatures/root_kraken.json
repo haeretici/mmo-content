@@ -1,0 +1,209 @@
+{
+    "id": "root_kraken",
+    "label": "Root Kraken",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A root kraken.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 170,
+    "level": 913,
+    "armor": 0,
+    "mitigation": 2.02,
+    "maxBlock": 0,
+    "exp": 700000,
+    "lootValue": 99289.090909091,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": -14,
+        "ice": 0,
+        "energy": 15,
+        "earth": -10,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 95,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 650,
+            "max": 1650
+        },
+        {
+            "id": "ranged_2",
+            "kind": "ranged",
+            "intervalMs": 2500,
+            "chance": 23,
+            "range": 5,
+            "element": "death",
+            "min": 700,
+            "max": 1390,
+            "target": true,
+            "effect": "me_reaper"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "chance": 100000,
+            "maxCount": 3
+        },
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 100000,
+            "maxCount": 93
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 42590,
+            "maxCount": 19
+        },
+        {
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion",
+            "chance": 42590,
+            "maxCount": 7
+        },
+        {
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion",
+            "chance": 31480,
+            "maxCount": 14
+        },
+        {
+            "name": "Supreme Health Potion",
+            "id": "supreme_health_potion",
+            "chance": 31480,
+            "maxCount": 4
+        },
+        {
+            "name": "Ultimate Dual Potion",
+            "id": "ultimate_dual_potion",
+            "chance": 25930,
+            "maxCount": 14
+        },
+        {
+            "chance": 24070,
+            "name": "Yellow Gem",
+            "id": "yellow_gem"
+        },
+        {
+            "name": "amber with a bug",
+            "chance": 18520
+        },
+        {
+            "name": "giant topaz",
+            "chance": 7410
+        },
+        {
+            "name": "amber crusher",
+            "chance": 1850
+        },
+        {
+            "chance": 300,
+            "name": "Amber Axe",
+            "id": "amber_axe"
+        },
+        {
+            "chance": 200,
+            "name": "Amber Greataxe",
+            "id": "amber_greataxe"
+        },
+        {
+            "chance": 200,
+            "name": "Amber Slayer",
+            "id": "amber_slayer"
+        },
+        {
+            "chance": 300,
+            "name": "Amber Sabre",
+            "id": "amber_sabre"
+        },
+        {
+            "chance": 300,
+            "name": "Amber Cudgel",
+            "id": "amber_cudgel"
+        },
+        {
+            "chance": 200,
+            "name": "Amber Bludgeon",
+            "id": "amber_bludgeon"
+        },
+        {
+            "chance": 200,
+            "name": "Amber Bow",
+            "id": "amber_bow"
+        },
+        {
+            "chance": 300,
+            "name": "Amber Crossbow",
+            "id": "amber_crossbow"
+        },
+        {
+            "chance": 300,
+            "name": "Amber Wand",
+            "id": "amber_wand"
+        },
+        {
+            "chance": 300,
+            "name": "Amber Rod",
+            "id": "amber_rod"
+        },
+        {
+            "chance": 250,
+            "name": "strange inedible fruit"
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "plague_stone_troll_necromancer",
+    "threatDps": 671.14,
+    "burstDps": 695.175,
+    "avgHit": 1133.6824,
+    "maxHit": 1650,
+    "manaCost": 0
+}

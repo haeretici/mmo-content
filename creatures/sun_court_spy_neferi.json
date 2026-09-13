@@ -1,0 +1,228 @@
+{
+    "id": "sun_court_spy_neferi",
+    "label": "Sun Court Spy Neferi",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A sun court spy neferi.",
+    "hp": 28000,
+    "hpMax": 28000,
+    "speed": 115,
+    "level": 757,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 19650,
+    "lootValue": 8487.8099173554,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": -10,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 20
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 70,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 91,
+            "max": 212
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 60,
+            "range": 4,
+            "element": "earth",
+            "min": 424,
+            "max": 666,
+            "radius": 3,
+            "target": false,
+            "effect": "me_smallplants"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 5,
+            "element": "death",
+            "min": 393,
+            "max": 484,
+            "radius": 3,
+            "target": true,
+            "effect": "me_mortarea",
+            "shootEffect": "ani_suddendeath"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "chance": 4366,
+            "maxCount": 1
+        },
+        {
+            "name": "Earthbound Rod",
+            "id": "earthbound_rod",
+            "chance": 2276
+        },
+        {
+            "name": "Dagger",
+            "id": "dagger",
+            "chance": 1791
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 1119,
+            "maxCount": 4
+        },
+        {
+            "name": "Gold Ingot",
+            "id": "gold_ingot",
+            "chance": 1045,
+            "maxCount": 1
+        },
+        {
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion",
+            "chance": 784,
+            "maxCount": 2
+        },
+        {
+            "name": "Ember Blade",
+            "id": "ember_blade",
+            "chance": 746
+        },
+        {
+            "name": "Earthbound Boots",
+            "id": "earthbound_boots",
+            "chance": 522
+        },
+        {
+            "name": "Hailburst Rod",
+            "id": "hailburst_rod",
+            "chance": 485
+        },
+        {
+            "name": "Stormbound Headband",
+            "id": "stormbound_headband",
+            "chance": 410
+        },
+        {
+            "name": "Earthbound Hood",
+            "id": "earthbound_hood",
+            "chance": 373
+        },
+        {
+            "name": "Knight Axe",
+            "id": "knight_axe",
+            "chance": 336
+        },
+        {
+            "name": "Stormbound Legs",
+            "id": "stormbound_legs",
+            "chance": 336
+        },
+        {
+            "chance": 299,
+            "name": "Ring of Red Plasma",
+            "id": "ring_of_red_plasma"
+        },
+        {
+            "name": "Spellbook of Warding",
+            "id": "spellbook_of_warding",
+            "chance": 261
+        },
+        {
+            "name": "Frostbound Shoes",
+            "id": "frostbound_shoes",
+            "chance": 224
+        },
+        {
+            "name": "Guardian Armor",
+            "id": "guardian_armor",
+            "chance": 224
+        },
+        {
+            "name": "eye-embroidered veil",
+            "chance": 187
+        },
+        {
+            "name": "violet crystal shard",
+            "chance": 187
+        },
+        {
+            "name": "Frostbound Mask",
+            "id": "frostbound_mask",
+            "chance": 149
+        },
+        {
+            "name": "sea horse figurine",
+            "chance": 149
+        },
+        {
+            "chance": 149,
+            "name": "Stealth Ring",
+            "id": "stealth_ring"
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 149
+        },
+        {
+            "name": "golden mask",
+            "chance": 75
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": true,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "feral_ogre_weaver",
+    "threatDps": 283.1,
+    "burstDps": 283.1,
+    "avgHit": 314.5556,
+    "maxHit": 666,
+    "manaCost": 0
+}

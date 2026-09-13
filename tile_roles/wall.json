@@ -1,0 +1,20 @@
+{
+  "id": "wall",
+  "label": "Wall",
+  "notes": "Full wall: blocks walk and line of sight. Cave fill = tiles; P4 faces = objects + category wall. vertical is null (not a hop).",
+  "kindHints": ["tiles", "objects"],
+  "catalogCategories": ["wall"],
+  "render": {
+    "scale": 1.0,
+    "anchor": "middle_center",
+    "variant": "icon"
+  },
+  "influence": {
+    "friction": 255,
+    "sight": 255,
+    "flags": 0,
+    "walkMode": "block",
+    "sightMode": "block"
+  },
+  "vertical": null
+}

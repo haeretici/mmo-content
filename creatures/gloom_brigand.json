@@ -1,0 +1,224 @@
+{
+    "id": "gloom_brigand",
+    "label": "Gloom Brigand",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A gloom brigand.",
+    "hp": 2400,
+    "hpMax": 2400,
+    "speed": 160,
+    "level": 512,
+    "armor": 51,
+    "mitigation": 1.74,
+    "maxBlock": 0,
+    "exp": 1900,
+    "lootValue": 613.91747707019,
+    "aggro": true,
+    "resists": {
+        "physical": 10,
+        "fire": 0,
+        "ice": 10,
+        "energy": 25,
+        "earth": 100,
+        "holy": -5,
+        "death": 15
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": false,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": false,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "ranged_1",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 50,
+            "range": 8,
+            "element": "physical",
+            "min": 97,
+            "max": 484,
+            "target": false,
+            "shootEffect": "ani_arrow"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 3000,
+            "chance": 35,
+            "min": 200,
+            "max": 245,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Human",
+        "toKill": 1000,
+        "firstUnlock": 50,
+        "secondUnlock": 500,
+        "charmsPoints": 25,
+        "stars": 3,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "chance": 100000,
+            "maxCount": 100,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 3,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 9090,
+            "name": "glooth bag"
+        },
+        {
+            "chance": 7692,
+            "name": "tainted glooth capsule"
+        },
+        {
+            "chance": 5882,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 4000,
+            "name": "glooth sandwich"
+        },
+        {
+            "chance": 3030,
+            "name": "glooth capsule"
+        },
+        {
+            "chance": 2500,
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion"
+        },
+        {
+            "chance": 2000,
+            "name": "glooth steak"
+        },
+        {
+            "chance": 2000,
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion"
+        },
+        {
+            "chance": 1515,
+            "name": "Steamwork Club",
+            "id": "steamwork_club"
+        },
+        {
+            "chance": 1515,
+            "name": "Steamwork Amulet",
+            "id": "steamwork_amulet"
+        },
+        {
+            "chance": 1000,
+            "name": "Mercenary Sword",
+            "id": "mercenary_sword"
+        },
+        {
+            "chance": 1000,
+            "name": "Earthbound Mantle",
+            "id": "earthbound_mantle"
+        },
+        {
+            "chance": 1000,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "chance": 1000,
+            "name": "Earthbound Amulet",
+            "id": "earthbound_amulet"
+        },
+        {
+            "chance": 1000,
+            "name": "Butcher's Axe",
+            "id": "butchers_axe"
+        },
+        {
+            "chance": 1000,
+            "name": "Green Gem",
+            "id": "green_gem"
+        },
+        {
+            "chance": 502,
+            "name": "Earthbound Boots",
+            "id": "earthbound_boots"
+        },
+        {
+            "chance": 502,
+            "name": "Dreaded Cleaver",
+            "id": "dreaded_cleaver"
+        },
+        {
+            "chance": 502,
+            "name": "Heat Core",
+            "id": "heat_core"
+        },
+        {
+            "chance": 502,
+            "name": "Steamwork Spear",
+            "id": "steamwork_spear"
+        },
+        {
+            "chance": 502,
+            "name": "Rubber Cap",
+            "id": "rubber_cap"
+        },
+        {
+            "chance": 502,
+            "name": "Earthbound Hood",
+            "id": "earthbound_hood"
+        }
+    ],
+    "changeTarget": {
+        "interval": 5000,
+        "chance": 5
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "umbral_ghoul",
+    "threatDps": 72.625,
+    "burstDps": 72.625,
+    "avgHit": 290.5,
+    "maxHit": 484,
+    "manaCost": 0
+}

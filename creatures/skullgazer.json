@@ -1,0 +1,213 @@
+{
+    "id": "skullgazer",
+    "label": "Skullgazer",
+    "notes": "A skullgazer.",
+    "customSprite": "skullgazer",
+    "displayScale": 1,
+    "hp": 260,
+    "hpMax": 260,
+    "speed": 85,
+    "level": 291,
+    "threatDps": 21.25,
+    "burstDps": 21.25,
+    "avgHit": 31.4815,
+    "maxHit": 170,
+    "armor": 10,
+    "mitigation": 0,
+    "exp": 170,
+    "lootValue": 0,
+    "aggro": true,
+    "canBlock": false,
+    "manaCost": 0,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "summon": {
+        "maxSummons": 6,
+        "summons": [
+            {
+                "name": "Skeleton",
+                "id": "skeleton",
+                "chance": 20,
+                "interval": 2000,
+                "count": 6
+            }
+        ]
+    },
+    "resists": {
+        "physical": 0,
+        "fire": -10,
+        "ice": 20,
+        "energy": 0,
+        "earth": 100,
+        "holy": 0,
+        "death": 0
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "element": "physical",
+            "intervalMs": 2000,
+            "chance": 100,
+            "min": 0,
+            "max": 17
+        },
+        {
+            "id": "ranged_1",
+            "kind": "ranged",
+            "element": "energy",
+            "intervalMs": 2000,
+            "chance": 5,
+            "range": 7,
+            "min": 51,
+            "max": 153,
+            "target": false,
+            "shootEffect": "ani_energy"
+        },
+        {
+            "id": "ranged_2",
+            "kind": "ranged",
+            "element": "fire",
+            "intervalMs": 2000,
+            "chance": 5,
+            "range": 7,
+            "min": 85,
+            "max": 153,
+            "target": false,
+            "shootEffect": "ani_fire"
+        },
+        {
+            "id": "ranged_3",
+            "kind": "ranged",
+            "element": "death",
+            "intervalMs": 2000,
+            "chance": 5,
+            "range": 7,
+            "min": 102,
+            "max": 170,
+            "target": false,
+            "effect": "me_smallclouds",
+            "shootEffect": "ani_suddendeath"
+        },
+        {
+            "id": "ranged_4",
+            "kind": "ranged",
+            "element": "earth",
+            "intervalMs": 2000,
+            "chance": 5,
+            "range": 7,
+            "min": 17,
+            "max": 153,
+            "target": false,
+            "shootEffect": "ani_poison"
+        },
+        {
+            "id": "ranged_5",
+            "kind": "ranged",
+            "element": "death",
+            "intervalMs": 2000,
+            "chance": 5,
+            "range": 7,
+            "min": 17,
+            "max": 170,
+            "target": false,
+            "shootEffect": "ani_death"
+        },
+        {
+            "id": "ranged_6",
+            "kind": "ranged",
+            "element": "lifedrain",
+            "intervalMs": 2000,
+            "chance": 5,
+            "range": 7,
+            "min": 0,
+            "max": 153,
+            "target": false,
+            "effect": "me_magic_red",
+            "shootEffect": "31"
+        },
+        {
+            "id": "ranged_7",
+            "kind": "ranged",
+            "element": "manadrain",
+            "intervalMs": 2000,
+            "chance": 5,
+            "range": 7,
+            "min": 17,
+            "max": 119,
+            "target": false,
+            "shootEffect": "31"
+        }
+    ],
+    "flags": {
+        "targetDistance": 4,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": false,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": false,
+        "canWalkOnPoison": false
+    },
+    "source": "pipeline",
+    "maxBlock": 0,
+    "race": "venom",
+    "loot": [
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 65000,
+            "maxCount": 82
+        },
+        {
+            "chance": 4650,
+            "name": "Spellbook",
+            "id": "spellbook"
+        },
+        {
+            "name": "Two Handed Sword",
+            "id": "two_handed_sword",
+            "chance": 3840
+        },
+        {
+            "name": "Morning Star",
+            "id": "morning_star",
+            "chance": 6950
+        },
+        {
+            "name": "Longsword",
+            "id": "longsword",
+            "chance": 8980
+        },
+        {
+            "name": "Steel Shield",
+            "id": "steel_shield",
+            "chance": 4001
+        },
+        {
+            "name": "bonelord eye",
+            "chance": 940
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": false,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    }
+}

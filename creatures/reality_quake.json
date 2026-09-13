@@ -1,0 +1,273 @@
+{
+    "id": "reality_quake",
+    "label": "Reality Quake",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A reality quake.",
+    "hp": 110000,
+    "hpMax": 110000,
+    "speed": 200,
+    "level": 894,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 20000,
+    "lootValue": 27107.212121212,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 349,
+            "max": 873
+        },
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 25,
+            "range": 4,
+            "element": "energy",
+            "min": 305,
+            "max": 698,
+            "length": 10,
+            "spread": 0,
+            "target": false,
+            "effect": "me_energyarea"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 25,
+            "range": 4,
+            "element": "physical",
+            "min": 305,
+            "max": 698,
+            "length": 10,
+            "spread": 0,
+            "target": false,
+            "effect": "me_blockhit"
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 25,
+            "range": 4,
+            "element": "physical",
+            "min": 209,
+            "max": 524,
+            "radius": 5,
+            "target": true,
+            "effect": "me_poff"
+        },
+        {
+            "id": "area_4",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 25,
+            "range": 4,
+            "element": "holy",
+            "min": 209,
+            "max": 524,
+            "radius": 5,
+            "target": true,
+            "effect": "me_holydamage",
+            "shootEffect": "ani_holy"
+        },
+        {
+            "id": "wave_5",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 25,
+            "range": 4,
+            "element": "earth",
+            "min": 175,
+            "max": 393,
+            "length": 4,
+            "spread": 2,
+            "target": false,
+            "effect": "me_magic_red"
+        },
+        {
+            "id": "area_6",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 25,
+            "range": 4,
+            "element": "death",
+            "min": 209,
+            "max": 524,
+            "radius": 5,
+            "target": true,
+            "effect": "me_smallclouds",
+            "shootEffect": "ani_suddendeath"
+        }
+    ],
+    "race": "venom",
+    "loot": [
+        {
+            "chance": 100000,
+            "maxCount": 200,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 8000,
+            "maxCount": 5,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 8000,
+            "maxCount": 5,
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion"
+        },
+        {
+            "chance": 8000,
+            "maxCount": 5,
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion"
+        },
+        {
+            "chance": 8000,
+            "maxCount": 5,
+            "name": "energy bar"
+        },
+        {
+            "chance": 8000,
+            "maxCount": 3,
+            "name": "blue crystal shard"
+        },
+        {
+            "chance": 8000,
+            "maxCount": 3,
+            "name": "green crystal shard"
+        },
+        {
+            "chance": 8000,
+            "maxCount": 5,
+            "name": "Small Emerald",
+            "id": "small_emerald"
+        },
+        {
+            "chance": 8000,
+            "maxCount": 5,
+            "name": "Small Ruby",
+            "id": "small_ruby"
+        },
+        {
+            "chance": 8000,
+            "maxCount": 3,
+            "name": "violet crystal shard"
+        },
+        {
+            "chance": 8000,
+            "name": "crystallized anger"
+        },
+        {
+            "chance": 8000,
+            "name": "energy vein"
+        },
+        {
+            "chance": 8000,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "chance": 100000,
+            "name": "gold token"
+        },
+        {
+            "chance": 100000,
+            "name": "mysterious remains"
+        },
+        {
+            "chance": 100000,
+            "name": "odd organ"
+        },
+        {
+            "chance": 4000,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "chance": 4000,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "chance": 8000,
+            "name": "Wand of Cosmic Energy",
+            "id": "wand_of_cosmic_energy"
+        },
+        {
+            "chance": 6000,
+            "name": "Ring of Green Plasma",
+            "id": "ring_of_green_plasma"
+        },
+        {
+            "chance": 6000,
+            "name": "Ring of Red Plasma",
+            "id": "ring_of_red_plasma"
+        }
+    ],
+    "changeTarget": {
+        "interval": 3000,
+        "chance": 20
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "twilight_basilisk_raider",
+    "threatDps": 603.8125,
+    "burstDps": 603.8125,
+    "avgHit": 483.05,
+    "maxHit": 873,
+    "manaCost": 0
+}

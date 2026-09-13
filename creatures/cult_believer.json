@@ -1,0 +1,192 @@
+{
+    "id": "cult_believer",
+    "label": "Cult Believer",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A cult believer.",
+    "hp": 975,
+    "hpMax": 975,
+    "speed": 130,
+    "level": 423,
+    "armor": 30,
+    "mitigation": 1.18,
+    "maxBlock": 0,
+    "exp": 850,
+    "lootValue": 61.181779814301,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 10,
+        "ice": 10,
+        "energy": 10,
+        "earth": 10,
+        "holy": 10,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": false,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": false,
+        "canWalkOnPoison": false
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 7,
+            "max": 170
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 4000,
+            "chance": 25,
+            "min": 150,
+            "max": 200,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Human",
+        "toKill": 1000,
+        "firstUnlock": 50,
+        "secondUnlock": 500,
+        "charmsPoints": 25,
+        "stars": 3,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "chance": 90450,
+            "maxCount": 10,
+            "name": "Bolt",
+            "id": "bolt"
+        },
+        {
+            "chance": 75410,
+            "maxCount": 30,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 15400,
+            "name": "Grapes",
+            "id": "grapes"
+        },
+        {
+            "chance": 12340,
+            "maxCount": 2,
+            "name": "Great Health Potion",
+            "id": "great_health_potion"
+        },
+        {
+            "chance": 5000,
+            "name": "Meat",
+            "id": "meat"
+        },
+        {
+            "chance": 830,
+            "name": "Crossbow",
+            "id": "crossbow"
+        },
+        {
+            "chance": 760,
+            "name": "Green Tunic",
+            "id": "green_tunic"
+        },
+        {
+            "chance": 700,
+            "maxCount": 2,
+            "name": "Power Band",
+            "id": "power_band"
+        },
+        {
+            "chance": 1000,
+            "name": "rope"
+        },
+        {
+            "chance": 1000,
+            "name": "Scarf",
+            "id": "scarf"
+        },
+        {
+            "chance": 830,
+            "name": "scroll"
+        },
+        {
+            "chance": 830,
+            "name": "Small Diamond",
+            "id": "small_diamond"
+        },
+        {
+            "chance": 130,
+            "name": "War Hammer",
+            "id": "war_hammer"
+        },
+        {
+            "chance": 830,
+            "name": "Halberd",
+            "id": "halberd"
+        },
+        {
+            "chance": 330,
+            "name": "Guardian Shield",
+            "id": "guardian_shield"
+        },
+        {
+            "chance": 230,
+            "name": "Guardian Legs",
+            "id": "guardian_legs"
+        },
+        {
+            "chance": 200,
+            "name": "Warrior Helmet",
+            "id": "warrior_helmet"
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 20
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "hellfire_kobold_cultist",
+    "threatDps": 44.25,
+    "burstDps": 44.25,
+    "avgHit": 88.5,
+    "maxHit": 170,
+    "manaCost": 0
+}

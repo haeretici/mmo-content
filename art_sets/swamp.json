@@ -1,0 +1,34 @@
+{
+  "id": "swamp",
+  "label": "Swamp",
+  "notes": "Slim swamp pack. Leaf floors, hedge walls, wood path and stairs.",
+  "genre": "rpg_fantasy",
+  "kind": "tiles",
+  "roles": {
+    "floor": [
+      { "id": "ancient_leaf_floor", "weight": 10, "roleId": "floor" },
+      { "id": "overgrown_leaf_floor", "weight": 6, "roleId": "floor" }
+    ],
+    "path": [
+      { "id": "damp_wood_path", "weight": 3, "roleId": "path" }
+    ],
+    "wall": [
+      { "id": "damp_hedge_wall", "weight": 12, "roleId": "wall" }
+    ],
+    "water": [
+      { "id": "damp_swamp_water", "weight": 4, "roleId": "water" }
+    ],
+    "stairs_up": [
+      {
+        "id": "polished_wood_stairs",
+        "weight": 5,
+        "roleId": "stairs_up",
+        "render": { "anchor": "bottom_center" }
+      }
+    ]
+  },
+  "rules": {
+    "blockedEdgeOnly": true,
+    "pathMix": 0.2
+  }
+}

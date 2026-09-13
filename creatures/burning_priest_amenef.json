@@ -1,0 +1,272 @@
+{
+    "id": "burning_priest_amenef",
+    "label": "Burning Priest Amenef",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A burning priest amenef.",
+    "hp": 26000,
+    "hpMax": 26000,
+    "speed": 115,
+    "level": 750,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 21500,
+    "lootValue": 9907.0404984424,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 15,
+        "ice": -20,
+        "energy": 10,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 70,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 135,
+            "max": 459
+        },
+        {
+            "id": "firering_1",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 1,
+            "element": "physical",
+            "min": 270,
+            "max": 540,
+            "target": false
+        },
+        {
+            "id": "firex_2",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 1,
+            "element": "physical",
+            "min": 405,
+            "max": 675,
+            "target": false
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 17,
+            "range": 4,
+            "element": "fire",
+            "min": 270,
+            "max": 540,
+            "radius": 2,
+            "target": false,
+            "effect": "me_fireattack"
+        },
+        {
+            "id": "wave_4",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "energy",
+            "min": 450,
+            "max": 675,
+            "length": 3,
+            "spread": 0,
+            "target": false,
+            "effect": "me_energyhit"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "chance": 4494,
+            "maxCount": 1
+        },
+        {
+            "name": "slightly rusted legs",
+            "chance": 1392
+        },
+        {
+            "name": "slightly rusted armor",
+            "chance": 1203
+        },
+        {
+            "name": "Warden Halberd",
+            "id": "warden_halberd",
+            "chance": 1139
+        },
+        {
+            "chance": 886,
+            "name": "Dwarven Ring",
+            "id": "dwarven_ring"
+        },
+        {
+            "name": "Savant Potion",
+            "id": "savant_potion",
+            "chance": 823
+        },
+        {
+            "name": "Doublet",
+            "id": "doublet",
+            "chance": 633
+        },
+        {
+            "name": "Guardian Armor",
+            "id": "guardian_armor",
+            "chance": 570
+        },
+        {
+            "chance": 506,
+            "name": "Ring of Blue Plasma",
+            "id": "ring_of_blue_plasma"
+        },
+        {
+            "name": "Epee",
+            "id": "epee",
+            "chance": 443
+        },
+        {
+            "name": "Nether Rod",
+            "id": "nether_rod",
+            "chance": 443
+        },
+        {
+            "name": "Knight Axe",
+            "id": "knight_axe",
+            "chance": 380
+        },
+        {
+            "name": "Bloomshoot Rod",
+            "id": "bloomshoot_rod",
+            "chance": 380
+        },
+        {
+            "name": "Wand of Cosmic Energy",
+            "id": "wand_of_cosmic_energy",
+            "chance": 316
+        },
+        {
+            "name": "Wand of Inferno",
+            "id": "wand_of_inferno",
+            "chance": 316
+        },
+        {
+            "chance": 253,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "name": "Spellbook of Warding",
+            "id": "spellbook_of_warding",
+            "chance": 253
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 253
+        },
+        {
+            "name": "Wand of Starstorm",
+            "id": "wand_of_starstorm",
+            "chance": 253
+        },
+        {
+            "name": "Amber Staff",
+            "id": "amber_staff",
+            "chance": 190
+        },
+        {
+            "name": "Assassin Dagger",
+            "id": "assassin_dagger",
+            "chance": 190
+        },
+        {
+            "name": "Blue Gem",
+            "id": "blue_gem",
+            "chance": 190
+        },
+        {
+            "name": "eye-embroidered veil",
+            "chance": 190
+        },
+        {
+            "name": "Warrior's Axe",
+            "id": "warriors_axe",
+            "chance": 190
+        },
+        {
+            "name": "Focus Cape",
+            "id": "focus_cape",
+            "chance": 127
+        },
+        {
+            "name": "Noble Axe",
+            "id": "noble_axe",
+            "chance": 127
+        },
+        {
+            "name": "Sacred Tree Amulet",
+            "id": "sacred_tree_amulet",
+            "chance": 127
+        },
+        {
+            "name": "golden mask",
+            "chance": 63
+        },
+        {
+            "name": "Mercenary Sword",
+            "id": "mercenary_sword",
+            "chance": 63
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": true,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "crystal_demon_priest",
+    "threatDps": 271.8,
+    "burstDps": 271.8,
+    "avgHit": 357.6316,
+    "maxHit": 675,
+    "manaCost": 0
+}

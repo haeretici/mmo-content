@@ -1,0 +1,1351 @@
+{
+    "version": 1,
+    "genre": "space_creatures",
+    "updatedAt": "2026-07-22T21:00:55.432Z",
+    "creatures": [
+        {
+            "id": "astral_plasma_ray_nestlord",
+            "technical": "Astral Plasma Ray Nestlord",
+            "alias": "Astral Plasma Ray",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Astral_Plasma_Ray_Nestlord.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "astral_rift_crawler_sporehost",
+            "technical": "Astral Rift Crawler Sporehost",
+            "alias": "Astral Rift Crawler",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Astral_Rift_Crawler_Sporehost.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "astral_spore_floater_migrator",
+            "technical": "Astral Spore Floater Migrator",
+            "alias": "Spore Floater",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Astral_Spore_Floater_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "azure_asteroid_beetle_riftwalker",
+            "technical": "Azure Asteroid Beetle Riftwalker",
+            "alias": "Azure Asteroid Beetle",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Azure_Asteroid_Beetle_Riftwalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "azure_plasma_ray_voidcaller",
+            "technical": "Azure Plasma Ray Voidcaller",
+            "alias": "Plasma Ray",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Azure_Plasma_Ray_Voidcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "azure_spore_floater",
+            "technical": "Azure Spore Floater",
+            "alias": "Azure Spore Floater",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Azure_Spore_Floater.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "azure_squid",
+            "technical": "Azure Squid",
+            "alias": "Azure Squid",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Azure_Squid.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "azure_void_wolf_voidcaller",
+            "technical": "Azure Void Wolf Voidcaller",
+            "alias": "Azure Void Wolf",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Azure_Void_Wolf_Voidcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "bio_hive_drone",
+            "technical": "Bio Hive Drone",
+            "alias": "Bio Hive Drone",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Bio_Hive_Drone.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "bio_plasma_imp_swarmleader",
+            "technical": "Bio Plasma Imp Swarmleader",
+            "alias": "Bio Plasma Imp",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Bio_Plasma_Imp_Swarmleader.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "bio_void_wolf",
+            "technical": "Bio Void Wolf",
+            "alias": "Bio Void Wolf",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Bio_Void_Wolf.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "chrome_star_leech_apex",
+            "technical": "Chrome Star Leech Apex",
+            "alias": "Chrome Star Leech",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Chrome_Star_Leech_Apex.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cosmic_crystal_drake_apex",
+            "technical": "Cosmic Crystal Drake Apex",
+            "alias": "Cosmic Crystal Drake",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Cosmic_Crystal_Drake_Apex.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cosmic_gas_giant_crab_apex",
+            "technical": "Cosmic Gas Giant Crab Apex",
+            "alias": "Cosmic Gas Giant Crab",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Cosmic_Gas_Giant_Crab_Apex.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cosmic_lava_world_wolf_voidcaller",
+            "technical": "Cosmic Lava World Wolf Voidcaller",
+            "alias": "Cosmic Lava World Wolf",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Cosmic_Lava_World_Wolf_Voidcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "crimson_colony_organism_devourer",
+            "technical": "Crimson Colony Organism Devourer",
+            "alias": "Crimson Colony Organism",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Crimson_Colony_Organism_Devourer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "crimson_living_comet_swarmleader",
+            "technical": "Crimson Living Comet Swarmleader",
+            "alias": "Living Comet",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Crimson_Living_Comet_Swarmleader.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "crystal_shadow_floater",
+            "technical": "Crystal Shadow Floater",
+            "alias": "Shadow Floater",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Crystal_Shadow_Floater.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "dark_nebula_spitter_migrator",
+            "technical": "Dark Nebula Spitter Migrator",
+            "alias": "Dark Nebula Spitter",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Dark_Nebula_Spitter_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "eclipse_drake_pathfinder",
+            "technical": "Eclipse Drake Pathfinder",
+            "alias": "Drake Pathfinder",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Eclipse_Drake_Pathfinder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "eclipse_void_wolf_apex",
+            "technical": "Eclipse Void Wolf Apex",
+            "alias": "Eclipse Void Wolf",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Eclipse_Void_Wolf_Apex.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ember_gravity_whale_scout",
+            "technical": "Ember Gravity Whale Scout",
+            "alias": "Ember Gravity Whale",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Ember_Gravity_Whale_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ember_spore_giant_devourer",
+            "technical": "Ember Spore Giant Devourer",
+            "alias": "Ember Spore Giant",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Ember_Spore_Giant_Devourer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "frost_acid_spitter",
+            "technical": "Frost Acid Spitter",
+            "alias": "Frost Acid Spitter",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Frost_Acid_Spitter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "frost_dust_belt_beetle",
+            "technical": "Frost Dust Belt Beetle",
+            "alias": "Frost Dust Belt Beetle",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Frost_Dust_Belt_Beetle.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "frost_star_leech",
+            "technical": "Frost Star Leech",
+            "alias": "Star Leech",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Frost_Star_Leech.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ghost_acid_spitter",
+            "technical": "Ghost Acid Spitter",
+            "alias": "Ghost Acid Spitter",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Ghost_Acid_Spitter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ghost_comet_moth_symbiote",
+            "technical": "Ghost Comet Moth Symbiote",
+            "alias": "Ghost Comet Moth",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Ghost_Comet_Moth_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ghost_orbital_reef_leech",
+            "technical": "Ghost Orbital Reef Leech",
+            "alias": "Ghost Orbital Reef Leech",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Ghost_Orbital_Reef_Leech.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ghost_phase_shift_beast",
+            "technical": "Ghost Phase-Shift Beast",
+            "alias": "Ghost Phase-Shift Beast",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Ghost_Phase_Shift_Beast.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hollow_acid_spitter_symbiote",
+            "technical": "Hollow Acid Spitter Symbiote",
+            "alias": "Hollow Acid Spitter",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Hollow_Acid_Spitter_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hollow_comet_moth_riftwalker",
+            "technical": "Hollow Comet Moth Riftwalker",
+            "alias": "Hollow Comet Moth",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Hollow_Comet_Moth_Riftwalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hollow_plasma_imp_devourer",
+            "technical": "Hollow Plasma Imp Devourer",
+            "alias": "Hollow Plasma Imp",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Hollow_Plasma_Imp_Devourer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hyper_asteroid_beetle_nestlord",
+            "technical": "Hyper Asteroid Beetle Nestlord",
+            "alias": "Hyper Asteroid Beetle",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Hyper_Asteroid_Beetle_Nestlord.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hyper_colony_organism_voidcaller",
+            "technical": "Hyper Colony Organism Voidcaller",
+            "alias": "Hyper Colony Organism",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Hyper_Colony_Organism_Voidcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ion_rift_hydra",
+            "technical": "Ion Rift Hydra",
+            "alias": "Ion Rift Hydra",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Ion_Rift_Hydra.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ion_squid_sporehost",
+            "technical": "Ion Squid Sporehost",
+            "alias": "Squid Sporehost",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Ion_Squid_Sporehost.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iridium_lumen_beetle_parasite",
+            "technical": "Iridium Lumen Beetle Parasite",
+            "alias": "Iridium Lumen Beetle",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Iridium_Lumen_Beetle_Parasite.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iridium_phase_shift_beast_broodling",
+            "technical": "Iridium Phase-Shift Beast Broodling",
+            "alias": "Iridium Phase-Shift Beast",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Iridium_Phase_Shift_Beast_Broodling.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iridium_phoenix_hunter",
+            "technical": "Iridium Phoenix Hunter",
+            "alias": "Phoenix Hunter",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Iridium_Phoenix_Hunter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iridium_plasma_imp",
+            "technical": "Iridium Plasma Imp",
+            "alias": "Iridium Plasma Imp",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Iridium_Plasma_Imp.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iridium_ring_serpent",
+            "technical": "Iridium Ring Serpent",
+            "alias": "Ring Serpent",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Iridium_Ring_Serpent.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iridium_star_golem_voidcaller",
+            "technical": "Iridium Star Golem Voidcaller",
+            "alias": "Iridium Star Golem",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Iridium_Star_Golem_Voidcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jade_binary_star_stalker_migrator",
+            "technical": "Jade Binary Star Stalker Migrator",
+            "alias": "Jade Binary Star Stalker",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Jade_Binary_Star_Stalker_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jade_ice_kraken",
+            "technical": "Jade Ice Kraken",
+            "alias": "Jade Ice Kraken",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Jade_Ice_Kraken.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jade_phase_shift_beast_symbiote",
+            "technical": "Jade Phase-Shift Beast Symbiote",
+            "alias": "Jade Phase-Shift Beast",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Jade_Phase_Shift_Beast_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jade_void_harpy",
+            "technical": "Jade Void Harpy",
+            "alias": "Jade Void Harpy",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Jade_Void_Harpy.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "kinetic_nebula_wisp",
+            "technical": "Kinetic Nebula Wisp",
+            "alias": "Nebula Wisp",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Kinetic_Nebula_Wisp.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "kinetic_squid_broodguard",
+            "technical": "Kinetic Squid Broodguard",
+            "alias": "Squid Broodguard",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Kinetic_Squid_Broodguard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lumen_shellback_devourer",
+            "technical": "Lumen Shellback Devourer",
+            "alias": "Shellback Devourer",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Lumen_Shellback_Devourer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lunar_alien_stalker",
+            "technical": "Lunar Alien Stalker",
+            "alias": "Alien Stalker",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Lunar_Alien_Stalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lunar_crystal_jelly_broodguard",
+            "technical": "Lunar Crystal Jelly Broodguard",
+            "alias": "Lunar Crystal Jelly",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Lunar_Crystal_Jelly_Broodguard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lunar_phase_mantis_parasite",
+            "technical": "Lunar Phase Mantis Parasite",
+            "alias": "Lunar Phase Mantis",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Lunar_Phase_Mantis_Parasite.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lunar_void_serpent",
+            "technical": "Lunar Void Serpent",
+            "alias": "Lunar Void Serpent",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Lunar_Void_Serpent.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lunar_wolf_broodguard",
+            "technical": "Lunar Wolf Broodguard",
+            "alias": "Wolf Broodguard",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Lunar_Wolf_Broodguard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "nebula_meteor_crab",
+            "technical": "Nebula Meteor Crab",
+            "alias": "Nebula Meteor Crab",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Nebula_Meteor_Crab.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "nebula_squid_symbiote",
+            "technical": "Nebula Squid Symbiote",
+            "alias": "Squid Symbiote",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Nebula_Squid_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "nova_void_serpent",
+            "technical": "Nova Void Serpent",
+            "alias": "Nova Void Serpent",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Nova_Void_Serpent.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "null_phase_shift_beast_apex",
+            "technical": "Null Phase-Shift Beast Apex",
+            "alias": "Null Phase-Shift Beast",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Null_Phase_Shift_Beast_Apex.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "null_wisp_nestlord",
+            "technical": "Null Wisp Nestlord",
+            "alias": "Wisp Nestlord",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Null_Wisp_Nestlord.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "orbit_shadow_floater_sporehost",
+            "technical": "Orbit Shadow Floater Sporehost",
+            "alias": "Orbit Shadow Floater",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Orbit_Shadow_Floater_Sporehost.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "orbit_wolf",
+            "technical": "Orbit Wolf",
+            "alias": "Orbit Wolf",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Orbit_Wolf.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "plasma_acid_spitter",
+            "technical": "Plasma Acid Spitter",
+            "alias": "Plasma Acid Spitter",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Plasma_Acid_Spitter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "prism_colony_organism_riftwalker",
+            "technical": "Prism Colony Organism Riftwalker",
+            "alias": "Prism Colony Organism",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Prism_Colony_Organism_Riftwalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "prism_colony_organism_voidcaller",
+            "technical": "Prism Colony Organism Voidcaller",
+            "alias": "Colony Organism",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Prism_Colony_Organism_Voidcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "prism_hive_drone_scout",
+            "technical": "Prism Hive Drone Scout",
+            "alias": "Hive Drone",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Prism_Hive_Drone_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "prism_lava_world_mantis",
+            "technical": "Prism Lava World Mantis",
+            "alias": "Prism Lava World Mantis",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Prism_Lava_World_Mantis.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "prism_rift_hydra_scout",
+            "technical": "Prism Rift Hydra Scout",
+            "alias": "Prism Rift Hydra",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Prism_Rift_Hydra_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "prism_spitter_swarmleader",
+            "technical": "Prism Spitter Swarmleader",
+            "alias": "Spitter Swarmleader",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Prism_Spitter_Swarmleader.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "pulsar_desert_world_hydra_guardian",
+            "technical": "Pulsar Desert World Hydra Guardian",
+            "alias": "Pulsar Desert World Hydra",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Pulsar_Desert_World_Hydra_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quantum_phase_mantis_parasite",
+            "technical": "Quantum Phase Mantis Parasite",
+            "alias": "Quantum Phase Mantis",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Quantum_Phase_Mantis_Parasite.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quantum_spitter_swarmleader",
+            "technical": "Quantum Spitter Swarmleader",
+            "alias": "Spitter Swarmleader",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Quantum_Spitter_Swarmleader.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quantum_xeno_knight_hunter",
+            "technical": "Quantum Xeno Knight Hunter",
+            "alias": "Xeno Knight",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Quantum_Xeno_Knight_Hunter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quasar_comet_moth",
+            "technical": "Quasar Comet Moth",
+            "alias": "Quasar Comet Moth",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Quasar_Comet_Moth.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quasar_ice_moon_drake",
+            "technical": "Quasar Ice Moon Drake",
+            "alias": "Quasar Ice Moon Drake",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Quasar_Ice_Moon_Drake.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quasar_rift_crawler",
+            "technical": "Quasar Rift Crawler",
+            "alias": "Rift Crawler",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Quasar_Rift_Crawler.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quasar_ring_serpent_broodling",
+            "technical": "Quasar Ring Serpent Broodling",
+            "alias": "Quasar Ring Serpent",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Quasar_Ring_Serpent_Broodling.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quasar_whale_guardian",
+            "technical": "Quasar Whale Guardian",
+            "alias": "Whale Guardian",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Quasar_Whale_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "radiant_derelict_station_crab",
+            "technical": "Radiant Derelict Station Crab",
+            "alias": "Radiant Derelict Station Crab",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Radiant_Derelict_Station_Crab.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "radiant_void_wolf_symbiote",
+            "technical": "Radiant Void Wolf Symbiote",
+            "alias": "Void Wolf",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Radiant_Void_Wolf_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "rift_dust_belt_whale",
+            "technical": "Rift Dust Belt Whale",
+            "alias": "Rift Dust Belt Whale",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Rift_Dust_Belt_Whale.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "rift_void_harpy_nestlord",
+            "technical": "Rift Void Harpy Nestlord",
+            "alias": "Void Harpy",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Rift_Void_Harpy_Nestlord.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "solar_spore_floater_guardian",
+            "technical": "Solar Spore Floater Guardian",
+            "alias": "Solar Spore Floater",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Solar_Spore_Floater_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "solar_star_leech_broodguard",
+            "technical": "Solar Star Leech Broodguard",
+            "alias": "Solar Star Leech",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Solar_Star_Leech_Broodguard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "stellar_gravity_whale_sporehost",
+            "technical": "Stellar Gravity Whale Sporehost",
+            "alias": "Stellar Gravity Whale",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Stellar_Gravity_Whale_Sporehost.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tide_dark_nebula_imp_guardian",
+            "technical": "Tide Dark Nebula Imp Guardian",
+            "alias": "Tide Dark Nebula Imp",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Tide_Dark_Nebula_Imp_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tide_solar_phoenix_parasite",
+            "technical": "Tide Solar Phoenix Parasite",
+            "alias": "Tide Solar Phoenix",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Tide_Solar_Phoenix_Parasite.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "umbral_void_serpent_symbiote",
+            "technical": "Umbral Void Serpent Symbiote",
+            "alias": "Umbral Void Serpent",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Umbral_Void_Serpent_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "void_phase_shift_beast",
+            "technical": "Void Phase-Shift Beast",
+            "alias": "Phase-Shift Beast",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Void_Phase_Shift_Beast.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "void_starspawn_cluster",
+            "technical": "Void Starspawn Cluster",
+            "alias": "Void Starspawn Cluster",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Void_Starspawn_Cluster.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "void_starspawn_cluster_broodguard",
+            "technical": "Void Starspawn Cluster Broodguard",
+            "alias": "Void Starspawn Cluster",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Void_Starspawn_Cluster_Broodguard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "void_xeno_knight_symbiote",
+            "technical": "Void Xeno Knight Symbiote",
+            "alias": "Void Xeno Knight",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Void_Xeno_Knight_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "warp_kraken_riftwalker",
+            "technical": "Warp Kraken Riftwalker",
+            "alias": "Kraken Riftwalker",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Warp_Kraken_Riftwalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "warp_lumen_beetle_guardian",
+            "technical": "Warp Lumen Beetle Guardian",
+            "alias": "Warp Lumen Beetle",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Warp_Lumen_Beetle_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "warp_solar_phoenix",
+            "technical": "Warp Solar Phoenix",
+            "alias": "Warp Solar Phoenix",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Warp_Solar_Phoenix.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "xeno_crystal_jelly",
+            "technical": "Xeno Crystal Jelly",
+            "alias": "Crystal Jelly",
+            "genre": "space_creatures",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/space_creatures/creatures/original/Xeno_Crystal_Jelly.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        }
+    ]
+}

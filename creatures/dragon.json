@@ -1,0 +1,237 @@
+{
+    "id": "dragon",
+    "label": "Dragon",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A dragon.",
+    "hp": 1000,
+    "hpMax": 1000,
+    "speed": 86,
+    "level": 423,
+    "armor": 25,
+    "mitigation": 0.99,
+    "maxBlock": 0,
+    "exp": 700,
+    "lootValue": 161.2332542058,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 100,
+        "ice": -10,
+        "energy": 20,
+        "earth": 80,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 300,
+        "staticAttackChance": 80,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": true,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 120
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 7,
+            "element": "fire",
+            "min": 60,
+            "max": 140,
+            "radius": 4,
+            "target": true,
+            "effect": "me_firearea",
+            "shootEffect": "ani_fire"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "fire",
+            "min": 100,
+            "max": 170,
+            "length": 8,
+            "spread": 3,
+            "target": false,
+            "effect": "me_firearea"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 15,
+            "min": 40,
+            "max": 70,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Dragon",
+        "toKill": 1000,
+        "firstUnlock": 50,
+        "secondUnlock": 500,
+        "charmsPoints": 25,
+        "stars": 3,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 89920,
+            "maxCount": 102
+        },
+        {
+            "name": "Dragon Ham",
+            "id": "dragon_ham",
+            "chance": 66270,
+            "maxCount": 2
+        },
+        {
+            "name": "Steel Shield",
+            "id": "steel_shield",
+            "chance": 15650
+        },
+        {
+            "name": "dragon's tail",
+            "chance": 9680
+        },
+        {
+            "name": "Crossbow",
+            "id": "crossbow",
+            "chance": 9120
+        },
+        {
+            "chance": 8060,
+            "maxCount": 10,
+            "name": "Burst Arrow",
+            "id": "burst_arrow"
+        },
+        {
+            "name": "Longsword",
+            "id": "longsword",
+            "chance": 3830
+        },
+        {
+            "name": "Steel Casque",
+            "id": "steel_casque",
+            "chance": 3490
+        },
+        {
+            "name": "Broadsword",
+            "id": "broadsword",
+            "chance": 2700
+        },
+        {
+            "name": "Plate Legs",
+            "id": "plate_legs",
+            "chance": 2029
+        },
+        {
+            "name": "Double Axe",
+            "id": "double_axe",
+            "chance": 1580
+        },
+        {
+            "name": "Strong Health Potion",
+            "id": "strong_health_potion",
+            "chance": 1130
+        },
+        {
+            "name": "green dragon leather",
+            "chance": 1070
+        },
+        {
+            "name": "green dragon scale",
+            "chance": 1010
+        },
+        {
+            "name": "Wand of Inferno",
+            "id": "wand_of_inferno",
+            "chance": 560
+        },
+        {
+            "name": "Small Diamond",
+            "id": "small_diamond",
+            "chance": 450
+        },
+        {
+            "name": "Asp Blade",
+            "id": "asp_blade",
+            "chance": 230
+        },
+        {
+            "name": "Wyrm Hammer",
+            "id": "wyrm_hammer",
+            "chance": 230
+        },
+        {
+            "name": "Wyrmbone Staff",
+            "id": "wyrmbone_staff",
+            "chance": 170
+        },
+        {
+            "name": "life crystal",
+            "chance": 170
+        },
+        {
+            "name": "Wyrm Shield",
+            "id": "wyrm_shield",
+            "chance": 110
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "wild_desert_dragon",
+    "threatDps": 44.25,
+    "burstDps": 44.25,
+    "avgHit": 70.8,
+    "maxHit": 170,
+    "manaCost": 0
+}

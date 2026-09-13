@@ -1,0 +1,317 @@
+{
+    "id": "corrupted_blossom_titan",
+    "label": "Corrupted Blossom Titan",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A corrupted blossom titan.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 115,
+    "level": 878,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 55000,
+    "lootValue": 122626,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 200,
+        "ice": 0,
+        "energy": 5,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_1",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 1,
+            "element": "physical",
+            "min": 600,
+            "max": 2800
+        },
+        {
+            "id": "melee_2",
+            "kind": "melee",
+            "intervalMs": 1000,
+            "chance": 15,
+            "range": 1,
+            "element": "physical",
+            "min": 800,
+            "max": 1300
+        },
+        {
+            "id": "melee_3",
+            "kind": "melee",
+            "intervalMs": 1000,
+            "chance": 15,
+            "range": 1,
+            "element": "physical",
+            "min": 800,
+            "max": 1000
+        },
+        {
+            "id": "melee_4",
+            "kind": "melee",
+            "intervalMs": 1000,
+            "chance": 15,
+            "range": 1,
+            "element": "physical",
+            "min": 200,
+            "max": 800
+        },
+        {
+            "id": "area_5",
+            "kind": "area",
+            "intervalMs": 1000,
+            "chance": 15,
+            "range": 4,
+            "element": "death",
+            "min": 200,
+            "max": 600,
+            "radius": 9,
+            "target": false,
+            "effect": "me_magic_red"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 90000
+        },
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "chance": 90000,
+            "maxCount": 8
+        },
+        {
+            "name": "Small Amethyst",
+            "id": "small_amethyst",
+            "chance": 90000,
+            "maxCount": 12
+        },
+        {
+            "name": "Small Diamond",
+            "id": "small_diamond",
+            "chance": 90000,
+            "maxCount": 12
+        },
+        {
+            "name": "Small Emerald",
+            "id": "small_emerald",
+            "chance": 90000,
+            "maxCount": 12
+        },
+        {
+            "name": "Small Ruby",
+            "id": "small_ruby",
+            "chance": 90000,
+            "maxCount": 12
+        },
+        {
+            "name": "Small Topaz",
+            "id": "small_topaz",
+            "chance": 90000,
+            "maxCount": 12
+        },
+        {
+            "name": "onyx chip",
+            "chance": 90000,
+            "maxCount": 12
+        },
+        {
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion",
+            "chance": 90000,
+            "maxCount": 8
+        },
+        {
+            "name": "Supreme Health Potion",
+            "id": "supreme_health_potion",
+            "chance": 90000,
+            "maxCount": 12
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 90000,
+            "maxCount": 18
+        },
+        {
+            "name": "Ultimate Mana Potion",
+            "id": "ultimate_mana_potion",
+            "chance": 90000,
+            "maxCount": 8
+        },
+        {
+            "name": "Ultimate Dual Potion",
+            "id": "ultimate_dual_potion",
+            "chance": 90000,
+            "maxCount": 12
+        },
+        {
+            "name": "Berserk Potion",
+            "id": "berserk_potion",
+            "chance": 90000,
+            "maxCount": 2
+        },
+        {
+            "name": "Marksman Potion",
+            "id": "marksman_potion",
+            "chance": 90000,
+            "maxCount": 2
+        },
+        {
+            "name": "Savant Potion",
+            "id": "savant_potion",
+            "chance": 90000,
+            "maxCount": 2
+        },
+        {
+            "name": "Maelstrom Mace",
+            "id": "maelstrom_mace",
+            "chance": 30000
+        },
+        {
+            "name": "Regal Crown Armor",
+            "id": "regal_crown_armor",
+            "chance": 30000
+        },
+        {
+            "name": "curious matter",
+            "chance": 30000
+        },
+        {
+            "name": "demon horn",
+            "chance": 30000
+        },
+        {
+            "name": "Dreaded Cleaver",
+            "id": "dreaded_cleaver",
+            "chance": 30000
+        },
+        {
+            "chance": 30000,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "name": "gold token",
+            "chance": 1000,
+            "maxCount": 6
+        },
+        {
+            "name": "Green Gem",
+            "id": "green_gem",
+            "chance": 1000
+        },
+        {
+            "name": "knowledgeable book",
+            "chance": 1000
+        },
+        {
+            "name": "ominous book",
+            "chance": 1000
+        },
+        {
+            "name": "magic sulphur",
+            "chance": 1000,
+            "maxCount": 2
+        },
+        {
+            "name": "Muck Rod",
+            "id": "muck_rod",
+            "chance": 1000
+        },
+        {
+            "chance": 1000,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "name": "slightly rusted shield",
+            "chance": 11760
+        },
+        {
+            "name": "silver Token",
+            "chance": 1000,
+            "maxCount": 6
+        },
+        {
+            "name": "sinister book",
+            "chance": 1000
+        },
+        {
+            "name": "Spellbook of Warding",
+            "id": "spellbook_of_warding",
+            "chance": 1000
+        },
+        {
+            "name": "Steel Boots",
+            "id": "steel_boots",
+            "chance": 1000
+        },
+        {
+            "name": "Stonehide Amulet",
+            "id": "stonehide_amulet",
+            "chance": 1000
+        },
+        {
+            "name": "Wand of Cosmic Energy",
+            "id": "wand_of_cosmic_energy",
+            "chance": 1000
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "chance": 1000
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 4
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "ashen_goblin_devourer",
+    "threatDps": 555,
+    "burstDps": 555,
+    "avgHit": 822.2222,
+    "maxHit": 2800,
+    "manaCost": 0
+}

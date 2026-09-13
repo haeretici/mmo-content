@@ -1,0 +1,343 @@
+{
+    "id": "chrono_guardian",
+    "label": "Chrono Guardian",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A chrono guardian.",
+    "hp": 290000,
+    "hpMax": 290000,
+    "speed": 170,
+    "level": 990,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 50000,
+    "lootValue": 45717.375,
+    "aggro": true,
+    "resists": {
+        "physical": 1,
+        "fire": 80,
+        "ice": 1,
+        "energy": 80,
+        "earth": 80,
+        "holy": 1,
+        "death": 80
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 7,
+            "element": "death",
+            "min": 1116,
+            "max": 1451,
+            "radius": 4,
+            "target": true,
+            "effect": "me_energyhit",
+            "shootEffect": "ani_energy"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "energy",
+            "min": 1116,
+            "max": 1451,
+            "length": 9,
+            "spread": 0,
+            "target": false,
+            "effect": "me_energyhit"
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "energy",
+            "min": 1116,
+            "max": 1451,
+            "length": 9,
+            "spread": 0,
+            "target": false,
+            "effect": "me_energyarea"
+        },
+        {
+            "id": "condition_4",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 4,
+            "element": "energy",
+            "min": 0,
+            "max": 0,
+            "radius": 7,
+            "target": false,
+            "effect": "me_blockhit",
+            "statusOnly": true,
+            "condition": {
+                "type": "energy",
+                "totalDamage": 3720,
+                "intervalMs": 2000
+            },
+            "legacyName": "condition"
+        },
+        {
+            "id": "condition_5",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 4,
+            "element": "physical",
+            "min": 0,
+            "max": 0,
+            "length": 9,
+            "spread": 0,
+            "target": false,
+            "effect": "me_blockhit",
+            "statusOnly": true,
+            "condition": {
+                "type": "bleed",
+                "totalDamage": 3720,
+                "intervalMs": 2000
+            },
+            "legacyName": "condition"
+        }
+    ],
+    "race": "undead",
+    "loot": [
+        {
+            "chance": 100000,
+            "maxCount": 100,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 100,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 25,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 10,
+            "name": "Small Amethyst",
+            "id": "small_amethyst"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 10,
+            "name": "Small Diamond",
+            "id": "small_diamond"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 10,
+            "name": "Small Emerald",
+            "id": "small_emerald"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 10,
+            "name": "Small Ruby",
+            "id": "small_ruby"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 10,
+            "name": "Small Topaz",
+            "id": "small_topaz"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 5,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 10,
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 10,
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 3,
+            "name": "blue crystal shard"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 3,
+            "name": "green crystal shard"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 3,
+            "name": "violet crystal shard"
+        },
+        {
+            "chance": 100000,
+            "name": "Berserk Potion",
+            "id": "berserk_potion"
+        },
+        {
+            "chance": 100000,
+            "name": "Blue Gem",
+            "id": "blue_gem"
+        },
+        {
+            "chance": 100000,
+            "name": "Green Gem",
+            "id": "green_gem"
+        },
+        {
+            "chance": 2000,
+            "name": "leather whip"
+        },
+        {
+            "chance": 2000,
+            "name": "luminous orb"
+        },
+        {
+            "chance": 2000,
+            "name": "magic sulphur"
+        },
+        {
+            "chance": 1000,
+            "name": "Emberbound Legs",
+            "id": "emberbound_legs"
+        },
+        {
+            "chance": 2000,
+            "name": "Savant Potion",
+            "id": "savant_potion"
+        },
+        {
+            "chance": 2000,
+            "name": "Ring of Mending",
+            "id": "ring_of_mending"
+        },
+        {
+            "chance": 2000,
+            "name": "Violet Gem",
+            "id": "violet_gem"
+        },
+        {
+            "chance": 2000,
+            "name": "Yellow Gem",
+            "id": "yellow_gem"
+        },
+        {
+            "chance": 1000,
+            "name": "Guardian Boots",
+            "id": "guardian_boots"
+        },
+        {
+            "chance": 1000,
+            "name": "Bone Skull Staff",
+            "id": "bone_skull_staff"
+        },
+        {
+            "chance": 1000,
+            "name": "Stonehide Amulet",
+            "id": "stonehide_amulet"
+        },
+        {
+            "chance": 1000,
+            "name": "Guardian Boots",
+            "id": "guardian_boots"
+        },
+        {
+            "chance": 500,
+            "unique": true,
+            "name": "part of a rune"
+        },
+        {
+            "chance": 1000,
+            "name": "Spellscroll of Prophecies",
+            "id": "spellscroll_of_prophecies"
+        },
+        {
+            "chance": 100,
+            "unique": true,
+            "name": "soul stone"
+        },
+        {
+            "chance": 100,
+            "name": "Phoenix Shield",
+            "id": "phoenix_shield"
+        },
+        {
+            "chance": 100,
+            "name": "Runed Sword",
+            "id": "runed_sword"
+        },
+        {
+            "chance": 100000,
+            "name": "gold token"
+        },
+        {
+            "chance": 100000,
+            "name": "silver token"
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 5
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "sun_orc_guard",
+    "threatDps": 1032.7875,
+    "burstDps": 1032.7875,
+    "avgHit": 2430.0882,
+    "maxHit": 3720,
+    "manaCost": 0
+}

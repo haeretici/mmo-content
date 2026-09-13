@@ -1,0 +1,6 @@
+{
+    "id": "fixture",
+    "name": "Hybrid 8x8 fixture",
+    "version": 1,
+    "defaultMap": "room"
+}

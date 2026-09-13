@@ -1,0 +1,331 @@
+{
+    "id": "enraged_thorn_knight",
+    "label": "Enraged Thorn Knight",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "An enraged thorn knight.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 175,
+    "level": 887,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 30000,
+    "lootValue": 28452.086956522,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 400
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 15,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 600,
+            "max": 1000
+        },
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 12,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 400,
+            "max": 700,
+            "length": 4,
+            "spread": 0,
+            "target": false,
+            "effect": "me_poff"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 12,
+            "range": 4,
+            "element": "manadrain",
+            "min": 1400,
+            "max": 1700,
+            "length": 9,
+            "spread": 0,
+            "target": false,
+            "effect": "me_carniphila"
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 12,
+            "range": 4,
+            "element": "death",
+            "min": 400,
+            "max": 700,
+            "length": 9,
+            "spread": 0,
+            "target": false,
+            "effect": "me_mortarea"
+        },
+        {
+            "id": "area_4",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 4,
+            "element": "physical",
+            "min": 200,
+            "max": 250,
+            "radius": 10,
+            "target": false,
+            "effect": "me_blockhit"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 20,
+            "min": 1550,
+            "max": 2550,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        },
+        {
+            "id": "haste_1",
+            "kind": "haste",
+            "intervalMs": 1000,
+            "chance": 12,
+            "speedChange": 620,
+            "durationSec": 4,
+            "effect": "me_magic_red"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "chance": 50320,
+            "maxCount": 165,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 50320,
+            "maxCount": 30,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 9660,
+            "maxCount": 5,
+            "name": "blue crystal shard"
+        },
+        {
+            "chance": 9660,
+            "maxCount": 5,
+            "name": "violet crystal shard"
+        },
+        {
+            "chance": 9660,
+            "maxCount": 5,
+            "name": "green crystal shard"
+        },
+        {
+            "chance": 9660,
+            "maxCount": 5,
+            "name": "Small Emerald",
+            "id": "small_emerald"
+        },
+        {
+            "chance": 7360,
+            "maxCount": 5,
+            "name": "Small Ruby",
+            "id": "small_ruby"
+        },
+        {
+            "chance": 7350,
+            "maxCount": 5,
+            "name": "Small Topaz",
+            "id": "small_topaz"
+        },
+        {
+            "chance": 7150,
+            "maxCount": 5,
+            "name": "Small Amethyst",
+            "id": "small_amethyst"
+        },
+        {
+            "chance": 5909,
+            "maxCount": 2,
+            "name": "piece of royal steel"
+        },
+        {
+            "chance": 22120,
+            "maxCount": 3,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 19500,
+            "maxCount": 3,
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion"
+        },
+        {
+            "chance": 18250,
+            "maxCount": 3,
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion"
+        },
+        {
+            "chance": 5000,
+            "name": "Blue Gem",
+            "id": "blue_gem"
+        },
+        {
+            "chance": 2200,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "chance": 5000,
+            "name": "Green Gem",
+            "id": "green_gem"
+        },
+        {
+            "chance": 5000,
+            "name": "Yellow Gem",
+            "id": "yellow_gem"
+        },
+        {
+            "chance": 14460,
+            "name": "demonic essence"
+        },
+        {
+            "chance": 14460,
+            "name": "Berserk Potion",
+            "id": "berserk_potion"
+        },
+        {
+            "chance": 14460,
+            "name": "Marksman Potion",
+            "id": "marksman_potion"
+        },
+        {
+            "chance": 7000,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "chance": 20000,
+            "name": "Radiant Blade",
+            "id": "radiant_blade"
+        },
+        {
+            "chance": 100,
+            "name": "Executioner",
+            "id": "executioner"
+        },
+        {
+            "chance": 100,
+            "name": "forbidden fruit"
+        },
+        {
+            "chance": 500,
+            "name": "mandrake"
+        },
+        {
+            "chance": 1000,
+            "name": "Gorgon Shield",
+            "id": "gorgon_shield"
+        },
+        {
+            "chance": 500,
+            "name": "Sacred Tree Amulet",
+            "id": "sacred_tree_amulet"
+        },
+        {
+            "chance": 1000,
+            "name": "sniper gloves"
+        },
+        {
+            "chance": 1000,
+            "name": "spirit container"
+        },
+        {
+            "chance": 500,
+            "name": "Swamplair Armor",
+            "id": "swamplair_armor"
+        },
+        {
+            "chance": 1000,
+            "name": "trapped bad dream monster"
+        },
+        {
+            "chance": 500,
+            "unique": true,
+            "name": "part of a rune"
+        },
+        {
+            "chance": 100000,
+            "name": "gold token"
+        },
+        {
+            "chance": 100000,
+            "name": "silver token"
+        }
+    ],
+    "changeTarget": {
+        "interval": 5000,
+        "chance": 0
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "crystal_fungal_knight_berserker",
+    "threatDps": 581.5,
+    "burstDps": 581.5,
+    "avgHit": 745.5128,
+    "maxHit": 1700,
+    "manaCost": 0
+}

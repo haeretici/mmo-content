@@ -1,0 +1,12 @@
+node_modules/
+*.tmp
+sprites/*/*/alpha/
+sprites/*/*/medium/
+sprites/*/*/retro/
+sprites/*/*/small/
+sprites/*/*/icon/
+sprites/super_heroes/
+sprites/ultra_tech/
+sprites/fantastic_ecology/
+sprites/space_creatures/
+sprites/steampunk/

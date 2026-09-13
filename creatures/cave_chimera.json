@@ -1,0 +1,246 @@
+{
+    "id": "cave_chimera",
+    "label": "Cave Chimera",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A cave chimera.",
+    "hp": 8000,
+    "hpMax": 8000,
+    "speed": 115,
+    "level": 632,
+    "armor": 60,
+    "mitigation": 1.88,
+    "maxBlock": 0,
+    "exp": 6800,
+    "lootValue": 4415.297542044,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 10,
+        "energy": 20,
+        "earth": -10,
+        "holy": 0,
+        "death": -10
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 4,
+        "runHealth": 0,
+        "staticAttackChance": 70,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 144
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 30,
+            "range": 4,
+            "element": "holy",
+            "min": 144,
+            "max": 168,
+            "radius": 3,
+            "target": true,
+            "effect": "me_holydamage",
+            "shootEffect": "ani_holy"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 60,
+            "range": 4,
+            "element": "ice",
+            "min": 134,
+            "max": 156,
+            "radius": 4,
+            "target": false,
+            "effect": "me_blue_energy_spark"
+        },
+        {
+            "id": "ranged_3",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 40,
+            "range": 4,
+            "element": "ice",
+            "min": 180,
+            "max": 204,
+            "target": true,
+            "shootEffect": "ani_ice"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 15,
+            "min": 200,
+            "max": 700,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Vermin",
+        "toKill": 2500,
+        "firstUnlock": 100,
+        "secondUnlock": 1000,
+        "charmsPoints": 50,
+        "stars": 4,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 70000,
+            "maxCount": 24
+        },
+        {
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion",
+            "chance": 25220,
+            "maxCount": 2
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 20000,
+            "maxCount": 4
+        },
+        {
+            "name": "Gold Ingot",
+            "id": "gold_ingot",
+            "chance": 19130,
+            "maxCount": 2
+        },
+        {
+            "name": "violet crystal shard",
+            "chance": 6090,
+            "maxCount": 3
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 6960,
+            "maxCount": 1
+        },
+        {
+            "name": "cave chimera leg",
+            "chance": 4350
+        },
+        {
+            "name": "cave chimera head",
+            "chance": 3480
+        },
+        {
+            "chance": 1740,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "chance": 2660
+        },
+        {
+            "name": "Frostbound Amulet",
+            "id": "frostbound_amulet",
+            "chance": 2480
+        },
+        {
+            "chance": 1720,
+            "name": "Ring of Blue Plasma",
+            "id": "ring_of_blue_plasma"
+        },
+        {
+            "name": "Frostbound Kilt",
+            "id": "frostbound_kilt",
+            "chance": 1540
+        },
+        {
+            "name": "Gold Ring",
+            "id": "gold_ring",
+            "chance": 1430
+        },
+        {
+            "name": "Fur Armor",
+            "id": "fur_armor",
+            "chance": 970
+        },
+        {
+            "name": "gemmed figurine",
+            "chance": 970
+        },
+        {
+            "name": "Chiseled Crossbow",
+            "id": "chiseled_crossbow",
+            "chance": 850
+        },
+        {
+            "name": "Prism Crossbow",
+            "id": "prism_crossbow",
+            "chance": 180
+        },
+        {
+            "name": "Composite Hornbow",
+            "id": "composite_hornbow",
+            "chance": 100
+        },
+        {
+            "name": "Elvish Bow",
+            "id": "elvish_bow",
+            "chance": 80
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "astral_chimera",
+    "threatDps": 141.3,
+    "burstDps": 141.3,
+    "avgHit": 122.8696,
+    "maxHit": 204,
+    "manaCost": 0
+}

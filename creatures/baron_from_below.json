@@ -1,0 +1,342 @@
+{
+    "id": "baron_from_below",
+    "label": "Baron From Below",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A baron from below.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 120,
+    "level": 873,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 300000,
+    "lootValue": 44414.210526316,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 20,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 550
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "physical",
+            "min": 0,
+            "max": 1000,
+            "radius": 8,
+            "target": false,
+            "effect": "me_hitarea"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "earth",
+            "min": 0,
+            "max": 1000,
+            "length": 8,
+            "spread": 5,
+            "target": false,
+            "effect": "me_yellow_rings"
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "earth",
+            "min": 0,
+            "max": 1000,
+            "length": 8,
+            "spread": 9,
+            "target": false,
+            "effect": "me_poff"
+        },
+        {
+            "id": "area_4",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 4,
+            "element": "death",
+            "min": 0,
+            "max": 1000,
+            "radius": 3,
+            "target": false,
+            "effect": "me_mortarea"
+        },
+        {
+            "id": "area_5",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "earth",
+            "min": 0,
+            "max": 1000,
+            "radius": 5,
+            "target": false,
+            "effect": "me_smallplants"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 100000,
+            "maxCount": 58
+        },
+        {
+            "name": "Savant Potion",
+            "id": "savant_potion",
+            "chance": 100000
+        },
+        {
+            "name": "Stonehide Amulet",
+            "id": "stonehide_amulet",
+            "chance": 100000
+        },
+        {
+            "chance": 100000,
+            "name": "heavy crystal fragment"
+        },
+        {
+            "name": "Wand of Inferno",
+            "id": "wand_of_inferno",
+            "chance": 72920
+        },
+        {
+            "name": "violet crystal shard",
+            "chance": 64580
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 62500,
+            "maxCount": 18
+        },
+        {
+            "name": "Ember Blade",
+            "id": "ember_blade",
+            "chance": 56250
+        },
+        {
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion",
+            "chance": 54170,
+            "maxCount": 18
+        },
+        {
+            "name": "magic sulphur",
+            "chance": 45830
+        },
+        {
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion",
+            "chance": 43750,
+            "maxCount": 18
+        },
+        {
+            "name": "Crystal Mace",
+            "id": "crystal_mace",
+            "chance": 37500
+        },
+        {
+            "name": "silver token",
+            "chance": 33330
+        },
+        {
+            "name": "Small Emerald",
+            "id": "small_emerald",
+            "chance": 20830
+        },
+        {
+            "name": "huge chunk of crude iron",
+            "chance": 20830
+        },
+        {
+            "name": "slightly rusted shield",
+            "chance": 18750
+        },
+        {
+            "name": "slightly rusted helmet",
+            "chance": 16670
+        },
+        {
+            "chance": 14580,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "name": "luminous orb",
+            "chance": 14580
+        },
+        {
+            "name": "longing eyes",
+            "chance": 14580
+        },
+        {
+            "name": "Small Diamond",
+            "id": "small_diamond",
+            "chance": 12500
+        },
+        {
+            "name": "Small Topaz",
+            "id": "small_topaz",
+            "chance": 12500
+        },
+        {
+            "name": "Small Ruby",
+            "id": "small_ruby",
+            "chance": 12500
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 12500
+        },
+        {
+            "chance": 12500,
+            "name": "chitinous mouth"
+        },
+        {
+            "name": "Calopteryx Cape",
+            "id": "calopteryx_cape",
+            "chance": 10420
+        },
+        {
+            "name": "Blue Gem",
+            "id": "blue_gem",
+            "chance": 10420
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "chance": 10420
+        },
+        {
+            "name": "Gold Ingot",
+            "id": "gold_ingot",
+            "chance": 8330
+        },
+        {
+            "name": "gold token",
+            "chance": 8330
+        },
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "chance": 8330
+        },
+        {
+            "name": "Green Gem",
+            "id": "green_gem",
+            "chance": 8330
+        },
+        {
+            "name": "Small Amethyst",
+            "id": "small_amethyst",
+            "chance": 6250
+        },
+        {
+            "name": "huge shell",
+            "chance": 4170
+        },
+        {
+            "name": "Emberbound Coat",
+            "id": "emberbound_coat",
+            "chance": 4170
+        },
+        {
+            "name": "slimy leg",
+            "chance": 4170
+        },
+        {
+            "name": "Badger Boots",
+            "id": "badger_boots",
+            "chance": 4170
+        },
+        {
+            "name": "Spellbook of Warding",
+            "id": "spellbook_of_warding",
+            "chance": 2080
+        },
+        {
+            "name": "Tinker Sword",
+            "id": "tinker_sword",
+            "chance": 4170
+        },
+        {
+            "name": "Tinker Armor",
+            "id": "tinker_armor",
+            "chance": 3390
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "arcane_frost_serpent_priest",
+    "threatDps": 537.5,
+    "burstDps": 537.5,
+    "avgHit": 413.4615,
+    "maxHit": 1000,
+    "manaCost": 0
+}

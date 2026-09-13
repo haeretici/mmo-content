@@ -1,0 +1,1575 @@
+{
+    "version": 1,
+    "genre": "fantastic_ecology",
+    "updatedAt": "2026-07-23T17:45:19.473Z",
+    "creatures": [
+        {
+            "id": "amber_canopy_panther_bloomcaller",
+            "technical": "Amber Canopy Panther Bloomcaller",
+            "alias": "Amber Canopy Panther",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Amber_Canopy_Panther_Bloomcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "azure_canopy_panther_tidewalker",
+            "technical": "Azure Canopy Panther Tidewalker",
+            "alias": "Azure Canopy Panther",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Azure_Canopy_Panther_Tidewalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "basalt_boreal_elk",
+            "technical": "Basalt Boreal Elk",
+            "alias": "Basalt Boreal Elk",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Basalt_Boreal_Elk.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "basalt_ice_beetle_forager",
+            "technical": "Basalt Ice Beetle Forager",
+            "alias": "Basalt Ice Beetle",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Basalt_Ice_Beetle_Forager.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "basalt_pollen_sprite_symbiote",
+            "technical": "Basalt Pollen Sprite Symbiote",
+            "alias": "Basalt Pollen Sprite",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Basalt_Pollen_Sprite_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "basalt_spore_drake_predator",
+            "technical": "Basalt Spore Drake Predator",
+            "alias": "Basalt Spore Drake",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Basalt_Spore_Drake_Predator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "blooming_elemental_pollinator",
+            "technical": "Blooming Elemental Pollinator",
+            "alias": "Elemental Pollinator",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Blooming_Elemental_Pollinator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "boreal_blooming_colossus",
+            "technical": "Boreal Blooming Colossus",
+            "alias": "Blooming Colossus",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Boreal_Blooming_Colossus.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "boreal_crystal_wyrm_migrator",
+            "technical": "Boreal Crystal Wyrm Migrator",
+            "alias": "Crystal Wyrm",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Boreal_Crystal_Wyrm_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "boreal_kelp_leviathan_guardian",
+            "technical": "Boreal Kelp Leviathan Guardian",
+            "alias": "Boreal Kelp Leviathan",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Boreal_Kelp_Leviathan_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "boreal_walking_glacier_warden",
+            "technical": "Boreal Walking Glacier Warden",
+            "alias": "Boreal Walking Glacier",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Boreal_Walking_Glacier_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "brine_lava_salamander_migrator",
+            "technical": "Brine Lava Salamander Migrator",
+            "alias": "Brine Lava Salamander",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Brine_Lava_Salamander_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "brine_tidal_guardian",
+            "technical": "Brine Tidal Guardian",
+            "alias": "Brine Tidal Guardian",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Brine_Tidal_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "canopy_glacier_sporeling_sporecaster",
+            "technical": "Canopy Glacier Sporeling Sporecaster",
+            "alias": "Glacier Sporeling",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Canopy_Glacier_Sporeling_Sporecaster.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "canopy_ice_beetle_scavenger",
+            "technical": "Canopy Ice Beetle Scavenger",
+            "alias": "Canopy Ice Beetle",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Canopy_Ice_Beetle_Scavenger.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "canopy_mangrove_crawler_herdleader",
+            "technical": "Canopy Mangrove Crawler Herdleader",
+            "alias": "Canopy Mangrove Crawler",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Canopy_Mangrove_Crawler_Herdleader.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "canopy_pearl_crab_broodmother",
+            "technical": "Canopy Pearl Crab Broodmother",
+            "alias": "Canopy Pearl Crab",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Canopy_Pearl_Crab_Broodmother.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "canopy_rootwalker_symbiote",
+            "technical": "Canopy Rootwalker Symbiote",
+            "alias": "Rootwalker Symbiote",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Canopy_Rootwalker_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "canopy_tundra_elemental",
+            "technical": "Canopy Tundra Elemental",
+            "alias": "Tundra Elemental",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Canopy_Tundra_Elemental.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cave_coral_drake_symbiote",
+            "technical": "Cave Coral Drake Symbiote",
+            "alias": "Cave Coral Drake",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Cave_Coral_Drake_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "cave_coral_shelf_bloombeast",
+            "technical": "Cave Coral Shelf Bloombeast",
+            "alias": "Cave Coral Shelf Bloombeast",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Cave_Coral_Shelf_Bloombeast.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cave_ember_moth_predator",
+            "technical": "Cave Ember Moth Predator",
+            "alias": "Ember Moth",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Cave_Ember_Moth_Predator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cave_moss_golem_symbiote",
+            "technical": "Cave Moss Golem Symbiote",
+            "alias": "Cave Moss Golem",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Cave_Moss_Golem_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cave_tidal_guardian_scavenger",
+            "technical": "Cave Tidal Guardian Scavenger",
+            "alias": "Tidal Guardian",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Cave_Tidal_Guardian_Scavenger.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "coral_boreal_elk_migrator",
+            "technical": "Coral Boreal Elk Migrator",
+            "alias": "Coral Boreal Elk",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Coral_Boreal_Elk_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "coral_lava_salamander_symbiote",
+            "technical": "Coral Lava Salamander Symbiote",
+            "alias": "Coral Lava Salamander",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Coral_Lava_Salamander_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "crystal_coral_drake_apex",
+            "technical": "Crystal Coral Drake Apex",
+            "alias": "Crystal Coral Drake",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Crystal_Coral_Drake_Apex.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "crystal_lava_salamander_broodmother",
+            "technical": "Crystal Lava Salamander Broodmother",
+            "alias": "Crystal Lava Salamander",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Crystal_Lava_Salamander_Broodmother.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "crystal_mangrove_crawler_herdleader",
+            "technical": "Crystal Mangrove Crawler Herdleader",
+            "alias": "Crystal Mangrove Crawler",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Crystal_Mangrove_Crawler_Herdleader.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "delta_canopy_panther_herdleader",
+            "technical": "Delta Canopy Panther Herdleader",
+            "alias": "Delta Canopy Panther",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Delta_Canopy_Panther_Herdleader.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "delta_sand_ray",
+            "technical": "Delta Sand Ray",
+            "alias": "Delta Sand Ray",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Delta_Sand_Ray.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "delta_storm_heron_broodmother",
+            "technical": "Delta Storm Heron Broodmother",
+            "alias": "Delta Storm Heron",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Delta_Storm_Heron_Broodmother.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "dune_fungal_bear",
+            "technical": "Dune Fungal Bear",
+            "alias": "Dune Fungal Bear",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Dune_Fungal_Bear.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "dune_glacier_fox_rootbinder",
+            "technical": "Dune Glacier Fox Rootbinder",
+            "alias": "Dune Glacier Fox",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Dune_Glacier_Fox_Rootbinder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ember_storm_cloud_beast",
+            "technical": "Ember Storm Cloud Beast",
+            "alias": "Ember Storm Cloud Beast",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Ember_Storm_Cloud_Beast.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ember_verdant_stalker",
+            "technical": "Ember Verdant Stalker",
+            "alias": "Ember Verdant Stalker",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Ember_Verdant_Stalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ember_walking_glacier_bloomcaller",
+            "technical": "Ember Walking Glacier Bloomcaller",
+            "alias": "Ember Walking Glacier",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Ember_Walking_Glacier_Bloomcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "fjord_moss_golem_apex",
+            "technical": "Fjord Moss Golem Apex",
+            "alias": "Fjord Moss Golem",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Fjord_Moss_Golem_Apex.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "fjord_spore_drake",
+            "technical": "Fjord Spore Drake",
+            "alias": "Fjord Spore Drake",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Fjord_Spore_Drake.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "fjord_tide_serpent_nestkeeper",
+            "technical": "Fjord Tide Serpent Nestkeeper",
+            "alias": "Fjord Tide Serpent",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Fjord_Tide_Serpent_Nestkeeper.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "fungal_crystal_stag",
+            "technical": "Fungal Crystal Stag",
+            "alias": "Fungal Crystal Stag",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Fungal_Crystal_Stag.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "fungal_mangrove_crawler",
+            "technical": "Fungal Mangrove Crawler",
+            "alias": "Fungal Mangrove Crawler",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Fungal_Mangrove_Crawler.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "fungal_moss_golem",
+            "technical": "Fungal Moss Golem",
+            "alias": "Fungal Moss Golem",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Fungal_Moss_Golem.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "geyser_blooming_colossus_guardian",
+            "technical": "Geyser Blooming Colossus Guardian",
+            "alias": "Geyser Blooming Colossus",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Geyser_Blooming_Colossus_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "geyser_woodland_bloombeast",
+            "technical": "Geyser Woodland Bloombeast",
+            "alias": "Geyser Woodland Bloombeast",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Geyser_Woodland_Bloombeast.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "hollow_ember_moth_pollinator",
+            "technical": "Hollow Ember Moth Pollinator",
+            "alias": "Hollow Ember Moth",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Hollow_Ember_Moth_Pollinator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "ivy_coral_drake_tidewalker",
+            "technical": "Ivy Coral Drake Tidewalker",
+            "alias": "Ivy Coral Drake",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Ivy_Coral_Drake_Tidewalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ivy_ember_moth",
+            "technical": "Ivy Ember Moth",
+            "alias": "Ivy Ember Moth",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Ivy_Ember_Moth.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "ivy_sand_ray",
+            "technical": "Ivy Sand Ray",
+            "alias": "Sand Ray",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Ivy_Sand_Ray.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jade_elemental",
+            "technical": "Jade Elemental",
+            "alias": "Jade Elemental",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Jade_Elemental.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "jade_ice_beetle_scavenger",
+            "technical": "Jade Ice Beetle Scavenger",
+            "alias": "Jade Ice Beetle",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Jade_Ice_Beetle_Scavenger.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "jade_tide_serpent_apex",
+            "technical": "Jade Tide Serpent Apex",
+            "alias": "Jade Tide Serpent",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Jade_Tide_Serpent_Apex.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "kelp_tidal_guardian",
+            "technical": "Kelp Tidal Guardian",
+            "alias": "Kelp Tidal Guardian",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Kelp_Tidal_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lava_river_wisp_migrator",
+            "technical": "Lava River Wisp Migrator",
+            "alias": "Lava River Wisp",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Lava_River_Wisp_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "lava_root_serpent_scavenger",
+            "technical": "Lava Root Serpent Scavenger",
+            "alias": "Lava Root Serpent",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Lava_Root_Serpent_Scavenger.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lava_rootwalker_sporecaster",
+            "technical": "Lava Rootwalker Sporecaster",
+            "alias": "Rootwalker Sporecaster",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Lava_Rootwalker_Sporecaster.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lava_storm_heron_rootbinder",
+            "technical": "Lava Storm Heron Rootbinder",
+            "alias": "Lava Storm Heron",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Lava_Storm_Heron_Rootbinder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "luminous_ice_beetle_predator",
+            "technical": "Luminous Ice Beetle Predator",
+            "alias": "Luminous Ice Beetle",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Luminous_Ice_Beetle_Predator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "marsh_delta_sporeling_tidewalker",
+            "technical": "Marsh Delta Sporeling Tidewalker",
+            "alias": "Marsh Delta Sporeling",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Marsh_Delta_Sporeling_Tidewalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "marsh_pollen_sprite",
+            "technical": "Marsh Pollen Sprite",
+            "alias": "Marsh Pollen Sprite",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Marsh_Pollen_Sprite.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "marsh_storm_cloud_beast_scavenger",
+            "technical": "Marsh Storm Cloud Beast Scavenger",
+            "alias": "Marsh Storm Cloud Beast",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Marsh_Storm_Cloud_Beast_Scavenger.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "mossy_basalt_tortoise_pollinator",
+            "technical": "Mossy Basalt Tortoise Pollinator",
+            "alias": "Mossy Basalt Tortoise",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Mossy_Basalt_Tortoise_Pollinator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "mossy_river_wisp",
+            "technical": "Mossy River Wisp",
+            "alias": "Mossy River Wisp",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Mossy_River_Wisp.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "mossy_sand_ray_warden",
+            "technical": "Mossy Sand Ray Warden",
+            "alias": "Mossy Sand Ray",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Mossy_Sand_Ray_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "mycelial_ember_moth_migrator",
+            "technical": "Mycelial Ember Moth Migrator",
+            "alias": "Mycelial Ember Moth",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Mycelial_Ember_Moth_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "nightbloom_coral_drake_broodmother",
+            "technical": "Nightbloom Coral Drake Broodmother",
+            "alias": "Coral Drake",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Nightbloom_Coral_Drake_Broodmother.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "obsidian_lava_salamander_warden",
+            "technical": "Obsidian Lava Salamander Warden",
+            "alias": "Obsidian Lava Salamander",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Obsidian_Lava_Salamander_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "obsidian_sporeling_bloomcaller",
+            "technical": "Obsidian Sporeling Bloomcaller",
+            "alias": "Sporeling Bloomcaller",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Obsidian_Sporeling_Bloomcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "obsidian_storm_heron_forager",
+            "technical": "Obsidian Storm Heron Forager",
+            "alias": "Obsidian Storm Heron",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Obsidian_Storm_Heron_Forager.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "pearl_basalt_tortoise_tidewalker",
+            "technical": "Pearl Basalt Tortoise Tidewalker",
+            "alias": "Pearl Basalt Tortoise",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Pearl_Basalt_Tortoise_Tidewalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "petal_basalt_tortoise",
+            "technical": "Petal Basalt Tortoise",
+            "alias": "Petal Basalt Tortoise",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Petal_Basalt_Tortoise.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "petal_canopy_panther_symbiote",
+            "technical": "Petal Canopy Panther Symbiote",
+            "alias": "Petal Canopy Panther",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Petal_Canopy_Panther_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "pollen_fungal_bear_bloomcaller",
+            "technical": "Pollen Fungal Bear Bloomcaller",
+            "alias": "Pollen Fungal Bear",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Pollen_Fungal_Bear_Bloomcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "pollen_glacier_fox_symbiote",
+            "technical": "Pollen Glacier Fox Symbiote",
+            "alias": "Pollen Glacier Fox",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Pollen_Glacier_Fox_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "pollen_woodland_sporeling_symbiote",
+            "technical": "Pollen Woodland Sporeling Symbiote",
+            "alias": "Pollen Woodland Sporeling",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Pollen_Woodland_Sporeling_Symbiote.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "prismatic_living_wildfire_migrator",
+            "technical": "Prismatic Living Wildfire Migrator",
+            "alias": "Prismatic Living Wildfire",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Prismatic_Living_Wildfire_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "prismatic_walking_glacier",
+            "technical": "Prismatic Walking Glacier",
+            "alias": "Prismatic Walking Glacier",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Prismatic_Walking_Glacier.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "prismatic_walking_glacier_rootbinder",
+            "technical": "Prismatic Walking Glacier Rootbinder",
+            "alias": "Prismatic Walking Glacier",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Prismatic_Walking_Glacier_Rootbinder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quartz_root_serpent_rootbinder",
+            "technical": "Quartz Root Serpent Rootbinder",
+            "alias": "Quartz Root Serpent",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Quartz_Root_Serpent_Rootbinder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "reef_boreal_elk_tidewalker",
+            "technical": "Reef Boreal Elk Tidewalker",
+            "alias": "Reef Boreal Elk",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Reef_Boreal_Elk_Tidewalker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "reef_geyser_sprite",
+            "technical": "Reef Geyser Sprite",
+            "alias": "Reef Geyser Sprite",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Reef_Geyser_Sprite.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "reef_kelp_leviathan_predator",
+            "technical": "Reef Kelp Leviathan Predator",
+            "alias": "Reef Kelp Leviathan",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Reef_Kelp_Leviathan_Predator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "river_geyser_sprite_guardian",
+            "technical": "River Geyser Sprite Guardian",
+            "alias": "River Geyser Sprite",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/River_Geyser_Sprite_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "river_mangrove_crawler_rootbinder",
+            "technical": "River Mangrove Crawler Rootbinder",
+            "alias": "Mangrove Crawler",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/River_Mangrove_Crawler_Rootbinder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "river_pollen_sprite",
+            "technical": "River Pollen Sprite",
+            "alias": "River Pollen Sprite",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/River_Pollen_Sprite.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "rooted_living_wildfire_forager",
+            "technical": "Rooted Living Wildfire Forager",
+            "alias": "Rooted Living Wildfire",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Rooted_Living_Wildfire_Forager.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "rooted_storm_heron_guardian",
+            "technical": "Rooted Storm Heron Guardian",
+            "alias": "Rooted Storm Heron",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Rooted_Storm_Heron_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "sand_lava_salamander_pollinator",
+            "technical": "Sand Lava Salamander Pollinator",
+            "alias": "Lava Salamander",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Sand_Lava_Salamander_Pollinator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "sand_walking_glacier_predator",
+            "technical": "Sand Walking Glacier Predator",
+            "alias": "Walking Glacier",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Sand_Walking_Glacier_Predator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "sap_storm_heron_bloomcaller",
+            "technical": "Sap Storm Heron Bloomcaller",
+            "alias": "Sap Storm Heron",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Sap_Storm_Heron_Bloomcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "spore_pearl_crab_warden",
+            "technical": "Spore Pearl Crab Warden",
+            "alias": "Pearl Crab",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Spore_Pearl_Crab_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "thorn_elemental_predator",
+            "technical": "Thorn Elemental Predator",
+            "alias": "Elemental Predator",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Thorn_Elemental_Predator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "thorn_storm_heron",
+            "technical": "Thorn Storm Heron",
+            "alias": "Thorn Storm Heron",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Thorn_Storm_Heron.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "thorn_walking_glacier_bloomcaller",
+            "technical": "Thorn Walking Glacier Bloomcaller",
+            "alias": "Thorn Walking Glacier",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Thorn_Walking_Glacier_Bloomcaller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "thunder_crystal_wyrm_herdleader",
+            "technical": "Thunder Crystal Wyrm Herdleader",
+            "alias": "Thunder Crystal Wyrm",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Thunder_Crystal_Wyrm_Herdleader.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "thunder_ice_beetle",
+            "technical": "Thunder Ice Beetle",
+            "alias": "Ice Beetle",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Thunder_Ice_Beetle.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "thunder_tidal_guardian_pollinator",
+            "technical": "Thunder Tidal Guardian Pollinator",
+            "alias": "Thunder Tidal Guardian",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Thunder_Tidal_Guardian_Pollinator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tidal_ice_beetle_migrator",
+            "technical": "Tidal Ice Beetle Migrator",
+            "alias": "Tidal Ice Beetle",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Tidal_Ice_Beetle_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "tidal_root_serpent",
+            "technical": "Tidal Root Serpent",
+            "alias": "Tidal Root Serpent",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Tidal_Root_Serpent.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tide_canopy_panther_broodmother",
+            "technical": "Tide Canopy Panther Broodmother",
+            "alias": "Tide Canopy Panther",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Tide_Canopy_Panther_Broodmother.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "umbral_bloom_hydra_predator",
+            "technical": "Umbral Bloom Hydra Predator",
+            "alias": "Umbral Bloom Hydra",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Umbral_Bloom_Hydra_Predator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "umbral_ember_moth_warden",
+            "technical": "Umbral Ember Moth Warden",
+            "alias": "Umbral Ember Moth",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Umbral_Ember_Moth_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "umbral_fungal_bear_migrator",
+            "technical": "Umbral Fungal Bear Migrator",
+            "alias": "Umbral Fungal Bear",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Umbral_Fungal_Bear_Migrator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "umbral_spore_drake_guardian",
+            "technical": "Umbral Spore Drake Guardian",
+            "alias": "Umbral Spore Drake",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Umbral_Spore_Drake_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "umbral_storm_cloud_beast_warden",
+            "technical": "Umbral Storm Cloud Beast Warden",
+            "alias": "Storm Cloud Beast",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Umbral_Storm_Cloud_Beast_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "verdant_tidal_guardian_guardian",
+            "technical": "Verdant Tidal Guardian Guardian",
+            "alias": "Verdant Tidal Guardian",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Verdant_Tidal_Guardian_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "volcanic_amber_wolf_sporecaster",
+            "technical": "Volcanic Amber Wolf Sporecaster",
+            "alias": "Volcanic Amber Wolf",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Volcanic_Amber_Wolf_Sporecaster.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "volcanic_moss_golem_herdleader",
+            "technical": "Volcanic Moss Golem Herdleader",
+            "alias": "Volcanic Moss Golem",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Volcanic_Moss_Golem_Herdleader.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "willow_bloom_hydra",
+            "technical": "Willow Bloom Hydra",
+            "alias": "Willow Bloom Hydra",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Willow_Bloom_Hydra.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "wind_crystal_stag_warden",
+            "technical": "Wind Crystal Stag Warden",
+            "alias": "Wind Crystal Stag",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Wind_Crystal_Stag_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-23"
+        },
+        {
+            "id": "wind_pearl_crab",
+            "technical": "Wind Pearl Crab",
+            "alias": "Wind Pearl Crab",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Wind_Pearl_Crab.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "zephyr_basalt_tortoise",
+            "technical": "Zephyr Basalt Tortoise",
+            "alias": "Basalt Tortoise",
+            "genre": "fantastic_ecology",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/fantastic_ecology/creatures/original/Zephyr_Basalt_Tortoise.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        }
+    ]
+}

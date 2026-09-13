@@ -1,0 +1,291 @@
+{
+    "id": "lich",
+    "label": "Lich",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A lich.",
+    "hp": 880,
+    "hpMax": 880,
+    "speed": 105,
+    "level": 412,
+    "armor": 50,
+    "mitigation": 1.6,
+    "maxBlock": 0,
+    "exp": 900,
+    "lootValue": 208.04591836735,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 80,
+        "earth": 100,
+        "holy": -20,
+        "death": 100
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 80,
+        "health": 10,
+        "damage": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 80,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": false,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 49
+        },
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 91,
+            "max": 124,
+            "length": 7,
+            "spread": 0,
+            "target": false,
+            "effect": "me_magic_red"
+        },
+        {
+            "id": "condition_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "earth",
+            "min": 0,
+            "max": 0,
+            "length": 7,
+            "spread": 0,
+            "target": false,
+            "effect": "me_hitbypoison",
+            "statusOnly": true,
+            "condition": {
+                "type": "poison",
+                "totalDamage": 261,
+                "intervalMs": 2000
+            },
+            "legacyName": "condition"
+        },
+        {
+            "id": "melee_3",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 1,
+            "element": "lifedrain",
+            "min": 131,
+            "max": 160,
+            "target": true,
+            "effect": "me_magic_red"
+        },
+        {
+            "id": "slow_4",
+            "kind": "status",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 7,
+            "element": "physical",
+            "min": 0,
+            "max": 0,
+            "statusOnly": true,
+            "condition": {
+                "type": "slow",
+                "speedChange": -300,
+                "durationSec": 30
+            },
+            "effect": "me_magic_red",
+            "target": false
+        },
+        {
+            "id": "area_5",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 85,
+            "max": 127,
+            "radius": 3,
+            "target": false,
+            "effect": "me_magic_red"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 15,
+            "min": 80,
+            "max": 100,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "undead",
+    "bestiary": {
+        "class": "Undead",
+        "toKill": 1000,
+        "firstUnlock": 50,
+        "secondUnlock": 500,
+        "charmsPoints": 25,
+        "stars": 3,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "name": "White Pearl",
+            "id": "white_pearl",
+            "chance": 5000
+        },
+        {
+            "name": "Black Pearl",
+            "id": "black_pearl",
+            "chance": 5960,
+            "maxCount": 3
+        },
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 100000,
+            "maxCount": 139
+        },
+        {
+            "name": "Small Emerald",
+            "id": "small_emerald",
+            "chance": 2230,
+            "maxCount": 3
+        },
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 19720
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "chance": 690
+        },
+        {
+            "name": "Platinum Amulet",
+            "id": "platinum_amulet",
+            "chance": 450
+        },
+        {
+            "chance": 10000,
+            "name": "Spellbook",
+            "id": "spellbook"
+        },
+        {
+            "name": "mind stone",
+            "chance": 350
+        },
+        {
+            "chance": 1540,
+            "name": "Ring of Mending",
+            "id": "ring_of_mending"
+        },
+        {
+            "name": "Bone Skull Staff",
+            "id": "bone_skull_staff",
+            "chance": 550
+        },
+        {
+            "name": "Strange Helmet",
+            "id": "strange_helmet",
+            "chance": 740
+        },
+        {
+            "name": "Ancient Shield",
+            "id": "ancient_shield",
+            "chance": 2422
+        },
+        {
+            "name": "Castle Shield",
+            "id": "castle_shield",
+            "chance": 350
+        },
+        {
+            "name": "Blue Robe",
+            "id": "blue_robe",
+            "chance": 150
+        },
+        {
+            "name": "Strong Mana Potion",
+            "id": "strong_mana_potion",
+            "chance": 7500
+        },
+        {
+            "name": "Stormbound Boots",
+            "id": "stormbound_boots",
+            "chance": 200
+        },
+        {
+            "name": "Small Topaz",
+            "id": "small_topaz",
+            "chance": 2430,
+            "maxCount": 3
+        },
+        {
+            "name": "maxilla maximus",
+            "chance": 100
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "sacred_snake",
+    "threatDps": 41.625,
+    "burstDps": 41.625,
+    "avgHit": 59.4643,
+    "maxHit": 261,
+    "manaCost": 0,
+    "summon": {
+        "maxSummons": 4,
+        "summons": [
+            {
+                "name": "Bone Beast",
+                "id": "bone_beast",
+                "chance": 10,
+                "interval": 2000,
+                "count": 4
+            }
+        ]
+    }
+}

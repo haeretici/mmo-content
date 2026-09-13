@@ -1,0 +1,10 @@
+{
+    "tiles": [
+        { "id": 0, "name": "void", "walk": false, "friction": 255, "color": "#0b0b0c" },
+        { "id": 1, "name": "grass", "walk": true, "friction": 100, "color": "#3d6b48" },
+        { "id": 2, "name": "path", "walk": true, "friction": 100, "color": "#c4a35a" },
+        { "id": 3, "name": "wall", "walk": false, "friction": 255, "color": "#5a4a3a" },
+        { "id": 4, "name": "water", "walk": false, "friction": 255, "color": "#2a4a6a" },
+        { "id": 5, "name": "spawn", "walk": true, "friction": 100, "color": "#e0c078" }
+    ]
+}

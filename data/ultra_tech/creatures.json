@@ -1,0 +1,1351 @@
+{
+    "version": 1,
+    "genre": "ultra_tech",
+    "updatedAt": "2026-07-22T20:43:19.725Z",
+    "creatures": [
+        {
+            "id": "apex_plasma_tank_destroyer",
+            "technical": "Apex Plasma Tank Destroyer",
+            "alias": "Apex Plasma Tank",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Apex_Plasma_Tank_Destroyer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "apex_scout_bot_warden",
+            "technical": "Apex Scout Bot Warden",
+            "alias": "Scout Bot",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Apex_Scout_Bot_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "arc_combat_android_scout",
+            "technical": "Arc Combat Android Scout",
+            "alias": "Arc Combat Android",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Arc_Combat_Android_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "arc_hangar_mech",
+            "technical": "Arc Hangar Mech",
+            "alias": "Arc Hangar Mech",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Arc_Hangar_Mech.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "arc_launch_bay_walker",
+            "technical": "Arc Launch Bay Walker",
+            "alias": "Arc Launch Bay Walker",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Arc_Launch_Bay_Walker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "arc_recon_probe",
+            "technical": "Arc Recon Probe",
+            "alias": "Arc Recon Probe",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Arc_Recon_Probe.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "bolt_rail_sniper_warden",
+            "technical": "Bolt Rail Sniper Warden",
+            "alias": "Bolt Rail Sniper",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Bolt_Rail_Sniper_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "carbon_foundry_automaton_sniper",
+            "technical": "Carbon Foundry Automaton Sniper",
+            "alias": "Carbon Foundry Automaton",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Carbon_Foundry_Automaton_Sniper.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "carbon_pulse_crawler_engineer",
+            "technical": "Carbon Pulse Crawler Engineer",
+            "alias": "Carbon Pulse Crawler",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Carbon_Pulse_Crawler_Engineer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "carbon_war_factory_chassis_bulwark",
+            "technical": "Carbon War Factory Chassis Bulwark",
+            "alias": "Carbon War Factory Chassis",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Carbon_War_Factory_Chassis_Bulwark.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "chrome_bipedal_assault_frame_overwatch",
+            "technical": "Chrome Bipedal Assault Frame Overwatch",
+            "alias": "Bipedal Assault Frame",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Chrome_Bipedal_Assault_Frame_Overwatch.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "chrome_hexapod_siege_platform_pathfinder",
+            "technical": "Chrome Hexapod Siege Platform Pathfinder",
+            "alias": "Chrome Hexapod Siege Platform",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Chrome_Hexapod_Siege_Platform_Pathfinder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cobalt_hover_artillery_platform",
+            "technical": "Cobalt Hover Artillery Platform",
+            "alias": "Cobalt Hover Artillery Platform",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Cobalt_Hover_Artillery_Platform.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cobalt_orbital_drop_pod",
+            "technical": "Cobalt Orbital Drop Pod",
+            "alias": "Cobalt Orbital Drop Pod",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Cobalt_Orbital_Drop_Pod.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cobalt_pulse_crawler_interceptor",
+            "technical": "Cobalt Pulse Crawler Interceptor",
+            "alias": "Cobalt Pulse Crawler",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Cobalt_Pulse_Crawler_Interceptor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cobalt_sentinel_striker",
+            "technical": "Cobalt Sentinel Striker",
+            "alias": "Sentinel Striker",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Cobalt_Sentinel_Striker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "combat_nano_swarm_host",
+            "technical": "Combat Nano Swarm Host",
+            "alias": "Nano Swarm Host",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Combat_Nano_Swarm_Host.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cryo_lab_complex_bulwark_warden",
+            "technical": "Cryo Lab Complex Bulwark Warden",
+            "alias": "Cryo Lab Complex Bulwark",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Cryo_Lab_Complex_Bulwark_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cryo_loader_mech",
+            "technical": "Cryo Loader Mech",
+            "alias": "Loader Mech",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Cryo_Loader_Mech.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cryo_winged_drone_support",
+            "technical": "Cryo Winged Drone Support",
+            "alias": "Cryo Winged Drone",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Cryo_Winged_Drone_Support.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cyber_blade_runner_unit",
+            "technical": "Cyber Blade Runner Unit",
+            "alias": "Cyber Blade Runner Unit",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Cyber_Blade_Runner_Unit.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cyber_golem_pathfinder",
+            "technical": "Cyber Golem Pathfinder",
+            "alias": "Golem Pathfinder",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Cyber_Golem_Pathfinder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "drone_nano_swarm_host",
+            "technical": "Drone Nano Swarm Host",
+            "alias": "Drone Nano Swarm Host",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Drone_Nano_Swarm_Host.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "echo_crawler_vanguard",
+            "technical": "Echo Crawler Vanguard",
+            "alias": "Crawler Vanguard",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Echo_Crawler_Vanguard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "echo_rail_sniper",
+            "technical": "Echo Rail Sniper",
+            "alias": "Rail Sniper",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Echo_Rail_Sniper.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "fusion_combat_android_bulwark",
+            "technical": "Fusion Combat Android Bulwark",
+            "alias": "Fusion Combat Android",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Fusion_Combat_Android_Bulwark.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "fusion_golem_demolisher",
+            "technical": "Fusion Golem Demolisher",
+            "alias": "Golem Demolisher",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Fusion_Golem_Demolisher.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "fusion_recon_probe_scout",
+            "technical": "Fusion Recon Probe Scout",
+            "alias": "Fusion Recon Probe",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Fusion_Recon_Probe_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "heavy_assault_mech",
+            "technical": "Heavy Assault Mech",
+            "alias": "Heavy Assault Mech",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Heavy_Assault_Mech.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "heavy_crawler_spotter",
+            "technical": "Heavy Crawler Spotter",
+            "alias": "Crawler Spotter",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Heavy_Crawler_Spotter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hex_drone_destroyer",
+            "technical": "Hex Drone Destroyer",
+            "alias": "Drone Destroyer",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Hex_Drone_Destroyer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hex_golem_heavy",
+            "technical": "Hex Golem Heavy",
+            "alias": "Golem Heavy",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Hex_Golem_Heavy.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hex_hover_artillery_platform",
+            "technical": "Hex Hover Artillery Platform",
+            "alias": "Hex Hover Artillery Platform",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Hex_Hover_Artillery_Platform.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hex_walker_support",
+            "technical": "Hex Walker Support",
+            "alias": "Walker Support",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Hex_Walker_Support.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hyper_orbital_drop_pod_spotter",
+            "technical": "Hyper Orbital Drop Pod Spotter",
+            "alias": "Hyper Orbital Drop Pod",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Hyper_Orbital_Drop_Pod_Spotter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ion_assault_mech",
+            "technical": "Ion Assault Mech",
+            "alias": "Assault Mech",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Ion_Assault_Mech.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ion_battle_drone",
+            "technical": "Ion Battle Drone",
+            "alias": "Ion Battle Drone",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Ion_Battle_Drone.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ion_battle_drone_support",
+            "technical": "Ion Battle Drone Support",
+            "alias": "Ion Battle Drone",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Ion_Battle_Drone_Support.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ironclad_crawler_scout",
+            "technical": "Ironclad Crawler Scout",
+            "alias": "Crawler Scout",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Ironclad_Crawler_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ironclad_sentinel",
+            "technical": "Ironclad Sentinel",
+            "alias": "Ironclad Sentinel",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Ironclad_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jet_chassis",
+            "technical": "Jet Chassis",
+            "alias": "Jet Chassis",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Jet_Chassis.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jet_core_guardian",
+            "technical": "Jet Core Guardian",
+            "alias": "Jet Core Guardian",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Jet_Core_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jet_hexapod_siege_platform_bulwark",
+            "technical": "Jet Hexapod Siege Platform Bulwark",
+            "alias": "Jet Hexapod Siege Platform",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Jet_Hexapod_Siege_Platform_Bulwark.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jet_hexapod_siege_platform_interceptor",
+            "technical": "Jet Hexapod Siege Platform Interceptor",
+            "alias": "Hexapod Siege Platform",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Jet_Hexapod_Siege_Platform_Interceptor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jet_loader_mech_heavy",
+            "technical": "Jet Loader Mech Heavy",
+            "alias": "Jet Loader Mech",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Jet_Loader_Mech_Heavy.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jet_swarm_raider",
+            "technical": "Jet Swarm Raider",
+            "alias": "Swarm Raider",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Jet_Swarm_Raider.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jet_titan_chassis_support",
+            "technical": "Jet Titan Chassis Support",
+            "alias": "Titan Chassis",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Jet_Titan_Chassis_Support.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "jet_war_factory_android",
+            "technical": "Jet War Factory Android",
+            "alias": "Jet War Factory Android",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Jet_War_Factory_Android.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "kinetic_scrapyard_golem_striker",
+            "technical": "Kinetic Scrapyard Golem Striker",
+            "alias": "Kinetic Scrapyard Golem",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Kinetic_Scrapyard_Golem_Striker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lumen_android_overwatch",
+            "technical": "Lumen Android Overwatch",
+            "alias": "Android Overwatch",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Lumen_Android_Overwatch.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lumen_combat_android",
+            "technical": "Lumen Combat Android",
+            "alias": "Lumen Combat Android",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Lumen_Combat_Android.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lumen_command_frame",
+            "technical": "Lumen Command Frame",
+            "alias": "Lumen Command Frame",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Lumen_Command_Frame.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lumen_command_frame_destroyer",
+            "technical": "Lumen Command Frame Destroyer",
+            "alias": "Command Frame",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Lumen_Command_Frame_Destroyer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lumen_medic_droid_controller",
+            "technical": "Lumen Medic Droid Controller",
+            "alias": "Lumen Medic Droid",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Lumen_Medic_Droid_Controller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lumen_winged_drone",
+            "technical": "Lumen Winged Drone",
+            "alias": "Winged Drone",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Lumen_Winged_Drone.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "magpulse_hexapod_siege_platform",
+            "technical": "Magpulse Hexapod Siege Platform",
+            "alias": "Magpulse Hexapod Siege Platform",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Magpulse_Hexapod_Siege_Platform.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "mech_grid_node_walker",
+            "technical": "Mech Grid Node Walker",
+            "alias": "Mech Grid Node Walker",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Mech_Grid_Node_Walker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "neon_lab_complex_droid_overwatch",
+            "technical": "Neon Lab Complex Droid Overwatch",
+            "alias": "Neon Lab Complex Droid",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Neon_Lab_Complex_Droid_Overwatch.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "neon_rail_sniper_demolisher",
+            "technical": "Neon Rail Sniper Demolisher",
+            "alias": "Neon Rail Sniper",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Neon_Rail_Sniper_Demolisher.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "null_quad_walker_overwatch",
+            "technical": "Null Quad Walker Overwatch",
+            "alias": "Null Quad Walker",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Null_Quad_Walker_Overwatch.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "null_spider_unit_vanguard",
+            "technical": "Null Spider Unit Vanguard",
+            "alias": "Spider Unit",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Null_Spider_Unit_Vanguard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "omega_deep_mine_interceptor_interceptor",
+            "technical": "Omega Deep Mine Interceptor Interceptor",
+            "alias": "Omega Deep Mine Interceptor",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Omega_Deep_Mine_Interceptor_Interceptor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "omega_hover_sentinel_overwatch",
+            "technical": "Omega Hover Sentinel Overwatch",
+            "alias": "Omega Hover Sentinel",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Omega_Hover_Sentinel_Overwatch.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "omega_ice_moon_frame_overwatch",
+            "technical": "Omega Ice Moon Frame Overwatch",
+            "alias": "Omega Ice Moon Frame",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Omega_Ice_Moon_Frame_Overwatch.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "omega_swarm_overwatch",
+            "technical": "Omega Swarm Overwatch",
+            "alias": "Swarm Overwatch",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Omega_Swarm_Overwatch.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "orbit_heavy_frame_breacher",
+            "technical": "Orbit Heavy Frame Breacher",
+            "alias": "Orbit Heavy Frame",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Orbit_Heavy_Frame_Breacher.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "orbit_wrecker_bot_scout",
+            "technical": "Orbit Wrecker Bot Scout",
+            "alias": "Orbit Wrecker Bot",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Orbit_Wrecker_Bot_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "plasma_core_guardian_striker",
+            "technical": "Plasma Core Guardian Striker",
+            "alias": "Core Guardian",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Plasma_Core_Guardian_Striker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "pulse_heavy_frame",
+            "technical": "Pulse Heavy Frame",
+            "alias": "Pulse Heavy Frame",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Pulse_Heavy_Frame.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quantum_artillery_frame",
+            "technical": "Quantum Artillery Frame",
+            "alias": "Quantum Artillery Frame",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Quantum_Artillery_Frame.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quantum_asteroid_walker_heavy",
+            "technical": "Quantum Asteroid Walker Heavy",
+            "alias": "Quantum Asteroid Walker",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Quantum_Asteroid_Walker_Heavy.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quantum_desert_outpost_automaton",
+            "technical": "Quantum Desert Outpost Automaton",
+            "alias": "Quantum Desert Outpost Automaton",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Quantum_Desert_Outpost_Automaton.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "quantum_medic_droid_scout",
+            "technical": "Quantum Medic Droid Scout",
+            "alias": "Medic Droid",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Quantum_Medic_Droid_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "rail_spider_unit_vanguard",
+            "technical": "Rail Spider Unit Vanguard",
+            "alias": "Rail Spider Unit",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Rail_Spider_Unit_Vanguard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "razor_nano_swarm_host_heavy",
+            "technical": "Razor Nano Swarm Host Heavy",
+            "alias": "Razor Nano Swarm Host",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Razor_Nano_Swarm_Host_Heavy.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "reactor_titan_chassis_warden",
+            "technical": "Reactor Titan Chassis Warden",
+            "alias": "Reactor Titan Chassis",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Reactor_Titan_Chassis_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "siege_hover_artillery_platform",
+            "technical": "Siege Hover Artillery Platform",
+            "alias": "Hover Artillery Platform",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Siege_Hover_Artillery_Platform.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "silent_stealth_unit_overwatch",
+            "technical": "Silent Stealth Unit Overwatch",
+            "alias": "Silent Stealth Unit",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Silent_Stealth_Unit_Overwatch.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "silent_wrecker_bot",
+            "technical": "Silent Wrecker Bot",
+            "alias": "Silent Wrecker Bot",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Silent_Wrecker_Bot.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "steel_forge_automaton_striker",
+            "technical": "Steel Forge Automaton Striker",
+            "alias": "Steel Forge Automaton",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Steel_Forge_Automaton_Striker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "steel_frame",
+            "technical": "Steel Frame",
+            "alias": "Steel Frame",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Steel_Frame.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "steel_scout_bot",
+            "technical": "Steel Scout Bot",
+            "alias": "Steel Scout Bot",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Steel_Scout_Bot.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tactical_plasma_tank_interceptor",
+            "technical": "Tactical Plasma Tank Interceptor",
+            "alias": "Plasma Tank",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Tactical_Plasma_Tank_Interceptor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tactical_rail_sniper_bulwark",
+            "technical": "Tactical Rail Sniper Bulwark",
+            "alias": "Tactical Rail Sniper",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Tactical_Rail_Sniper_Bulwark.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tactical_recon_probe",
+            "technical": "Tactical Recon Probe",
+            "alias": "Tactical Recon Probe",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Tactical_Recon_Probe.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tactical_tri_pod_siege_caster_pathfinder",
+            "technical": "Tactical Tri-Pod Siege Caster Pathfinder",
+            "alias": "Tactical Tri-Pod Siege Caster",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Tactical_Tri_Pod_Siege_Caster_Pathfinder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "titan_blade_runner_unit",
+            "technical": "Titan Blade Runner Unit",
+            "alias": "Titan Blade Runner Unit",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Titan_Blade_Runner_Unit.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "turbo_core_guardian_warden",
+            "technical": "Turbo Core Guardian Warden",
+            "alias": "Turbo Core Guardian",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Turbo_Core_Guardian_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "turbo_medic_droid",
+            "technical": "Turbo Medic Droid",
+            "alias": "Turbo Medic Droid",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Turbo_Medic_Droid.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "turbo_spider_unit_heavy",
+            "technical": "Turbo Spider Unit Heavy",
+            "alias": "Turbo Spider Unit",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Turbo_Spider_Unit_Heavy.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "void_battle_drone_destroyer",
+            "technical": "Void Battle Drone Destroyer",
+            "alias": "Void Battle Drone",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Void_Battle_Drone_Destroyer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "warp_quad_walker_pathfinder",
+            "technical": "Warp Quad Walker Pathfinder",
+            "alias": "Warp Quad Walker",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Warp_Quad_Walker_Pathfinder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "zero_quad_walker_bulwark",
+            "technical": "Zero Quad Walker Bulwark",
+            "alias": "Zero Quad Walker",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Zero_Quad_Walker_Bulwark.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "zero_recon_probe",
+            "technical": "Zero Recon Probe",
+            "alias": "Zero Recon Probe",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Zero_Recon_Probe.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "zero_shield_guardian",
+            "technical": "Zero Shield Guardian",
+            "alias": "Shield Guardian",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Zero_Shield_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "zero_spider_unit",
+            "technical": "Zero Spider Unit",
+            "alias": "Zero Spider Unit",
+            "genre": "ultra_tech",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/ultra_tech/creatures/original/Zero_Spider_Unit.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        }
+    ]
+}

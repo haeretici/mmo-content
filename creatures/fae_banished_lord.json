@@ -1,0 +1,365 @@
+{
+    "id": "fae_banished_lord",
+    "label": "Fae Banished Lord",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A fae banished lord.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 125,
+    "level": 850,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 0,
+    "lootValue": 32221.052631579,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 5,
+        "earth": 0,
+        "holy": 0,
+        "death": 10
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 1000
+        },
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 3600,
+            "chance": 17,
+            "range": 4,
+            "element": "fire",
+            "min": 500,
+            "max": 1500,
+            "length": 5,
+            "spread": 2,
+            "target": false,
+            "effect": "me_firearea"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 4100,
+            "chance": 20,
+            "range": 4,
+            "element": "fire",
+            "min": 500,
+            "max": 2000,
+            "length": 8,
+            "spread": 0,
+            "target": false,
+            "effect": "me_firearea"
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 4700,
+            "chance": 17,
+            "range": 4,
+            "element": "ice",
+            "min": 500,
+            "max": 1500,
+            "length": 5,
+            "spread": 2,
+            "target": false,
+            "effect": "me_iceattack"
+        },
+        {
+            "id": "wave_4",
+            "kind": "wave",
+            "intervalMs": 3100,
+            "chance": 20,
+            "range": 4,
+            "element": "ice",
+            "min": 500,
+            "max": 2000,
+            "length": 8,
+            "spread": 0,
+            "target": false,
+            "effect": "me_icetornado"
+        },
+        {
+            "id": "slow_5",
+            "kind": "status",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "element": "physical",
+            "min": 0,
+            "max": 0,
+            "statusOnly": true,
+            "condition": {
+                "type": "slow",
+                "speedChange": -700,
+                "durationSec": 30
+            },
+            "radius": 1,
+            "effect": "me_magic_red",
+            "target": true
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "chance": 6250,
+            "name": "Ring of Blue Plasma",
+            "id": "ring_of_blue_plasma"
+        },
+        {
+            "chance": 16670,
+            "name": "Ring of Green Plasma",
+            "id": "ring_of_green_plasma"
+        },
+        {
+            "chance": 3130,
+            "name": "Ring of Green Plasma",
+            "id": "ring_of_green_plasma"
+        },
+        {
+            "chance": 33330,
+            "name": "Collar of Blue Plasma",
+            "id": "collar_of_blue_plasma"
+        },
+        {
+            "chance": 9380,
+            "name": "Collar of Blue Plasma",
+            "id": "collar_of_blue_plasma"
+        },
+        {
+            "chance": 12500,
+            "name": "Collar of Green Plasma",
+            "id": "collar_of_green_plasma"
+        },
+        {
+            "chance": 9380,
+            "name": "Collar of Red Plasma",
+            "id": "collar_of_red_plasma"
+        },
+        {
+            "chance": 33330,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "chance": 3130,
+            "name": "Arcane Staff",
+            "id": "arcane_staff"
+        },
+        {
+            "name": "Berserk Potion",
+            "id": "berserk_potion",
+            "chance": 18750
+        },
+        {
+            "name": "Blue Gem",
+            "id": "blue_gem",
+            "chance": 50000
+        },
+        {
+            "name": "Marksman Potion",
+            "id": "marksman_potion",
+            "chance": 25000
+        },
+        {
+            "name": "Maelstrom Mace",
+            "id": "maelstrom_mace",
+            "chance": 9380
+        },
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "chance": 33330,
+            "maxCount": 3
+        },
+        {
+            "name": "energy bar",
+            "chance": 100000
+        },
+        {
+            "name": "energy bar",
+            "chance": 93750
+        },
+        {
+            "name": "giant sapphire",
+            "chance": 3130
+        },
+        {
+            "chance": 33330,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "name": "Gold Ingot",
+            "id": "gold_ingot",
+            "chance": 33330
+        },
+        {
+            "name": "gold token",
+            "chance": 71880
+        },
+        {
+            "name": "Green Gem",
+            "id": "green_gem",
+            "chance": 21880,
+            "maxCount": 2
+        },
+        {
+            "name": "huge chunk of crude iron",
+            "chance": 33330
+        },
+        {
+            "name": "izcandar's snow globe",
+            "chance": 3130
+        },
+        {
+            "name": "izcandar's sundial",
+            "chance": 3130
+        },
+        {
+            "name": "magic sulphur",
+            "chance": 16670
+        },
+        {
+            "name": "Savant Potion",
+            "id": "savant_potion",
+            "chance": 9380
+        },
+        {
+            "name": "mysterious remains",
+            "chance": 93750
+        },
+        {
+            "name": "piggy bank",
+            "chance": 93750
+        },
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 100000,
+            "maxCount": 9
+        },
+        {
+            "name": "pomegranate",
+            "chance": 16670
+        },
+        {
+            "name": "Celestial Band",
+            "id": "celestial_band",
+            "chance": 12500
+        },
+        {
+            "name": "Royal Star",
+            "id": "royal_star",
+            "chance": 50000,
+            "maxCount": 199
+        },
+        {
+            "name": "silver token",
+            "chance": 100000,
+            "maxCount": 2
+        },
+        {
+            "name": "Bone Skull Staff",
+            "id": "bone_skull_staff",
+            "chance": 6250
+        },
+        {
+            "name": "soul stone",
+            "chance": 16670
+        },
+        {
+            "name": "Summerblade",
+            "id": "summerblade",
+            "chance": 3130
+        },
+        {
+            "name": "Supreme Health Potion",
+            "id": "supreme_health_potion",
+            "chance": 66670,
+            "maxCount": 14
+        },
+        {
+            "name": "Ultimate Mana Potion",
+            "id": "ultimate_mana_potion",
+            "chance": 56250,
+            "maxCount": 20
+        },
+        {
+            "name": "Ultimate Dual Potion",
+            "id": "ultimate_dual_potion",
+            "chance": 66670,
+            "maxCount": 5
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 3130
+        },
+        {
+            "name": "Winterblade",
+            "id": "winterblade",
+            "chance": 6250
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "chance": 34380,
+            "maxCount": 2
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "ember_ogre_ravager",
+    "threatDps": 475.0132,
+    "burstDps": 670,
+    "avgHit": 681.8152,
+    "maxHit": 2000,
+    "manaCost": 0
+}

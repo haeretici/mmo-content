@@ -1,0 +1,317 @@
+{
+    "id": "abyss_crawler",
+    "label": "Abyss Crawler",
+    "notes": "An abyss crawler.",
+    "customSprite": "lava_phoenix_assassin",
+    "displayScale": 1,
+    "hp": 4100,
+    "hpMax": 4100,
+    "speed": 200,
+    "level": 566,
+    "threatDps": 97.7125,
+    "burstDps": 97.7125,
+    "avgHit": 134.7759,
+    "maxHit": 439,
+    "armor": 74,
+    "mitigation": 2.31,
+    "exp": 3740,
+    "lootValue": 1157.6416117784,
+    "aggro": true,
+    "canBlock": false,
+    "manaCost": 0,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "bestiary": {
+        "class": "Magical",
+        "toKill": 2500,
+        "firstUnlock": 100,
+        "secondUnlock": 1000,
+        "charmsPoints": 50,
+        "stars": 4,
+        "occurrence": 0
+    },
+    "resists": {
+        "physical": 5,
+        "fire": 10,
+        "ice": 5,
+        "energy": 15,
+        "earth": 20,
+        "holy": -5,
+        "death": 10
+    },
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 15,
+            "min": 250,
+            "max": 425,
+            "hpBelow": 0.7,
+            "effect": "me_hitbypoison"
+        }
+    ],
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "element": "physical",
+            "intervalMs": 2000,
+            "chance": 100,
+            "min": 0,
+            "max": 251
+        },
+        {
+            "id": "condition_1",
+            "kind": "area",
+            "element": "physical",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "radius": 3,
+            "min": 0,
+            "max": 0,
+            "target": false,
+            "effect": "me_drawblood",
+            "shootEffect": "31",
+            "statusOnly": true,
+            "condition": {
+                "type": "bleed",
+                "totalDamage": 251,
+                "intervalMs": 2000
+            },
+            "legacyName": "condition"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "element": "lifedrain",
+            "intervalMs": 2000,
+            "chance": 10,
+            "length": 5,
+            "spread": 0,
+            "min": 0,
+            "max": 439,
+            "target": false,
+            "effect": "me_explosionarea"
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "element": "physical",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 4,
+            "radius": 2,
+            "min": 0,
+            "max": 251,
+            "target": true,
+            "effect": "me_stones",
+            "shootEffect": "ani_largerock"
+        },
+        {
+            "id": "slow_4",
+            "kind": "status",
+            "element": "physical",
+            "intervalMs": 2000,
+            "chance": 15,
+            "min": 0,
+            "max": 0,
+            "target": false,
+            "statusOnly": true,
+            "condition": {
+                "type": "slow",
+                "speedChange": -600,
+                "durationSec": 15
+            },
+            "effect": "me_magic_red"
+        },
+        {
+            "id": "area_5",
+            "kind": "area",
+            "element": "manadrain",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "radius": 4,
+            "min": 50,
+            "max": 94,
+            "target": false,
+            "effect": "me_magic_red",
+            "shootEffect": "31"
+        }
+    ],
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "source": "pipeline",
+    "maxBlock": 0,
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 100000,
+            "maxCount": 100
+        },
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 100000,
+            "maxCount": 7
+        },
+        {
+            "name": "banana skin",
+            "chance": 9500
+        },
+        {
+            "name": "piece of iron",
+            "chance": 10400
+        },
+        {
+            "name": "fishbone",
+            "chance": 10000
+        },
+        {
+            "chance": 12680,
+            "name": "skull"
+        },
+        {
+            "chance": 10000,
+            "name": "bone"
+        },
+        {
+            "chance": 5500,
+            "name": "big bone"
+        },
+        {
+            "name": "Two Handed Sword",
+            "id": "two_handed_sword",
+            "chance": 3200
+        },
+        {
+            "chance": 6750,
+            "maxCount": 3,
+            "name": "Fish",
+            "id": "fish"
+        },
+        {
+            "name": "Ham",
+            "id": "ham",
+            "chance": 6000,
+            "maxCount": 2
+        },
+        {
+            "name": "iron ore",
+            "chance": 3000
+        },
+        {
+            "name": "fish fin",
+            "chance": 4700
+        },
+        {
+            "name": "hardened bone",
+            "chance": 5000
+        },
+        {
+            "chance": 10800,
+            "name": "fish tail"
+        },
+        {
+            "name": "Assassin Dagger",
+            "id": "assassin_dagger",
+            "chance": 1000
+        },
+        {
+            "name": "Haunted Blade",
+            "id": "haunted_blade",
+            "chance": 2240
+        },
+        {
+            "name": "Dread Blade",
+            "id": "dread_blade",
+            "chance": 1100
+        },
+        {
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion",
+            "chance": 15000,
+            "maxCount": 3
+        },
+        {
+            "name": "Great Health Potion",
+            "id": "great_health_potion",
+            "chance": 15000,
+            "maxCount": 2
+        },
+        {
+            "name": "Gold Ingot",
+            "id": "gold_ingot",
+            "chance": 2300
+        },
+        {
+            "name": "Sai",
+            "id": "sai",
+            "chance": 1460
+        },
+        {
+            "name": "violet crystal shard",
+            "chance": 3000
+        },
+        {
+            "name": "brown crystal splinter",
+            "chance": 16000
+        },
+        {
+            "name": "red crystal fragment",
+            "chance": 7600
+        },
+        {
+            "chance": 10000,
+            "name": "crystal rubbish"
+        },
+        {
+            "name": "cluster of solace",
+            "chance": 4450
+        },
+        {
+            "name": "frazzle tongue",
+            "chance": 18760
+        },
+        {
+            "name": "frazzle skin",
+            "chance": 16000
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "id": "memory_of_a_dwarf",
+    "label": "Memory Of A Dwarf",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A memory of a dwarf.",
+    "hp": 3730,
+    "hpMax": 3730,
+    "speed": 103,
+    "level": 556,
+    "armor": 0,
+    "mitigation": 1.1,
+    "maxBlock": 0,
+    "exp": 1460,
+    "lootValue": 179,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "damage": 20,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 371
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 40000,
+            "maxCount": 30
+        },
+        {
+            "name": "Small Amethyst",
+            "id": "small_amethyst",
+            "chance": 140
+        },
+        {
+            "chance": 190,
+            "name": "Axe Ring",
+            "id": "axe_ring"
+        },
+        {
+            "name": "Battle Hammer",
+            "id": "battle_hammer",
+            "chance": 4000
+        },
+        {
+            "name": "Steel Casque",
+            "id": "steel_casque",
+            "chance": 1600
+        },
+        {
+            "name": "Scale Armor",
+            "id": "scale_armor",
+            "chance": 9200
+        },
+        {
+            "name": "Battle Shield",
+            "id": "battle_shield",
+            "chance": 6000
+        },
+        {
+            "name": "White Mushroom",
+            "id": "white_mushroom",
+            "chance": 55000,
+            "maxCount": 2
+        },
+        {
+            "name": "Health Potion",
+            "id": "health_potion",
+            "chance": 380
+        },
+        {
+            "chance": 280,
+            "name": "coal"
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "obsidian_dwarf_warden",
+    "threatDps": 92.75,
+    "burstDps": 92.75,
+    "avgHit": 185.5,
+    "maxHit": 371,
+    "manaCost": 0
+}

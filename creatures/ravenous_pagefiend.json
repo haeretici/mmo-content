@@ -1,0 +1,282 @@
+{
+    "id": "ravenous_pagefiend",
+    "label": "Ravenous Pagefiend",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A ravenous pagefiend.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 50,
+    "level": 716,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 45000,
+    "lootValue": 105228.33333333,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 200,
+        "ice": 20,
+        "energy": 5,
+        "earth": -5,
+        "holy": -5,
+        "death": 10
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 98,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 12,
+            "range": 4,
+            "element": "death",
+            "min": 900,
+            "max": 1500,
+            "length": 8,
+            "spread": 0,
+            "target": false,
+            "effect": "me_mortarea"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 12,
+            "range": 4,
+            "element": "death",
+            "min": 210,
+            "max": 600,
+            "length": 8,
+            "spread": 0,
+            "target": false,
+            "effect": "me_mortarea"
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 12,
+            "range": 7,
+            "element": "death",
+            "min": 210,
+            "max": 600,
+            "radius": 3,
+            "target": false,
+            "effect": "me_mortarea"
+        },
+        {
+            "id": "area_4",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 12,
+            "range": 7,
+            "element": "lifedrain",
+            "min": 1500,
+            "max": 2000,
+            "radius": 3,
+            "target": false,
+            "effect": "me_drawblood"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 90000,
+            "maxCount": 53
+        },
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "chance": 90000,
+            "maxCount": 12
+        },
+        {
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion",
+            "chance": 90000,
+            "maxCount": 8
+        },
+        {
+            "name": "Supreme Health Potion",
+            "id": "supreme_health_potion",
+            "chance": 90000,
+            "maxCount": 8
+        },
+        {
+            "name": "Ultimate Mana Potion",
+            "id": "ultimate_mana_potion",
+            "chance": 90000,
+            "maxCount": 10
+        },
+        {
+            "name": "Ultimate Dual Potion",
+            "id": "ultimate_dual_potion",
+            "chance": 90000,
+            "maxCount": 8
+        },
+        {
+            "name": "silver token",
+            "chance": 90000,
+            "maxCount": 6
+        },
+        {
+            "name": "Marksman Potion",
+            "id": "marksman_potion",
+            "chance": 90000
+        },
+        {
+            "name": "demon horn",
+            "chance": 90000
+        },
+        {
+            "name": "magic sulphur",
+            "chance": 90000
+        },
+        {
+            "chance": 90000,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "name": "Stonehide Amulet",
+            "id": "stonehide_amulet",
+            "chance": 90000
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "chance": 90000
+        },
+        {
+            "name": "Wand of Voodoo",
+            "id": "wand_of_voodoo",
+            "chance": 90000
+        },
+        {
+            "name": "Savant Potion",
+            "id": "savant_potion",
+            "chance": 30000,
+            "maxCount": 2
+        },
+        {
+            "name": "onyx chip",
+            "chance": 30000,
+            "maxCount": 12
+        },
+        {
+            "name": "Small Diamond",
+            "id": "small_diamond",
+            "chance": 30000,
+            "maxCount": 12
+        },
+        {
+            "name": "Small Emerald",
+            "id": "small_emerald",
+            "chance": 30000,
+            "maxCount": 12
+        },
+        {
+            "name": "Small Ruby",
+            "id": "small_ruby",
+            "chance": 30000,
+            "maxCount": 12
+        },
+        {
+            "name": "Small Topaz",
+            "id": "small_topaz",
+            "chance": 30000,
+            "maxCount": 12
+        },
+        {
+            "name": "Blue Gem",
+            "id": "blue_gem",
+            "chance": 30000
+        },
+        {
+            "name": "solid rage",
+            "chance": 30000
+        },
+        {
+            "name": "gold token",
+            "chance": 1000
+        },
+        {
+            "name": "Butcher's Axe",
+            "id": "butchers_axe",
+            "chance": 1000
+        },
+        {
+            "name": "Dreaded Cleaver",
+            "id": "dreaded_cleaver",
+            "chance": 1000
+        },
+        {
+            "name": "Mercenary Sword",
+            "id": "mercenary_sword",
+            "chance": 1000
+        },
+        {
+            "name": "slightly rusted shield",
+            "chance": 5880
+        },
+        {
+            "name": "slightly rusted helmet",
+            "chance": 35290
+        },
+        {
+            "name": "epaulette",
+            "chance": 500
+        },
+        {
+            "name": "giant emerald",
+            "chance": 500
+        },
+        {
+            "name": "unliving fiendbone",
+            "chance": 500
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 4
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "celestial_fiend",
+    "threatDps": 225.6,
+    "burstDps": 225.6,
+    "avgHit": 940,
+    "maxHit": 2000,
+    "manaCost": 0
+}

@@ -1,0 +1,308 @@
+{
+    "id": "bone_dragon_warlord",
+    "label": "Bone Dragon Warlord",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A bone dragon warlord.",
+    "hp": 13000,
+    "hpMax": 13000,
+    "speed": 165,
+    "level": 680,
+    "armor": 0,
+    "mitigation": 1.94,
+    "maxBlock": 0,
+    "exp": 9900,
+    "lootValue": 25415.170454545,
+    "aggro": true,
+    "resists": {
+        "physical": 20,
+        "fire": 100,
+        "ice": 50,
+        "energy": -10,
+        "earth": 100,
+        "holy": 0,
+        "death": 100
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 700,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 416
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 5,
+            "range": 7,
+            "element": "physical",
+            "min": 260,
+            "max": 347,
+            "radius": 4,
+            "target": true,
+            "effect": "me_hitarea"
+        },
+        {
+            "id": "ranged_2",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 7,
+            "element": "death",
+            "min": 108,
+            "max": 521,
+            "target": false,
+            "effect": "me_smallclouds",
+            "shootEffect": "ani_suddendeath"
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 5,
+            "range": 7,
+            "element": "earth",
+            "min": 87,
+            "max": 338,
+            "radius": 4,
+            "target": true,
+            "effect": "me_poisonarea",
+            "shootEffect": "ani_poison"
+        },
+        {
+            "id": "ranged_4",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 7,
+            "element": "earth",
+            "min": 0,
+            "max": 156,
+            "target": true,
+            "effect": "me_poisonarea",
+            "shootEffect": "ani_poison"
+        },
+        {
+            "id": "wave_5",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "earth",
+            "min": 130,
+            "max": 599,
+            "length": 8,
+            "spread": 3,
+            "target": false,
+            "effect": "me_poisonarea"
+        },
+        {
+            "id": "wave_6",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 260,
+            "max": 607,
+            "length": 8,
+            "spread": 3,
+            "target": false,
+            "effect": "me_magic_red"
+        },
+        {
+            "id": "area_7",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 87,
+            "max": 174,
+            "radius": 3,
+            "target": false,
+            "effect": "me_magic_red"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 15,
+            "min": 200,
+            "max": 250,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "undead",
+    "loot": [
+        {
+            "chance": 100000,
+            "name": "Death Ring",
+            "id": "death_ring"
+        },
+        {
+            "chance": 100000,
+            "name": "Wyrmbone Staff",
+            "id": "wyrmbone_staff"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 100,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 100000,
+            "name": "golden mug"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 10,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 3,
+            "name": "unholy bone"
+        },
+        {
+            "chance": 78000,
+            "name": "Gold Ingot",
+            "id": "gold_ingot"
+        },
+        {
+            "chance": 56000,
+            "name": "demonic essence"
+        },
+        {
+            "chance": 47270,
+            "name": "Guardian Armor",
+            "id": "guardian_armor"
+        },
+        {
+            "chance": 40000,
+            "name": "Crown Helmet",
+            "id": "crown_helmet"
+        },
+        {
+            "chance": 37000,
+            "maxCount": 3,
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion"
+        },
+        {
+            "chance": 37000,
+            "maxCount": 5,
+            "name": "hardened bone"
+        },
+        {
+            "chance": 37000,
+            "name": "Jade Hat",
+            "id": "jade_hat"
+        },
+        {
+            "chance": 35000,
+            "maxCount": 4,
+            "name": "Great Health Potion",
+            "id": "great_health_potion"
+        },
+        {
+            "chance": 35000,
+            "name": "slightly rusted armor"
+        },
+        {
+            "chance": 33000,
+            "maxCount": 5,
+            "name": "Small Emerald",
+            "id": "small_emerald"
+        },
+        {
+            "chance": 33000,
+            "maxCount": 5,
+            "name": "Small Sapphire",
+            "id": "small_sapphire"
+        },
+        {
+            "chance": 25000,
+            "maxCount": 3,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 13500,
+            "name": "Gilded Plate",
+            "id": "gilded_plate"
+        },
+        {
+            "chance": 6780,
+            "name": "maxilla maximus"
+        },
+        {
+            "chance": 5000,
+            "name": "Skull Helmet",
+            "id": "skull_helmet"
+        },
+        {
+            "chance": 3390,
+            "name": "Divine Plate",
+            "id": "divine_plate"
+        },
+        {
+            "chance": 1690,
+            "name": "Royal Helmet",
+            "id": "royal_helmet"
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 6
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "wild_desert_dragon",
+    "threatDps": 184.9,
+    "burstDps": 184.9,
+    "avgHit": 224.1212,
+    "maxHit": 607,
+    "manaCost": 0
+}

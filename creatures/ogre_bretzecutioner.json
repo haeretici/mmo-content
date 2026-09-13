@@ -1,0 +1,239 @@
+{
+    "id": "ogre_bretzecutioner",
+    "label": "Ogre Bretzecutioner",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "An ogre bretzecutioner.",
+    "hp": 5600,
+    "hpMax": 5600,
+    "speed": 135,
+    "level": 597,
+    "armor": 0,
+    "mitigation": 2.04,
+    "maxBlock": 0,
+    "exp": 3700,
+    "lootValue": 16619.783783784,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 30,
+        "ice": -14,
+        "energy": 100,
+        "earth": 20,
+        "holy": 0,
+        "death": 20
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 70,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 439
+        },
+        {
+            "id": "ranged_1",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 7,
+            "element": "physical",
+            "min": 0,
+            "max": 171,
+            "target": false,
+            "shootEffect": "ani_largerock"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "haste_0",
+            "kind": "haste",
+            "intervalMs": 2000,
+            "chance": 15,
+            "speedChange": 420,
+            "durationSec": 5,
+            "effect": "me_magic_red"
+        }
+    ],
+    "race": "undead",
+    "loot": [
+        {
+            "chance": 100000,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 98,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 100000,
+            "name": "Meat",
+            "id": "meat"
+        },
+        {
+            "chance": 64000,
+            "name": "demonic essence"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 10,
+            "name": "Nightshade Star",
+            "id": "nightshade_star"
+        },
+        {
+            "chance": 68000,
+            "name": "Dark Armor",
+            "id": "dark_armor"
+        },
+        {
+            "chance": 28000,
+            "maxCount": 5,
+            "name": "Small Amethyst",
+            "id": "small_amethyst"
+        },
+        {
+            "chance": 40000,
+            "maxCount": 5,
+            "name": "Small Sapphire",
+            "id": "small_sapphire"
+        },
+        {
+            "chance": 32000,
+            "maxCount": 5,
+            "name": "Small Diamond",
+            "id": "small_diamond"
+        },
+        {
+            "chance": 100000,
+            "name": "metal spike"
+        },
+        {
+            "chance": 32000,
+            "name": "Spiked Squelcher",
+            "id": "spiked_squelcher"
+        },
+        {
+            "chance": 100000,
+            "maxCount": 8,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 24000,
+            "name": "Colossus Blade",
+            "id": "colossus_blade"
+        },
+        {
+            "chance": 44000,
+            "maxCount": 3,
+            "name": "Great Health Potion",
+            "id": "great_health_potion"
+        },
+        {
+            "chance": 44000,
+            "maxCount": 3,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 44000,
+            "maxCount": 3,
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion"
+        },
+        {
+            "chance": 48000,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "chance": 48000,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "chance": 4000,
+            "name": "Steel Boots",
+            "id": "steel_boots"
+        },
+        {
+            "chance": 24000,
+            "name": "Maelstrom Mace",
+            "id": "maelstrom_mace"
+        },
+        {
+            "chance": 12000,
+            "name": "Dreaded Cleaver",
+            "id": "dreaded_cleaver"
+        },
+        {
+            "chance": 24000,
+            "name": "Crystal Necklace",
+            "id": "crystal_necklace"
+        },
+        {
+            "chance": 16000,
+            "name": "Dark Shield",
+            "id": "dark_shield"
+        },
+        {
+            "chance": 100000,
+            "name": "Death Ring",
+            "id": "death_ring"
+        },
+        {
+            "chance": 4000,
+            "name": "Skull Helmet",
+            "id": "skull_helmet"
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "ember_ogre_ravager",
+    "threatDps": 116.1625,
+    "burstDps": 116.1625,
+    "avgHit": 202.0217,
+    "maxHit": 439,
+    "manaCost": 0
+}

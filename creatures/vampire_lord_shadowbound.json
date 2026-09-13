@@ -1,0 +1,276 @@
+{
+    "id": "vampire_lord_shadowbound",
+    "label": "Vampire Lord Shadowbound",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A vampire lord shadowbound.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 125,
+    "level": 821,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 55000,
+    "lootValue": 29161.666666667,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": -10,
+        "ice": 0,
+        "energy": 5,
+        "earth": 360,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 1000,
+            "effect": "me_drawblood"
+        },
+        {
+            "id": "lord_azaram_wave_1",
+            "kind": "melee",
+            "intervalMs": 3500,
+            "chance": 50,
+            "range": 1,
+            "element": "physical",
+            "min": 360,
+            "max": 900
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 2700,
+            "chance": 20,
+            "range": 4,
+            "element": "earth",
+            "min": 500,
+            "max": 1200,
+            "length": 7,
+            "spread": 0,
+            "target": false,
+            "effect": "me_stones"
+        }
+    ],
+    "race": "venom",
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "minCount": 1,
+            "maxCount": 5,
+            "chance": 100000
+        },
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "minCount": 0,
+            "maxCount": 2,
+            "chance": 50000
+        },
+        {
+            "name": "Supreme Health Potion",
+            "id": "supreme_health_potion",
+            "minCount": 0,
+            "maxCount": 6,
+            "chance": 35000
+        },
+        {
+            "name": "Ultimate Mana Potion",
+            "id": "ultimate_mana_potion",
+            "minCount": 0,
+            "maxCount": 20,
+            "chance": 32000
+        },
+        {
+            "name": "Ultimate Dual Potion",
+            "id": "ultimate_dual_potion",
+            "minCount": 0,
+            "maxCount": 20,
+            "chance": 32000
+        },
+        {
+            "name": "Marksman Potion",
+            "id": "marksman_potion",
+            "minCount": 0,
+            "maxCount": 10,
+            "chance": 12000
+        },
+        {
+            "name": "Berserk Potion",
+            "id": "berserk_potion",
+            "minCount": 0,
+            "maxCount": 10,
+            "chance": 12000
+        },
+        {
+            "name": "piece of hell steel",
+            "minCount": 0,
+            "maxCount": 4,
+            "chance": 9000
+        },
+        {
+            "minCount": 0,
+            "maxCount": 2,
+            "chance": 12000,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "name": "Blue Gem",
+            "id": "blue_gem",
+            "minCount": 0,
+            "maxCount": 2,
+            "chance": 12000
+        },
+        {
+            "name": "silver token",
+            "minCount": 0,
+            "maxCount": 2,
+            "chance": 9500
+        },
+        {
+            "name": "ancient liche bone",
+            "chance": 5200
+        },
+        {
+            "chance": 5200,
+            "name": "Collar of Blue Plasma",
+            "id": "collar_of_blue_plasma"
+        },
+        {
+            "chance": 5200,
+            "name": "Collar of Red Plasma",
+            "id": "collar_of_red_plasma"
+        },
+        {
+            "chance": 5200,
+            "name": "Collar of Green Plasma",
+            "id": "collar_of_green_plasma"
+        },
+        {
+            "name": "giant sapphire",
+            "chance": 7000
+        },
+        {
+            "name": "Haunted Blade",
+            "id": "haunted_blade",
+            "chance": 9000
+        },
+        {
+            "name": "huge chunk of crude iron",
+            "chance": 4500
+        },
+        {
+            "name": "Guardian Armor",
+            "id": "guardian_armor",
+            "chance": 15000
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "minCount": 0,
+            "maxCount": 1,
+            "chance": 10000
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "minCount": 0,
+            "maxCount": 1,
+            "chance": 10000
+        },
+        {
+            "chance": 5000,
+            "name": "Ring of Green Plasma",
+            "id": "ring_of_green_plasma"
+        },
+        {
+            "chance": 5000,
+            "name": "Ring of Red Plasma",
+            "id": "ring_of_red_plasma"
+        },
+        {
+            "name": "young lich worm",
+            "chance": 5800
+        },
+        {
+            "name": "Bear Skin",
+            "id": "bear_skin",
+            "chance": 1600
+        },
+        {
+            "name": "noble cape",
+            "chance": 1500
+        },
+        {
+            "name": "Earthbound Helmet",
+            "id": "earthbound_helmet",
+            "chance": 720
+        },
+        {
+            "name": "final judgement",
+            "chance": 410
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "hellfire_vampire_archer",
+    "threatDps": 402.963,
+    "burstDps": 492.5,
+    "avgHit": 562.0664,
+    "maxHit": 1200,
+    "manaCost": 0,
+    "summon": {
+        "maxSummons": 5,
+        "summons": [
+            {
+                "name": "Condensed Sins",
+                "id": "condensed_sins",
+                "chance": 50,
+                "interval": 2000,
+                "count": 5
+            }
+        ]
+    }
+}

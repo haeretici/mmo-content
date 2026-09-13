@@ -1,0 +1,112 @@
+Pulse Sky Dancer Antihero	Sky Dancer
+Chrome Frost Binder	Frost Binder
+Razor Flame Wielder	Flame Wielder
+Titan Crystal Mage Sentinel	Crystal Mage
+Nova Living Energy Construct Rogue	Living Energy Construct
+Golden Armored Power Suit Wearer	Armored Power Suit Wearer
+Ultra Hex Caster Antihero	Hex Caster
+Lumen Ground Shaker Outlaw	Ground Shaker
+Titan Wind Archer Vigilante	Wind Archer
+Dark Plasma Blaster Enforcer	Plasma Blaster
+Crimson Shadow Stalker Champion	Shadow Stalker
+Shadow Ember Vanguard	Ember Vanguard
+Obsidian Pulse Striker Vigilante	Pulse Striker
+Quantum Storm Caller	Storm Caller
+Swift Neon Trickster Rogue	Neon Trickster
+Hyper Velocity Runner Scout	Velocity Runner
+Pulse Steel Brawler Antihero	Pulse Steel Brawler
+Chrome Light Bearer	Chrome Light Bearer
+Razor Sky Dancer	Razor Sky Dancer
+Titan Mind Weaver Enforcer	Titan Mind Weaver
+Nova Living Energy Construct Enforcer	Nova Living Energy Construct
+Golden Living Energy Construct Scout	Golden Living Energy Construct
+Crystal Shield Guardian	Crystal Shield Guardian
+Azure Desert Walker Sentinel	Azure Desert Walker
+Dark Sky Dancer Guardian	Dark Sky Dancer
+Frost Controller Vigilante	Controller Vigilante
+Echo Dual-Form Shapeshifter Mercenary	Echo Dual-Form Shapeshifter
+Prism Elemental Conduit Host	Prism Elemental Conduit Host
+Crimson Crystal Mage Rogue	Crimson Crystal Mage
+Void Plaza Caster Nemesis	Void Plaza Caster
+Lumen Thunder Bruiser Defender	Lumen Thunder Bruiser
+Obsidian Orbital Brawler Guardian	Obsidian Orbital Brawler
+Quantum Void Walker	Quantum Void Walker
+Prism Guardian Guardian	Guardian Guardian
+Silver Dual-Form Shapeshifter	Silver Dual-Form Shapeshifter
+Lumen Sonic Screamer Defender	Lumen Sonic Screamer
+Thunder Weaver Antihero	Weaver Antihero
+Frost Blade Dancer Mercenary	Frost Blade Dancer
+Pulse Harbor Bearer Hero	Pulse Harbor Bearer
+Swift Mage Enforcer	Mage Enforcer
+Flux Plaza Gadgeteer Vigilante	Flux Plaza Gadgeteer
+Frost Shield Guardian	Frost Shield Guardian
+Wild Industrial Guardian Outlaw	Wild Industrial Guardian
+Echo Gravity Knight Guardian	Echo Gravity Knight
+Titan Blade Dancer Sentinel	Titan Blade Dancer
+Silver Night Operative Guardian	Silver Night Operative
+Crystal Night Operative Guardian	Crystal Night Operative
+Azure Pulse Striker Sidekick	Azure Pulse Striker
+Glow Beast Whisperer	Glow Beast Whisperer
+Plasma Hex Caster	Plasma Hex Caster
+Quantum Crawler Enforcer	Crawler Enforcer
+Lunar Iron Sentinel Defender	Lunar Iron Sentinel
+Hyper Controller Villain	Controller Villain
+Echo Frost Archer	Echo Frost Archer
+Nova Striker	Nova Striker
+Quantum Wall Crawler	Quantum Wall Crawler
+Void Wall Crawler Guardian	Void Wall Crawler
+Solar Frost Binder Villain	Solar Frost Binder
+Razor Sentinel Nemesis	Sentinel Nemesis
+Plasma Light Bearer Vigilante	Plasma Light Bearer
+Kinetic Blaster	Kinetic Blaster
+Prism Binder Champion	Binder Champion
+Iron Blade Dancer Rogue	Iron Blade Dancer
+Vivid Neon Trickster Champion	Vivid Neon Trickster
+Plasma Velocity Runner	Plasma Velocity Runner
+Golden Elemental Conduit Host	Golden Elemental Conduit Host
+Radiant Weaver	Radiant Weaver
+Vivid Binder	Vivid Binder
+Golden Rooftop Gadgeteer Protector	Golden Rooftop Gadgeteer
+Crimson Blaster Guardian	Blaster Guardian
+Frost Crawler	Frost Crawler
+Ultra Ground Shaker	Ultra Ground Shaker
+Lumen Caller Rogue	Caller Rogue
+Vivid Runner Defender	Runner Defender
+Echo Night District Shaker	Echo Night District Shaker
+Neon Warehouse Bender Sentinel	Neon Warehouse Bender
+Flux Screamer Vigilante	Screamer Vigilante
+Phantom Ember Vanguard Scout	Phantom Ember Vanguard
+Swift Subway Sentinel Rogue	Swift Subway Sentinel
+Swift Living Energy Construct	Swift Living Energy Construct
+Bolt Steel Brawler	Bolt Steel Brawler
+Crystal Plasma Blaster Antihero	Crystal Plasma Blaster
+Echo Striker Hero	Striker Hero
+Chrome Warehouse Weaver	Chrome Warehouse Weaver
+Radiant Wall Crawler Vigilante	Radiant Wall Crawler
+Volt Light Bearer	Volt Light Bearer
+Arc Ember Vanguard Scout	Arc Ember Vanguard
+Azure Rooftop Brawler Vigilante	Azure Rooftop Brawler
+Nova Guardian Protector	Guardian Protector
+Kinetic Dual-Form Shapeshifter Sidekick	Kinetic Dual-Form Shapeshifter
+Plasma Frost Archer Scout	Plasma Frost Archer
+Titan Bender	Titan Bender
+Vivid Frost Binder Sidekick	Vivid Frost Binder
+Plasma Sky Dancer Enforcer	Plasma Sky Dancer
+Turbo Iron Sentinel Nemesis	Turbo Iron Sentinel
+Arc Elemental Conduit Host Hero	Arc Elemental Conduit Host
+Volt Sentinel	Volt Sentinel
+Titan Gadgeteer Commander	Gadgeteer Commander
+Zenith Armored Power Suit Wearer	Zenith Armored Power Suit Wearer
+Titan Wind Archer Rogue	Titan Wind Archer
+Zenith Storm Caller	Zenith Storm Caller
+Ultra Iron Sentinel	Ultra Iron Sentinel
+Volt Ember Vanguard Hero	Volt Ember Vanguard
+Prism Tide Controller Rogue	Prism Tide Controller
+Golden Dual-Form Shapeshifter	Golden Dual-Form Shapeshifter
+Golden Wielder Sentinel	Wielder Sentinel
+Sonic Thunder Bruiser Sentinel	Sonic Thunder Bruiser
+Crimson Dual-Form Shapeshifter Sidekick	Crimson Dual-Form Shapeshifter
+Phantom Sentinel Mercenary	Sentinel Mercenary
+Wild Plasma Blaster Champion	Wild Plasma Blaster
+Arc Plaza Dancer	Arc Plaza Dancer
+Crimson Ember Vanguard	Crimson Ember Vanguard

@@ -1,0 +1,96 @@
+Prism Hive Drone Scout	Hive Drone
+Frost Star Leech	Star Leech
+Quasar Rift Crawler	Rift Crawler
+Azure Plasma Ray Voidcaller	Plasma Ray
+Prism Colony Organism Voidcaller	Colony Organism
+Crimson Living Comet Swarmleader	Living Comet
+Lunar Alien Stalker	Alien Stalker
+Quantum Xeno Knight Hunter	Xeno Knight
+Kinetic Nebula Wisp	Nebula Wisp
+Iridium Ring Serpent	Ring Serpent
+Void Phase-Shift Beast	Phase-Shift Beast
+Astral Spore Floater Migrator	Spore Floater
+Crystal Shadow Floater	Shadow Floater
+Radiant Void Wolf Symbiote	Void Wolf
+Rift Void Harpy Nestlord	Void Harpy
+Xeno Crystal Jelly	Crystal Jelly
+Prism Rift Hydra Scout	Prism Rift Hydra
+Frost Acid Spitter	Frost Acid Spitter
+Quasar Comet Moth	Quasar Comet Moth
+Azure Asteroid Beetle Riftwalker	Azure Asteroid Beetle
+Prism Colony Organism Riftwalker	Prism Colony Organism
+Crimson Colony Organism Devourer	Crimson Colony Organism
+Lunar Void Serpent	Lunar Void Serpent
+Cosmic Lava World Wolf Voidcaller	Cosmic Lava World Wolf
+Ghost Comet Moth Symbiote	Ghost Comet Moth
+Nebula Squid Symbiote	Squid Symbiote
+Iridium Phase-Shift Beast Broodling	Iridium Phase-Shift Beast
+Void Starspawn Cluster	Void Starspawn Cluster
+Astral Plasma Ray Nestlord	Astral Plasma Ray
+Tide Dark Nebula Imp Guardian	Tide Dark Nebula Imp
+Orbit Shadow Floater Sporehost	Orbit Shadow Floater
+Radiant Derelict Station Crab	Radiant Derelict Station Crab
+Prism Lava World Mantis	Prism Lava World Mantis
+Pulsar Desert World Hydra Guardian	Pulsar Desert World Hydra
+Eclipse Drake Pathfinder	Drake Pathfinder
+Jade Binary Star Stalker Migrator	Jade Binary Star Stalker
+Ghost Orbital Reef Leech	Ghost Orbital Reef Leech
+Quasar Ice Moon Drake	Quasar Ice Moon Drake
+Ghost Phase-Shift Beast	Ghost Phase-Shift Beast
+Ember Gravity Whale Scout	Ember Gravity Whale
+Jade Phase-Shift Beast Symbiote	Jade Phase-Shift Beast
+Nova Void Serpent	Nova Void Serpent
+Dark Nebula Spitter Migrator	Dark Nebula Spitter
+Iridium Lumen Beetle Parasite	Iridium Lumen Beetle
+Azure Void Wolf Voidcaller	Azure Void Wolf
+Quantum Phase Mantis Parasite	Quantum Phase Mantis
+Lunar Phase Mantis Parasite	Lunar Phase Mantis
+Cosmic Crystal Drake Apex	Cosmic Crystal Drake
+Jade Ice Kraken	Jade Ice Kraken
+Ion Rift Hydra	Ion Rift Hydra
+Warp Kraken Riftwalker	Kraken Riftwalker
+Stellar Gravity Whale Sporehost	Stellar Gravity Whale
+Kinetic Squid Broodguard	Squid Broodguard
+Iridium Plasma Imp	Iridium Plasma Imp
+Orbit Wolf	Orbit Wolf
+Warp Solar Phoenix	Warp Solar Phoenix
+Tide Solar Phoenix Parasite	Tide Solar Phoenix
+Solar Star Leech Broodguard	Solar Star Leech
+Quasar Whale Guardian	Whale Guardian
+Hollow Acid Spitter Symbiote	Hollow Acid Spitter
+Jade Void Harpy	Jade Void Harpy
+Hyper Asteroid Beetle Nestlord	Hyper Asteroid Beetle
+Void Xeno Knight Symbiote	Void Xeno Knight
+Bio Plasma Imp Swarmleader	Bio Plasma Imp
+Astral Rift Crawler Sporehost	Astral Rift Crawler
+Void Starspawn Cluster Broodguard	Void Starspawn Cluster
+Solar Spore Floater Guardian	Solar Spore Floater
+Lumen Shellback Devourer	Shellback Devourer
+Lunar Wolf Broodguard	Wolf Broodguard
+Hyper Colony Organism Voidcaller	Hyper Colony Organism
+Umbral Void Serpent Symbiote	Umbral Void Serpent
+Nebula Meteor Crab	Nebula Meteor Crab
+Bio Hive Drone	Bio Hive Drone
+Null Wisp Nestlord	Wisp Nestlord
+Iridium Star Golem Voidcaller	Iridium Star Golem
+Quantum Spitter Swarmleader	Spitter Swarmleader
+Quasar Ring Serpent Broodling	Quasar Ring Serpent
+Bio Void Wolf	Bio Void Wolf
+Ion Squid Sporehost	Squid Sporehost
+Ghost Acid Spitter	Ghost Acid Spitter
+Rift Dust Belt Whale	Rift Dust Belt Whale
+Azure Spore Floater	Azure Spore Floater
+Warp Lumen Beetle Guardian	Warp Lumen Beetle
+Lunar Crystal Jelly Broodguard	Lunar Crystal Jelly
+Iridium Phoenix Hunter	Phoenix Hunter
+Frost Dust Belt Beetle	Frost Dust Belt Beetle
+Eclipse Void Wolf Apex	Eclipse Void Wolf
+Plasma Acid Spitter	Plasma Acid Spitter
+Ember Spore Giant Devourer	Ember Spore Giant
+Cosmic Gas Giant Crab Apex	Cosmic Gas Giant Crab
+Prism Spitter Swarmleader	Spitter Swarmleader
+Null Phase-Shift Beast Apex	Null Phase-Shift Beast
+Hollow Plasma Imp Devourer	Hollow Plasma Imp
+Azure Squid	Azure Squid
+Chrome Star Leech Apex	Chrome Star Leech
+Hollow Comet Moth Riftwalker	Hollow Comet Moth

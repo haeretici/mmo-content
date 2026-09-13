@@ -1,0 +1,79 @@
+{
+    "id": "guide",
+    "label": "Guide",
+    "isNpc": true,
+    "attackableNpc": false,
+    "hp": 100,
+    "hpMax": 100,
+    "armor": 0,
+    "mitigation": 1,
+    "maxBlock": 0,
+    "canBlock": false,
+    "exp": 0,
+    "aggro": false,
+    "resists": {
+        "physical": 0
+    },
+    "flags": {
+        "targetDistance": 1,
+        "aggroRange": 0,
+        "loseTargetDistance": 12
+    },
+    "attacks": [],
+    "loot": [],
+    "dialog": {
+        "start": "start",
+        "nodes": {
+            "start": {
+                "text": "Welcome, hunter. Need supplies or a job?",
+                "replies": [
+                    { "label": "Trade", "action": "open_shop" },
+                    {
+                        "label": "Job",
+                        "goto": "job",
+                        "set": { "guide.mission": 1 }
+                    },
+                    { "label": "Bye", "action": "close" }
+                ]
+            },
+            "job": {
+                "text": "Rats drop cheese. Bring me one and I will pay you.",
+                "replies": [
+                    {
+                        "label": "I have the cheese",
+                        "action": "take_item",
+                        "item": "cheese",
+                        "count": 1,
+                        "give": { "item": "gold_coin", "count": 5 },
+                        "set": { "guide.mission": 2 },
+                        "goto": "done",
+                        "when": [
+                            { "item": "cheese", "min": 1 },
+                            { "storage": "guide.mission", "max": 1 }
+                        ]
+                    },
+                    { "label": "I will look around", "action": "close" }
+                ]
+            },
+            "done": {
+                "text": "That is the stuff. Come back if you need supplies.",
+                "replies": [
+                    { "label": "Thanks", "action": "close" }
+                ]
+            }
+        }
+    },
+    "shop": {
+        "currency": "gold_coin",
+        "items": [
+            { "item": "cookie", "buy": 2, "sell": 1 },
+            { "item": "cheese", "buy": 4, "sell": 1 },
+            {
+                "item": "torch",
+                "buy": 8,
+                "sell": 0,
+                "when": { "storage": "guide.mission", "min": 1 }
+            }
+        ]
+    }
+}

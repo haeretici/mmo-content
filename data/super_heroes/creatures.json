@@ -1,0 +1,1720 @@
+{
+    "version": 1,
+    "genre": "super_heroes",
+    "kind": "creatures",
+    "updatedAt": "2026-07-27T16:38:27.954Z",
+    "creatures": [
+        {
+            "id": "arc_elemental_conduit_host_hero",
+            "technical": "Arc Elemental Conduit Host Hero",
+            "alias": "Arc Elemental Conduit Host",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Arc_Elemental_Conduit_Host_Hero.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "arc_ember_vanguard_scout",
+            "technical": "Arc Ember Vanguard Scout",
+            "alias": "Arc Ember Vanguard",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Arc_Ember_Vanguard_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "arc_plaza_dancer",
+            "technical": "Arc Plaza Dancer",
+            "alias": "Arc Plaza Dancer",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Arc_Plaza_Dancer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "azure_desert_walker_sentinel",
+            "technical": "Azure Desert Walker Sentinel",
+            "alias": "Azure Desert Walker",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Azure_Desert_Walker_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "azure_pulse_striker_sidekick",
+            "technical": "Azure Pulse Striker Sidekick",
+            "alias": "Azure Pulse Striker",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Azure_Pulse_Striker_Sidekick.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "azure_rooftop_brawler_vigilante",
+            "technical": "Azure Rooftop Brawler Vigilante",
+            "alias": "Azure Rooftop Brawler",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Azure_Rooftop_Brawler_Vigilante.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "bolt_steel_brawler",
+            "technical": "Bolt Steel Brawler",
+            "alias": "Bolt Steel Brawler",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Bolt_Steel_Brawler.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "chrome_frost_binder",
+            "technical": "Chrome Frost Binder",
+            "alias": "Frost Binder",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Chrome_Frost_Binder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "chrome_light_bearer",
+            "technical": "Chrome Light Bearer",
+            "alias": "Chrome Light Bearer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Chrome_Light_Bearer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "chrome_warehouse_weaver",
+            "technical": "Chrome Warehouse Weaver",
+            "alias": "Chrome Warehouse Weaver",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Chrome_Warehouse_Weaver.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "crimson_blaster_guardian",
+            "technical": "Crimson Blaster Guardian",
+            "alias": "Blaster Guardian",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Crimson_Blaster_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "crimson_crystal_mage_rogue",
+            "technical": "Crimson Crystal Mage Rogue",
+            "alias": "Crimson Crystal Mage",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Crimson_Crystal_Mage_Rogue.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "crimson_dual_form_shapeshifter_sidekick",
+            "technical": "Crimson Dual-Form Shapeshifter Sidekick",
+            "alias": "Crimson Dual-Form Shapeshifter",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Crimson_Dual_Form_Shapeshifter_Sidekick.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "crimson_ember_vanguard",
+            "technical": "Crimson Ember Vanguard",
+            "alias": "Crimson Ember Vanguard",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Crimson_Ember_Vanguard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "crimson_shadow_stalker_champion",
+            "technical": "Crimson Shadow Stalker Champion",
+            "alias": "Shadow Stalker",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Crimson_Shadow_Stalker_Champion.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "crystal_night_operative_guardian",
+            "technical": "Crystal Night Operative Guardian",
+            "alias": "Crystal Night Operative",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Crystal_Night_Operative_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "crystal_plasma_blaster_antihero",
+            "technical": "Crystal Plasma Blaster Antihero",
+            "alias": "Crystal Plasma Blaster",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Crystal_Plasma_Blaster_Antihero.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "crystal_shield_guardian",
+            "technical": "Crystal Shield Guardian",
+            "alias": "Crystal Shield Guardian",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Crystal_Shield_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "dark_plasma_blaster_enforcer",
+            "technical": "Dark Plasma Blaster Enforcer",
+            "alias": "Plasma Blaster",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Dark_Plasma_Blaster_Enforcer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "dark_sky_dancer_guardian",
+            "technical": "Dark Sky Dancer Guardian",
+            "alias": "Dark Sky Dancer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Dark_Sky_Dancer_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "echo_dual_form_shapeshifter_mercenary",
+            "technical": "Echo Dual-Form Shapeshifter Mercenary",
+            "alias": "Echo Dual-Form Shapeshifter",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Echo_Dual_Form_Shapeshifter_Mercenary.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "echo_frost_archer",
+            "technical": "Echo Frost Archer",
+            "alias": "Echo Frost Archer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Echo_Frost_Archer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "echo_gravity_knight_guardian",
+            "technical": "Echo Gravity Knight Guardian",
+            "alias": "Echo Gravity Knight",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Echo_Gravity_Knight_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "echo_night_district_shaker",
+            "technical": "Echo Night District Shaker",
+            "alias": "Echo Night District Shaker",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Echo_Night_District_Shaker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "echo_striker_hero",
+            "technical": "Echo Striker Hero",
+            "alias": "Striker Hero",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Echo_Striker_Hero.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "flux_plaza_gadgeteer_vigilante",
+            "technical": "Flux Plaza Gadgeteer Vigilante",
+            "alias": "Flux Plaza Gadgeteer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Flux_Plaza_Gadgeteer_Vigilante.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "flux_screamer_vigilante",
+            "technical": "Flux Screamer Vigilante",
+            "alias": "Screamer Vigilante",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Flux_Screamer_Vigilante.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "frost_blade_dancer_mercenary",
+            "technical": "Frost Blade Dancer Mercenary",
+            "alias": "Frost Blade Dancer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Frost_Blade_Dancer_Mercenary.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "frost_controller_vigilante",
+            "technical": "Frost Controller Vigilante",
+            "alias": "Controller Vigilante",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Frost_Controller_Vigilante.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "frost_crawler",
+            "technical": "Frost Crawler",
+            "alias": "Frost Crawler",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Frost_Crawler.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "frost_shield_guardian",
+            "technical": "Frost Shield Guardian",
+            "alias": "Frost Shield Guardian",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Frost_Shield_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "glow_beast_whisperer",
+            "technical": "Glow Beast Whisperer",
+            "alias": "Glow Beast Whisperer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Glow_Beast_Whisperer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "golden_armored_power_suit_wearer",
+            "technical": "Golden Armored Power Suit Wearer",
+            "alias": "Armored Power Suit Wearer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Golden_Armored_Power_Suit_Wearer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "golden_dual_form_shapeshifter",
+            "technical": "Golden Dual-Form Shapeshifter",
+            "alias": "Golden Dual-Form Shapeshifter",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Golden_Dual_Form_Shapeshifter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "golden_elemental_conduit_host",
+            "technical": "Golden Elemental Conduit Host",
+            "alias": "Golden Elemental Conduit Host",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Golden_Elemental_Conduit_Host.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "golden_living_energy_construct_scout",
+            "technical": "Golden Living Energy Construct Scout",
+            "alias": "Golden Living Energy Construct",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Golden_Living_Energy_Construct_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "golden_rooftop_gadgeteer_protector",
+            "technical": "Golden Rooftop Gadgeteer Protector",
+            "alias": "Golden Rooftop Gadgeteer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Golden_Rooftop_Gadgeteer_Protector.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "golden_wielder_sentinel",
+            "technical": "Golden Wielder Sentinel",
+            "alias": "Wielder Sentinel",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Golden_Wielder_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "hyper_controller_villain",
+            "technical": "Hyper Controller Villain",
+            "alias": "Controller Villain",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Hyper_Controller_Villain.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "hyper_velocity_runner_scout",
+            "technical": "Hyper Velocity Runner Scout",
+            "alias": "Velocity Runner",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Hyper_Velocity_Runner_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "iron_blade_dancer_rogue",
+            "technical": "Iron Blade Dancer Rogue",
+            "alias": "Iron Blade Dancer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Iron_Blade_Dancer_Rogue.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "kinetic_blaster",
+            "technical": "Kinetic Blaster",
+            "alias": "Kinetic Blaster",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Kinetic_Blaster.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "kinetic_dual_form_shapeshifter_sidekick",
+            "technical": "Kinetic Dual-Form Shapeshifter Sidekick",
+            "alias": "Kinetic Dual-Form Shapeshifter",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Kinetic_Dual_Form_Shapeshifter_Sidekick.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "lumen_caller_rogue",
+            "technical": "Lumen Caller Rogue",
+            "alias": "Caller Rogue",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Lumen_Caller_Rogue.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "lumen_ground_shaker_outlaw",
+            "technical": "Lumen Ground Shaker Outlaw",
+            "alias": "Ground Shaker",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Lumen_Ground_Shaker_Outlaw.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "lumen_sonic_screamer_defender",
+            "technical": "Lumen Sonic Screamer Defender",
+            "alias": "Lumen Sonic Screamer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Lumen_Sonic_Screamer_Defender.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "lumen_thunder_bruiser_defender",
+            "technical": "Lumen Thunder Bruiser Defender",
+            "alias": "Lumen Thunder Bruiser",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Lumen_Thunder_Bruiser_Defender.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "lunar_iron_sentinel_defender",
+            "technical": "Lunar Iron Sentinel Defender",
+            "alias": "Lunar Iron Sentinel",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Lunar_Iron_Sentinel_Defender.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "neon_warehouse_bender_sentinel",
+            "technical": "Neon Warehouse Bender Sentinel",
+            "alias": "Neon Warehouse Bender",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Neon_Warehouse_Bender_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "nova_guardian_protector",
+            "technical": "Nova Guardian Protector",
+            "alias": "Guardian Protector",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Nova_Guardian_Protector.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "nova_living_energy_construct_enforcer",
+            "technical": "Nova Living Energy Construct Enforcer",
+            "alias": "Nova Living Energy Construct",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Nova_Living_Energy_Construct_Enforcer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "nova_living_energy_construct_rogue",
+            "technical": "Nova Living Energy Construct Rogue",
+            "alias": "Living Energy Construct",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Nova_Living_Energy_Construct_Rogue.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "nova_striker",
+            "technical": "Nova Striker",
+            "alias": "Nova Striker",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Nova_Striker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "obsidian_orbital_brawler_guardian",
+            "technical": "Obsidian Orbital Brawler Guardian",
+            "alias": "Obsidian Orbital Brawler",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Obsidian_Orbital_Brawler_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "obsidian_pulse_striker_vigilante",
+            "technical": "Obsidian Pulse Striker Vigilante",
+            "alias": "Pulse Striker",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Obsidian_Pulse_Striker_Vigilante.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "phantom_ember_vanguard_scout",
+            "technical": "Phantom Ember Vanguard Scout",
+            "alias": "Phantom Ember Vanguard",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Phantom_Ember_Vanguard_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "phantom_sentinel_mercenary",
+            "technical": "Phantom Sentinel Mercenary",
+            "alias": "Sentinel Mercenary",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Phantom_Sentinel_Mercenary.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "plasma_frost_archer_scout",
+            "technical": "Plasma Frost Archer Scout",
+            "alias": "Plasma Frost Archer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Plasma_Frost_Archer_Scout.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "plasma_hex_caster",
+            "technical": "Plasma Hex Caster",
+            "alias": "Plasma Hex Caster",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Plasma_Hex_Caster.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "plasma_light_bearer_vigilante",
+            "technical": "Plasma Light Bearer Vigilante",
+            "alias": "Plasma Light Bearer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Plasma_Light_Bearer_Vigilante.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "plasma_sky_dancer_enforcer",
+            "technical": "Plasma Sky Dancer Enforcer",
+            "alias": "Plasma Sky Dancer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Plasma_Sky_Dancer_Enforcer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "plasma_velocity_runner",
+            "technical": "Plasma Velocity Runner",
+            "alias": "Plasma Velocity Runner",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Plasma_Velocity_Runner.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "prism_binder_champion",
+            "technical": "Prism Binder Champion",
+            "alias": "Binder Champion",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Prism_Binder_Champion.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "prism_elemental_conduit_host",
+            "technical": "Prism Elemental Conduit Host",
+            "alias": "Prism Elemental Conduit Host",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Prism_Elemental_Conduit_Host.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "prism_guardian_guardian",
+            "technical": "Prism Guardian Guardian",
+            "alias": "Guardian Guardian",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Prism_Guardian_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "prism_tide_controller_rogue",
+            "technical": "Prism Tide Controller Rogue",
+            "alias": "Prism Tide Controller",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Prism_Tide_Controller_Rogue.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "pulse_harbor_bearer_hero",
+            "technical": "Pulse Harbor Bearer Hero",
+            "alias": "Pulse Harbor Bearer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Pulse_Harbor_Bearer_Hero.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "pulse_sky_dancer_antihero",
+            "technical": "Pulse Sky Dancer Antihero",
+            "alias": "Sky Dancer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Pulse_Sky_Dancer_Antihero.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "pulse_steel_brawler_antihero",
+            "technical": "Pulse Steel Brawler Antihero",
+            "alias": "Pulse Steel Brawler",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Pulse_Steel_Brawler_Antihero.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "quantum_crawler_enforcer",
+            "technical": "Quantum Crawler Enforcer",
+            "alias": "Crawler Enforcer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Quantum_Crawler_Enforcer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "quantum_storm_caller",
+            "technical": "Quantum Storm Caller",
+            "alias": "Storm Caller",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Quantum_Storm_Caller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "quantum_void_walker",
+            "technical": "Quantum Void Walker",
+            "alias": "Quantum Void Walker",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Quantum_Void_Walker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "quantum_wall_crawler",
+            "technical": "Quantum Wall Crawler",
+            "alias": "Quantum Wall Crawler",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Quantum_Wall_Crawler.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "radiant_wall_crawler_vigilante",
+            "technical": "Radiant Wall Crawler Vigilante",
+            "alias": "Radiant Wall Crawler",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Radiant_Wall_Crawler_Vigilante.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "radiant_weaver",
+            "technical": "Radiant Weaver",
+            "alias": "Radiant Weaver",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Radiant_Weaver.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "razor_flame_wielder",
+            "technical": "Razor Flame Wielder",
+            "alias": "Flame Wielder",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Razor_Flame_Wielder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "razor_sentinel_nemesis",
+            "technical": "Razor Sentinel Nemesis",
+            "alias": "Sentinel Nemesis",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Razor_Sentinel_Nemesis.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "razor_sky_dancer",
+            "technical": "Razor Sky Dancer",
+            "alias": "Razor Sky Dancer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Razor_Sky_Dancer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "shadow_ember_vanguard",
+            "technical": "Shadow Ember Vanguard",
+            "alias": "Ember Vanguard",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Shadow_Ember_Vanguard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "silver_dual_form_shapeshifter",
+            "technical": "Silver Dual-Form Shapeshifter",
+            "alias": "Silver Dual-Form Shapeshifter",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Silver_Dual_Form_Shapeshifter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "silver_night_operative_guardian",
+            "technical": "Silver Night Operative Guardian",
+            "alias": "Silver Night Operative",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Silver_Night_Operative_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "solar_frost_binder_villain",
+            "technical": "Solar Frost Binder Villain",
+            "alias": "Solar Frost Binder",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Solar_Frost_Binder_Villain.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "sonic_thunder_bruiser_sentinel",
+            "technical": "Sonic Thunder Bruiser Sentinel",
+            "alias": "Sonic Thunder Bruiser",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Sonic_Thunder_Bruiser_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "swift_living_energy_construct",
+            "technical": "Swift Living Energy Construct",
+            "alias": "Swift Living Energy Construct",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Swift_Living_Energy_Construct.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "swift_mage_enforcer",
+            "technical": "Swift Mage Enforcer",
+            "alias": "Mage Enforcer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Swift_Mage_Enforcer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "swift_neon_trickster_rogue",
+            "technical": "Swift Neon Trickster Rogue",
+            "alias": "Neon Trickster",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Swift_Neon_Trickster_Rogue.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "swift_subway_sentinel_rogue",
+            "technical": "Swift Subway Sentinel Rogue",
+            "alias": "Swift Subway Sentinel",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Swift_Subway_Sentinel_Rogue.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "thunder_weaver_antihero",
+            "technical": "Thunder Weaver Antihero",
+            "alias": "Weaver Antihero",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Thunder_Weaver_Antihero.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "titan_bender",
+            "technical": "Titan Bender",
+            "alias": "Titan Bender",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Titan_Bender.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "titan_blade_dancer_sentinel",
+            "technical": "Titan Blade Dancer Sentinel",
+            "alias": "Titan Blade Dancer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Titan_Blade_Dancer_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "titan_crystal_mage_sentinel",
+            "technical": "Titan Crystal Mage Sentinel",
+            "alias": "Crystal Mage",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Titan_Crystal_Mage_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "titan_gadgeteer_commander",
+            "technical": "Titan Gadgeteer Commander",
+            "alias": "Gadgeteer Commander",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Titan_Gadgeteer_Commander.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "titan_mind_weaver_enforcer",
+            "technical": "Titan Mind Weaver Enforcer",
+            "alias": "Titan Mind Weaver",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Titan_Mind_Weaver_Enforcer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "titan_wind_archer_rogue",
+            "technical": "Titan Wind Archer Rogue",
+            "alias": "Titan Wind Archer",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Titan_Wind_Archer_Rogue.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "titan_wind_archer_vigilante",
+            "technical": "Titan Wind Archer Vigilante",
+            "alias": "Wind Archer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Titan_Wind_Archer_Vigilante.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "turbo_iron_sentinel_nemesis",
+            "technical": "Turbo Iron Sentinel Nemesis",
+            "alias": "Turbo Iron Sentinel",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Turbo_Iron_Sentinel_Nemesis.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "ultra_ground_shaker",
+            "technical": "Ultra Ground Shaker",
+            "alias": "Ultra Ground Shaker",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Ultra_Ground_Shaker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "ultra_hex_caster_antihero",
+            "technical": "Ultra Hex Caster Antihero",
+            "alias": "Hex Caster",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Ultra_Hex_Caster_Antihero.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "ultra_iron_sentinel",
+            "technical": "Ultra Iron Sentinel",
+            "alias": "Ultra Iron Sentinel",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Ultra_Iron_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "vivid_binder",
+            "technical": "Vivid Binder",
+            "alias": "Vivid Binder",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Vivid_Binder.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "vivid_frost_binder_sidekick",
+            "technical": "Vivid Frost Binder Sidekick",
+            "alias": "Vivid Frost Binder",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Vivid_Frost_Binder_Sidekick.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "vivid_neon_trickster_champion",
+            "technical": "Vivid Neon Trickster Champion",
+            "alias": "Vivid Neon Trickster",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Vivid_Neon_Trickster_Champion.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "vivid_runner_defender",
+            "technical": "Vivid Runner Defender",
+            "alias": "Runner Defender",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Vivid_Runner_Defender.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "void_plaza_caster_nemesis",
+            "technical": "Void Plaza Caster Nemesis",
+            "alias": "Void Plaza Caster",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Void_Plaza_Caster_Nemesis.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "void_wall_crawler_guardian",
+            "technical": "Void Wall Crawler Guardian",
+            "alias": "Void Wall Crawler",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Void_Wall_Crawler_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "volt_ember_vanguard_hero",
+            "technical": "Volt Ember Vanguard Hero",
+            "alias": "Volt Ember Vanguard",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Volt_Ember_Vanguard_Hero.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "volt_light_bearer",
+            "technical": "Volt Light Bearer",
+            "alias": "Volt Light Bearer",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Volt_Light_Bearer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "volt_sentinel",
+            "technical": "Volt Sentinel",
+            "alias": "Volt Sentinel",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Volt_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "wild_industrial_guardian_outlaw",
+            "technical": "Wild Industrial Guardian Outlaw",
+            "alias": "Wild Industrial Guardian",
+            "genre": "super_heroes",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Wild_Industrial_Guardian_Outlaw.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22",
+            "kind": "creatures"
+        },
+        {
+            "id": "wild_plasma_blaster_champion",
+            "technical": "Wild Plasma Blaster Champion",
+            "alias": "Wild Plasma Blaster",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Wild_Plasma_Blaster_Champion.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "zenith_armored_power_suit_wearer",
+            "technical": "Zenith Armored Power Suit Wearer",
+            "alias": "Zenith Armored Power Suit Wearer",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Zenith_Armored_Power_Suit_Wearer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        },
+        {
+            "id": "zenith_storm_caller",
+            "technical": "Zenith Storm Caller",
+            "alias": "Zenith Storm Caller",
+            "genre": "super_heroes",
+            "kind": "creatures",
+            "category": null,
+            "opaqueAlpha": false,
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/super_heroes/creatures/original/Zenith_Storm_Caller.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-27"
+        }
+    ]
+}

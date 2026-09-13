@@ -1,0 +1,481 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://hunt-design-lab.local/schemas/spells.schema.json",
+  "title": "Spells catalog document",
+  "description": "Shape of presets/<mode>/spells.json. Loaded by presets.loadSpells / getSpell. Storage: catalog document (array rows in one file).",
+  "type": "object",
+  "required": ["spells"],
+  "additionalProperties": true,
+  "properties": {
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Document schema version (standard pack uses 2)."
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 4000
+    },
+    "spells": {
+      "type": "array",
+      "minItems": 0,
+      "items": { "$ref": "#/definitions/spell" }
+    }
+  },
+  "definitions": {
+    "entityId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]{0,79}$",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "spell": {
+      "type": "object",
+      "required": ["id"],
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "$ref": "#/definitions/entityId",
+          "description": "Spell id referenced by classes.spells, mode auto families, etc. Player auto is mode-gated (not strategy spellPriority). Monsters use kit attacks[], not spell auto ids."
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "customUISprite": {
+          "type": "string",
+          "format": "ui_sprite_id",
+          "options": {
+            "assetKind": "ui",
+            "previewVariant": "alpha",
+            "selectLabel": "Browse UI art",
+            "showCategoryFilter": true,
+            "inferCategoryFromPath": false
+          },
+          "description": "UI catalog id for the action-bar / spell icon (assets/sprites/<genre>/ui/). Designer: Select opens the UI catalog. Runtime falls back to customSprite then spell id."
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["auto", "strike", "spell", "heal", "support"],
+          "description": "Combat kind (docs/09). AI and resolve treat heal/auto specially. support = utility/buff catalog rows (may be stub until systems exist)."
+        },
+        "stub": {
+          "type": "boolean",
+          "description": "When true, spell is catalog-only / not wired for combat effect. Omit from class books until runtime exists (Phase E)."
+        },
+        "stubReason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "description": "Machine-readable reason the spell is a stub (e.g. no_light_model)."
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 4000,
+          "description": "Author notes. Omit when empty."
+        },
+        "element": {
+          "type": "string",
+          "default": "",
+          "enum": [
+            "",
+            "physical",
+            "fire",
+            "ice",
+            "energy",
+            "earth",
+            "holy",
+            "death",
+            "healing"
+          ],
+          "description": "Damage/heal element for resist pipeline. Empty = unset (omit on disk)."
+        },
+        "powerCurve": {
+          "type": "string",
+          "default": "",
+          "enum": ["", "melee_auto", "melee_strike", "magic_strike"],
+          "description": "Power curve id (docs/09). Empty = unset (omit on disk)."
+        },
+        "basePower": {
+          "type": "number",
+          "description": "Curve base power (0 for pure autos). Scales strike mean damage."
+        },
+        "damageAmplitude": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 0.95,
+          "description": "Half-width fraction around strike mean (0.2 → min/max = mean×0.8 / mean×1.2). Omitted → 0 (fixed damage at mean). Autos ignore this field."
+        },
+        "range": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20,
+          "description": "Chebyshev cast range in tiles. Far-use runes also apply the legacy Action box (Δx≤7, Δy≤5) when allowFarUse is true."
+        },
+        "allowFarUse": {
+          "type": "boolean",
+          "description": "Legacy far-use gate (Actions::canUseFar): require |Δx|≤7 and |Δy|≤5 in addition to Chebyshev ≤ range. Typical for player runes with allowFarUse(true)."
+        },
+        "mana": {
+          "type": "number",
+          "minimum": 0
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 999,
+          "description": "Minimum character level required to cast (from spell_ref / Legacy rune:level when matched)."
+        },
+        "magicLevel": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 999,
+          "description": "Minimum magic skill required to cast (Legacy rune:magicLevel). Runtime checks combatStats.magic (profile magicLevel normalizes to magic)."
+        },
+        "hitChance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Percent; default 100 in combat code if omitted."
+        },
+        "isMelee": {
+          "type": "boolean",
+          "description": "True for weapon-adjacent strikes / auto."
+        },
+        "requiresAmmo": {
+          "type": "boolean",
+          "description": "When true, distance auto needs ammo (null ammo = infinite)."
+        },
+        "ammoPerShot": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Ammo consumed on successful auto when requiresAmmo."
+        },
+        "moveLock": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Seconds of post-cast moveDelay (0 disables; omit uses Settings default)."
+        },
+        "cooldowns": {
+          "type": "object",
+          "description": "Buckets: auto | primary | secondary | spell | item → key → duration seconds.",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "properties": {
+            "auto": {
+              "type": "object",
+              "additionalProperties": { "type": "number", "minimum": 0 }
+            },
+            "primary": {
+              "type": "object",
+              "additionalProperties": { "type": "number", "minimum": 0 }
+            },
+            "secondary": {
+              "type": "object",
+              "additionalProperties": { "type": "number", "minimum": 0 }
+            },
+            "spell": {
+              "type": "object",
+              "additionalProperties": { "type": "number", "minimum": 0 }
+            },
+            "item": {
+              "type": "object",
+              "additionalProperties": { "type": "number", "minimum": 0 }
+            }
+          }
+        },
+        "shape": {
+          "type": "object",
+          "format": "spell_shape",
+          "description": "Optional AoE / wave shape. Area uses type+code; wave uses type+spread+length. Designer: Select opens shape catalog with matrix preview (kernel/core/lib/shapes.js).",
+          "additionalProperties": true,
+          "properties": {
+            "type": {
+              "type": "string",
+              "default": "",
+              "enum": ["", "area", "wave", "beam"],
+              "description": "area = radial matrix by code; wave/beam = directed pattern by spread×length. Empty = unset."
+            },
+            "code": {
+              "description": "Area effect code (int or legacy name string). Used when type=area.",
+              "oneOf": [{ "type": "integer" }, { "type": "string", "minLength": 1, "maxLength": 120 }]
+            },
+            "length": {
+              "description": "Wave/beam length key (int or named custom key).",
+              "oneOf": [{ "type": "integer" }, { "type": "string", "minLength": 1, "maxLength": 120 }]
+            },
+            "spread": {
+              "description": "Wave spread (0=beam, 1–4, or custom).",
+              "oneOf": [{ "type": "integer" }, { "type": "string", "minLength": 1, "maxLength": 40 }]
+            }
+          }
+        },
+        "followupShapes": {
+          "type": "array",
+          "description": "Extra dual-combat footprints after the primary shape (legacy Sweeping Takedown outer at 75%). Same cast center/facing; separate rolls per target.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["shape"],
+            "properties": {
+              "shape": {
+                "type": "object",
+                "format": "spell_shape",
+                "additionalProperties": true,
+                "description": "Secondary footprint (same type conventions as shape)."
+              },
+              "damageScale": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10,
+                "description": "Multiplier on post-mitigation damage for this pass (e.g. 0.75)."
+              }
+            }
+          }
+        },
+        "legacyName": {
+          "type": "string",
+          "description": "Optional legacy display name for ports."
+        },
+        
+        "delaySec": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 60,
+          "description": "Fuse seconds before shaped damage applies (e.g. divine grenade 3). Cast spends mana/CD immediately; detonation skips them."
+        },
+        "delayPlaceRange": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20,
+          "description": "When delaySec>0: plant explosion center on primary if Chebyshev ≤ this (default 4), else under caster."
+        },
+        "vocations": {
+          "type": "array",
+          "description": "Allowed class vocations for this spell (relation: kind=classes).",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "guardian",
+              "scout",
+              "mystic",
+              "adept",
+              "warden",
+              "adventurer"
+            ]
+          }
+        },
+        "source": {
+          "type": "string",
+          "default": "",
+          "enum": ["", "rune", "spell", "auto"],
+          "description": "Cast origin. source=rune spells are inventory-linked (runeItemId); mana is typically 0. Empty = unset (omit on disk)."
+        },
+        "rune": {
+          "type": "string",
+          "description": "Legacy/display label for the rune (not used for inventory match)."
+        },
+        "runeItemId": {
+          "$ref": "#/definitions/entityId",
+          "description": "Stackable equipment template id consumed when rune consumption is on (category rune in equipment.json)."
+        },
+        "field": {
+          "type": "string",
+          "default": "",
+          "enum": ["", "fire", "poison", "energy", "barrier", "vine"],
+          "description": "Field kind deployed on the spell footprint (docs/26). fire/poison/energy = elemental hazards; barrier/vine = solid path obstacles (Phase K). Empty = unset (omit on disk)."
+        },
+        "deploysField": {
+          "type": "string",
+          "default": "",
+          "enum": ["", "fire", "poison", "energy", "barrier", "vine"],
+          "description": "Alias of field for deploy path (creature kits use the same keys). Empty = unset (omit on disk)."
+        },
+        "fieldDurationSec": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Override field lifetime in seconds (barrier default 20, vine 30; elemental kinds use docs/26 defaults when omitted)."
+        },
+        "destroysField": {
+          "type": "boolean",
+          "description": "When true, cast clears an active elemental field on the target tile instead of deploying."
+        },
+        "statusOnly": {
+          "type": "boolean",
+          "description": "No meaningful direct damage (use min/max 0). Field deploy / conditions are the effect."
+        },
+        "tauntDurationSec": {
+          "type": "number",
+          "minimum": 0,
+          "description": "On hit, force creature AI target to the caster for this many seconds (legacy challenge / doChallengeCreature). Default 6 when set via taunt flag patterns; omit when not a taunt spell."
+        },
+        "forceMeleeDurationSec": {
+          "type": "number",
+          "minimum": 0,
+          "description": "On hit, force creature stand-off to melee (targetDistance=1) for this many seconds (legacy changeTargetDistance). Used by chivalrous_challenge and divine_dazzle."
+        },
+        "chainOnlyRanged": {
+          "type": "boolean",
+          "description": "When true with chain, only free (non-summon) hostiles with base targetDistance > 1 are hop-eligible (legacy chivalrous_challenge / divine_dazzle canChain)."
+        },
+        "chain": {
+          "description": "Multi-hop chain attack (legacy pickChainTargets). Number = maxTargets (total creatures hit, including primary). Object form allows hop distance (Chebyshev, default 3) and backtracking.",
+          "oneOf": [
+            {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 32
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["maxTargets"],
+              "properties": {
+                "maxTargets": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 32,
+                  "description": "Total creatures damaged (including primary)."
+                },
+                "targets": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 32,
+                  "description": "Alias of maxTargets."
+                },
+                "distance": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 20,
+                  "description": "Chebyshev hop radius between successive targets (legacy chainDistance; default 3)."
+                },
+                "backtracking": {
+                  "type": "boolean",
+                  "description": "When true, pop hop stack and try other neighbors if tip is dead-end (legacy backtracking; default false)."
+                }
+              }
+            }
+          ]
+        },
+        "condition": {
+          "type": "object",
+          "description": "Condition applied to the defender on hit (haste / invisible / DoT). speedFormula: legacy ConditionSpeed target mina*(baseSpeed-40)+minb; engine stores delta (target-baseSpeed) as speedChange.",
+          "additionalProperties": true,
+          "properties": {
+            "type": {
+              "type": "string",
+              "default": "",
+              "enum": [
+                "",
+                "poison",
+                "fire",
+                "ice",
+                "energy",
+                "bleed",
+                "curse",
+                "holy",
+                "slow",
+                "haste",
+                "invisible",
+                "regen",
+                "attributes",
+                "mana_shield"
+              ]
+            },
+            "durationSec": { "type": "number", "minimum": 0 },
+            "poolFormula": {
+              "type": "string",
+              "default": "",
+              "enum": ["", "legacy_mana_shield"],
+              "description": "Resolved at apply time to poolRemaining/poolMax from the target's level, magic, and max mana (mana_shield). Empty = unset."
+            },
+            "poolRemaining": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Optional explicit mana_shield absorb remaining (catalog prefers poolFormula)."
+            },
+            "poolMax": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Optional explicit mana_shield pool snapshot (catalog prefers poolFormula)."
+            },
+            "speedChange": { "type": "number" },
+            "speedFormula": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "mina": { "type": "number" },
+                "minb": { "type": "number" },
+                "maxa": { "type": "number" },
+                "maxb": { "type": "number" }
+              }
+            },
+            "healthGain": {
+              "type": "number",
+              "minimum": 0,
+              "description": "HoT (regen): fixed HP restored each intervalSec for durationSec."
+            },
+            "totalDamage": { "type": "number", "minimum": 0 },
+            "intervalMs": { "type": "number", "minimum": 0 },
+            "intervalSec": { "type": "number", "minimum": 0 },
+            "schedule": {
+              "type": "array",
+              "description": "Optional fixed-tick stages (legacy addDamage rounds/interval/value). When present, ticks use stage.damage instead of the decaying-chunk model.",
+              "items": {
+                "type": "object",
+                "additionalProperties": true,
+                "properties": {
+                  "turns": { "type": "number", "minimum": 0 },
+                  "damage": { "type": "number", "minimum": 0 },
+                  "intervalSec": { "type": "number", "minimum": 0 }
+                }
+              }
+            }
+          }
+        },
+        "dispel": {
+          "type": "array",
+          "description": "Condition kinds cleared on the defender when the cast hits (cure spells). Engine kinds: poison, fire, ice, energy, bleed, curse, holy, slow, haste, invisible, regen, mana_shield.",
+          "items": {
+            "type": "string",
+            "enum": [
+              "poison",
+              "fire",
+              "ice",
+              "energy",
+              "bleed",
+              "curse",
+              "holy",
+              "slow",
+              "haste",
+              "invisible",
+              "regen",
+              "mana_shield"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "min": {
+          "type": "number",
+          "description": "Fixed damage floor when set (overrides power curve). Field runes use 0."
+        },
+        "max": {
+          "type": "number",
+          "description": "Fixed damage ceiling when set (overrides power curve). Field runes use 0."
+        },
+        "requiresTarget": {
+          "type": "boolean",
+          "description": "Whether cast needs a primary target for center/aim."
+        }
+      }
+    }
+  }
+}

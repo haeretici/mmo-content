@@ -1,0 +1,218 @@
+{
+    "id": "cursed_tome",
+    "label": "Cursed Tome",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A cursed tome.",
+    "hp": 20000,
+    "hpMax": 20000,
+    "speed": 220,
+    "level": 724,
+    "armor": 82,
+    "mitigation": 2.16,
+    "maxBlock": 0,
+    "exp": 13345,
+    "lootValue": 3576.8474498038,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": -10,
+        "earth": 100,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 87,
+            "max": 173
+        },
+        {
+            "id": "ranged_1",
+            "kind": "ranged",
+            "intervalMs": 1000,
+            "chance": 15,
+            "range": 7,
+            "element": "physical",
+            "min": 346,
+            "max": 589,
+            "target": false,
+            "shootEffect": "ani_eartharrow"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 1000,
+            "chance": 10,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 346,
+            "max": 498,
+            "length": 5,
+            "spread": 0,
+            "target": false,
+            "effect": "me_poisonarea"
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "intervalMs": 1000,
+            "chance": 12,
+            "range": 7,
+            "element": "physical",
+            "min": 199,
+            "max": 762,
+            "radius": 3,
+            "target": false,
+            "effect": "me_groundshaker"
+        }
+    ],
+    "race": "ink",
+    "bestiary": {
+        "class": "Magical",
+        "toKill": 2500,
+        "firstUnlock": 100,
+        "secondUnlock": 1000,
+        "charmsPoints": 50,
+        "stars": 4,
+        "occurrence": 1
+    },
+    "loot": [
+        {
+            "chance": 10000,
+            "maxCount": 3,
+            "name": "book page"
+        },
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 10000,
+            "maxCount": 10
+        },
+        {
+            "chance": 10000,
+            "maxCount": 3,
+            "name": "silken bookmark"
+        },
+        {
+            "name": "Small Diamond",
+            "id": "small_diamond",
+            "chance": 10000,
+            "maxCount": 7
+        },
+        {
+            "name": "Small Stone",
+            "id": "small_stone",
+            "chance": 10000,
+            "maxCount": 7
+        },
+        {
+            "name": "Small Topaz",
+            "id": "small_topaz",
+            "chance": 10000,
+            "maxCount": 7
+        },
+        {
+            "name": "Protection Amulet",
+            "id": "protection_amulet",
+            "chance": 10000
+        },
+        {
+            "name": "Earthbound Boots",
+            "id": "earthbound_boots",
+            "chance": 350
+        },
+        {
+            "name": "Earthbound Hood",
+            "id": "earthbound_hood",
+            "chance": 600
+        },
+        {
+            "name": "Diamond Sceptre",
+            "id": "diamond_sceptre",
+            "chance": 600
+        },
+        {
+            "name": "Earthbound Mantle",
+            "id": "earthbound_mantle",
+            "chance": 250
+        },
+        {
+            "name": "Earthbound Legs",
+            "id": "earthbound_legs",
+            "chance": 250
+        },
+        {
+            "name": "Earthbound Amulet",
+            "id": "earthbound_amulet",
+            "chance": 500
+        },
+        {
+            "name": "Stonehide Amulet",
+            "id": "stonehide_amulet",
+            "chance": 350
+        },
+        {
+            "name": "Bloomshoot Rod",
+            "id": "bloomshoot_rod",
+            "chance": 350
+        },
+        {
+            "name": "Sacred Tree Amulet",
+            "id": "sacred_tree_amulet",
+            "chance": 350
+        },
+        {
+            "name": "Swamplair Armor",
+            "id": "swamplair_armor",
+            "chance": 250
+        }
+    ],
+    "changeTarget": {
+        "interval": 5000,
+        "chance": 8
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "brittle_skeleton",
+    "threatDps": 234.985,
+    "burstDps": 234.985,
+    "avgHit": 270.0977,
+    "maxHit": 762,
+    "manaCost": 0
+}

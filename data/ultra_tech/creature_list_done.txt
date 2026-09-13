@@ -1,0 +1,96 @@
+Jet Titan Chassis Support	Titan Chassis
+Zero Shield Guardian	Shield Guardian
+Lumen Winged Drone	Winged Drone
+Tactical Plasma Tank Interceptor	Plasma Tank
+Jet Hexapod Siege Platform Interceptor	Hexapod Siege Platform
+Chrome Bipedal Assault Frame Overwatch	Bipedal Assault Frame
+Ion Assault Mech	Assault Mech
+Plasma Core Guardian Striker	Core Guardian
+Echo Rail Sniper	Rail Sniper
+Null Spider Unit Vanguard	Spider Unit
+Cryo Loader Mech	Loader Mech
+Siege Hover Artillery Platform	Hover Artillery Platform
+Apex Scout Bot Warden	Scout Bot
+Combat Nano Swarm Host	Nano Swarm Host
+Quantum Medic Droid Scout	Medic Droid
+Lumen Command Frame Destroyer	Command Frame
+Jet Loader Mech Heavy	Jet Loader Mech
+Zero Recon Probe	Zero Recon Probe
+Lumen Combat Android	Lumen Combat Android
+Tactical Rail Sniper Bulwark	Tactical Rail Sniper
+Jet Hexapod Siege Platform Bulwark	Jet Hexapod Siege Platform
+Chrome Hexapod Siege Platform Pathfinder	Chrome Hexapod Siege Platform
+Ion Battle Drone	Ion Battle Drone
+Carbon War Factory Chassis Bulwark	Carbon War Factory Chassis
+Arc Combat Android Scout	Arc Combat Android
+Ironclad Crawler Scout	Crawler Scout
+Cobalt Hover Artillery Platform	Cobalt Hover Artillery Platform
+Orbit Heavy Frame Breacher	Orbit Heavy Frame
+Apex Plasma Tank Destroyer	Apex Plasma Tank
+Neon Lab Complex Droid Overwatch	Neon Lab Complex Droid
+Hyper Orbital Drop Pod Spotter	Hyper Orbital Drop Pod
+Quantum Desert Outpost Automaton	Quantum Desert Outpost Automaton
+Jet War Factory Android	Jet War Factory Android
+Omega Ice Moon Frame Overwatch	Omega Ice Moon Frame
+Cyber Golem Pathfinder	Golem Pathfinder
+Cryo Lab Complex Bulwark Warden	Cryo Lab Complex Bulwark
+Arc Hangar Mech	Arc Hangar Mech
+Kinetic Scrapyard Golem Striker	Kinetic Scrapyard Golem
+Lumen Command Frame	Lumen Command Frame
+Steel Forge Automaton Striker	Steel Forge Automaton
+Quantum Asteroid Walker Heavy	Quantum Asteroid Walker
+Razor Nano Swarm Host Heavy	Razor Nano Swarm Host
+Reactor Titan Chassis Warden	Reactor Titan Chassis
+Quantum Artillery Frame	Quantum Artillery Frame
+Zero Quad Walker Bulwark	Zero Quad Walker
+Omega Hover Sentinel Overwatch	Omega Hover Sentinel
+Cryo Winged Drone Support	Cryo Winged Drone
+Void Battle Drone Destroyer	Void Battle Drone
+Hex Walker Support	Walker Support
+Jet Core Guardian	Jet Core Guardian
+Zero Spider Unit	Zero Spider Unit
+Turbo Medic Droid	Turbo Medic Droid
+Echo Crawler Vanguard	Crawler Vanguard
+Cobalt Orbital Drop Pod	Cobalt Orbital Drop Pod
+Jet Chassis	Jet Chassis
+Silent Wrecker Bot	Silent Wrecker Bot
+Orbit Wrecker Bot Scout	Orbit Wrecker Bot
+Rail Spider Unit Vanguard	Rail Spider Unit
+Lumen Android Overwatch	Android Overwatch
+Fusion Recon Probe Scout	Fusion Recon Probe
+Drone Nano Swarm Host	Drone Nano Swarm Host
+Bolt Rail Sniper Warden	Bolt Rail Sniper
+Omega Deep Mine Interceptor Interceptor	Omega Deep Mine Interceptor
+Turbo Core Guardian Warden	Turbo Core Guardian
+Heavy Assault Mech	Heavy Assault Mech
+Tactical Tri-Pod Siege Caster Pathfinder	Tactical Tri-Pod Siege Caster
+Magpulse Hexapod Siege Platform	Magpulse Hexapod Siege Platform
+Pulse Heavy Frame	Pulse Heavy Frame
+Hex Golem Heavy	Golem Heavy
+Carbon Pulse Crawler Engineer	Carbon Pulse Crawler
+Ironclad Sentinel	Ironclad Sentinel
+Tactical Recon Probe	Tactical Recon Probe
+Hex Drone Destroyer	Drone Destroyer
+Cobalt Pulse Crawler Interceptor	Cobalt Pulse Crawler
+Omega Swarm Overwatch	Swarm Overwatch
+Lumen Medic Droid Controller	Lumen Medic Droid
+Titan Blade Runner Unit	Titan Blade Runner Unit
+Heavy Crawler Spotter	Crawler Spotter
+Arc Recon Probe	Arc Recon Probe
+Mech Grid Node Walker	Mech Grid Node Walker
+Steel Scout Bot	Steel Scout Bot
+Silent Stealth Unit Overwatch	Silent Stealth Unit
+Ion Battle Drone Support	Ion Battle Drone
+Cobalt Sentinel Striker	Sentinel Striker
+Arc Launch Bay Walker	Arc Launch Bay Walker
+Cyber Blade Runner Unit	Cyber Blade Runner Unit
+Null Quad Walker Overwatch	Null Quad Walker
+Warp Quad Walker Pathfinder	Warp Quad Walker
+Carbon Foundry Automaton Sniper	Carbon Foundry Automaton
+Jet Swarm Raider	Swarm Raider
+Hex Hover Artillery Platform	Hex Hover Artillery Platform
+Fusion Golem Demolisher	Golem Demolisher
+Steel Frame	Steel Frame
+Turbo Spider Unit Heavy	Turbo Spider Unit
+Fusion Combat Android Bulwark	Fusion Combat Android
+Neon Rail Sniper Demolisher	Neon Rail Sniper

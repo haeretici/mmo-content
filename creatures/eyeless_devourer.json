@@ -1,0 +1,248 @@
+{
+    "id": "eyeless_devourer",
+    "label": "Eyeless Devourer",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "An eyeless devourer.",
+    "hp": 10000,
+    "hpMax": 10000,
+    "speed": 165,
+    "level": 654,
+    "armor": 63,
+    "mitigation": 1.82,
+    "maxBlock": 0,
+    "exp": 6000,
+    "lootValue": 3996.3695299838,
+    "aggro": true,
+    "resists": {
+        "physical": -10,
+        "fire": 0,
+        "ice": 0,
+        "energy": 5,
+        "earth": 10,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 165,
+            "effect": "me_drawblood"
+        },
+        {
+            "id": "ranged_1",
+            "kind": "ranged",
+            "intervalMs": 2750,
+            "chance": 20,
+            "range": 5,
+            "element": "energy",
+            "min": 289,
+            "max": 330,
+            "target": true,
+            "effect": "me_energyarea",
+            "shootEffect": "ani_energy"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 60,
+            "range": 4,
+            "element": "energy",
+            "min": 206,
+            "max": 289,
+            "radius": 3,
+            "target": false,
+            "effect": "me_energyarea"
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 4,
+            "element": "earth",
+            "min": 206,
+            "max": 231,
+            "length": 5,
+            "spread": 0,
+            "target": false,
+            "effect": "me_green_rings"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Vermin",
+        "toKill": 2500,
+        "firstUnlock": 100,
+        "secondUnlock": 1000,
+        "charmsPoints": 50,
+        "stars": 4,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 70000,
+            "maxCount": 22
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 29210,
+            "maxCount": 3
+        },
+        {
+            "name": "eyeless devourer maw",
+            "chance": 14680,
+            "maxCount": 1
+        },
+        {
+            "name": "blue crystal shard",
+            "chance": 6700,
+            "maxCount": 3
+        },
+        {
+            "name": "green crystal shard",
+            "chance": 6380,
+            "maxCount": 3
+        },
+        {
+            "name": "violet crystal shard",
+            "chance": 6230,
+            "maxCount": 3
+        },
+        {
+            "name": "eyeless devourer legs",
+            "chance": 7500,
+            "maxCount": 2
+        },
+        {
+            "name": "Green Gem",
+            "id": "green_gem",
+            "chance": 6300
+        },
+        {
+            "name": "eyeless devourer tongue",
+            "chance": 3590
+        },
+        {
+            "name": "Sacred Tree Amulet",
+            "id": "sacred_tree_amulet",
+            "chance": 3190
+        },
+        {
+            "name": "Crystal Mace",
+            "id": "crystal_mace",
+            "chance": 1840
+        },
+        {
+            "name": "Frostbound Amulet",
+            "id": "frostbound_amulet",
+            "chance": 2790
+        },
+        {
+            "name": "Noble Axe",
+            "id": "noble_axe",
+            "chance": 1840
+        },
+        {
+            "name": "Warrior's Axe",
+            "id": "warriors_axe",
+            "chance": 1440
+        },
+        {
+            "name": "Relic Sword",
+            "id": "relic_sword",
+            "chance": 880
+        },
+        {
+            "name": "Colossus Blade",
+            "id": "colossus_blade",
+            "chance": 880
+        },
+        {
+            "name": "Mercenary Sword",
+            "id": "mercenary_sword",
+            "chance": 640
+        },
+        {
+            "name": "War Axe",
+            "id": "war_axe",
+            "chance": 1360,
+            "maxCount": 1
+        },
+        {
+            "name": "Execowtioner Axe",
+            "id": "execowtioner_axe",
+            "chance": 640
+        },
+        {
+            "name": "Chiseled Crossbow",
+            "id": "chiseled_crossbow",
+            "chance": 1040
+        },
+        {
+            "name": "Jade Hammer",
+            "id": "jade_hammer",
+            "chance": 1200
+        },
+        {
+            "name": "Shadow Sceptre",
+            "id": "shadow_sceptre",
+            "chance": 400
+        },
+        {
+            "name": "Metal Bat",
+            "id": "metal_bat",
+            "chance": 320
+        }
+    ],
+    "changeTarget": {
+        "interval": 5000,
+        "chance": 8
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "ashen_goblin_devourer",
+    "threatDps": 159.8591,
+    "burstDps": 168.3,
+    "avgHit": 164.3411,
+    "maxHit": 330,
+    "manaCost": 0
+}

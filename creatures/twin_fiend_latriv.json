@@ -1,0 +1,290 @@
+{
+    "id": "twin_fiend_latriv",
+    "label": "Twin Fiend Latriv",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A twin fiend latriv.",
+    "hp": 25000,
+    "hpMax": 25000,
+    "speed": 195,
+    "level": 746,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 10000,
+    "lootValue": 10456.565217391,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": -5,
+        "ice": -1,
+        "energy": 30,
+        "earth": 5,
+        "holy": 0,
+        "death": 100
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 85,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": false,
+        "canWalkOnPoison": false
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 4
+        },
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "fire",
+            "min": 0,
+            "max": 3688,
+            "length": 8,
+            "spread": 3,
+            "target": false,
+            "effect": "me_firearea"
+        },
+        {
+            "id": "wave_2",
+            "kind": "wave",
+            "intervalMs": 1000,
+            "chance": 10,
+            "range": 4,
+            "element": "fire",
+            "min": 217,
+            "max": 1085,
+            "length": 7,
+            "spread": 3,
+            "target": false,
+            "effect": "me_explosionhit"
+        },
+        {
+            "id": "ranged_3",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "death",
+            "min": 0,
+            "max": 2604,
+            "radius": 1,
+            "target": false,
+            "effect": "me_mortarea",
+            "shootEffect": "ani_death"
+        },
+        {
+            "id": "area_4",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 7,
+            "element": "fire",
+            "min": 260,
+            "max": 868,
+            "radius": 4,
+            "target": false,
+            "effect": "me_firearea",
+            "shootEffect": "ani_fire"
+        }
+    ],
+    "race": "fire",
+    "loot": [
+        {
+            "chance": 100000,
+            "maxCount": 273,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 55000,
+            "name": "Great Health Potion",
+            "id": "great_health_potion"
+        },
+        {
+            "chance": 30000,
+            "name": "Double Axe",
+            "id": "double_axe"
+        },
+        {
+            "chance": 25000,
+            "name": "Death Ring",
+            "id": "death_ring"
+        },
+        {
+            "chance": 25000,
+            "name": "Ring of Mending",
+            "id": "ring_of_mending"
+        },
+        {
+            "chance": 20000,
+            "maxCount": 13,
+            "name": "Black Pearl",
+            "id": "black_pearl"
+        },
+        {
+            "chance": 20000,
+            "maxCount": 10,
+            "name": "Small Emerald",
+            "id": "small_emerald"
+        },
+        {
+            "chance": 15000,
+            "name": "Frost Rapier",
+            "id": "frost_rapier"
+        },
+        {
+            "chance": 15000,
+            "name": "Magic Light Wand",
+            "id": "magic_light_wand"
+        },
+        {
+            "chance": 15000,
+            "name": "Silver Amulet",
+            "id": "silver_amulet"
+        },
+        {
+            "chance": 15000,
+            "maxCount": 10,
+            "name": "Small Sapphire",
+            "id": "small_sapphire"
+        },
+        {
+            "chance": 15000,
+            "maxCount": 13,
+            "name": "White Pearl",
+            "id": "white_pearl"
+        },
+        {
+            "chance": 10000,
+            "name": "Fiendish Shield",
+            "id": "fiendish_shield"
+        },
+        {
+            "chance": 10000,
+            "name": "demonic essence"
+        },
+        {
+            "chance": 10000,
+            "name": "Voltaic Ring",
+            "id": "voltaic_ring"
+        },
+        {
+            "chance": 10000,
+            "name": "Colossus Blade",
+            "id": "colossus_blade"
+        },
+        {
+            "chance": 10000,
+            "name": "Gold Ingot",
+            "id": "gold_ingot"
+        },
+        {
+            "chance": 10000,
+            "name": "Gold Ring",
+            "id": "gold_ring"
+        },
+        {
+            "chance": 10000,
+            "name": "Golden Legs",
+            "id": "golden_legs"
+        },
+        {
+            "chance": 5000,
+            "name": "Blue Gem",
+            "id": "blue_gem"
+        },
+        {
+            "chance": 5000,
+            "name": "Devil Helmet",
+            "id": "devil_helmet"
+        },
+        {
+            "chance": 5000,
+            "name": "Ember Cleaver",
+            "id": "ember_cleaver"
+        },
+        {
+            "chance": 5000,
+            "name": "Green Gem",
+            "id": "green_gem"
+        },
+        {
+            "chance": 5000,
+            "name": "Power Band",
+            "id": "power_band"
+        },
+        {
+            "chance": 5000,
+            "name": "Silver Dagger",
+            "id": "silver_dagger"
+        },
+        {
+            "chance": 15000,
+            "maxCount": 12,
+            "name": "Small Amethyst",
+            "id": "small_amethyst"
+        },
+        {
+            "chance": 5000,
+            "name": "Viperfang Rod",
+            "id": "viperfang_rod"
+        },
+        {
+            "chance": 5000,
+            "name": "Stealth Ring",
+            "id": "stealth_ring"
+        },
+        {
+            "chance": 5000,
+            "name": "Stonehide Amulet",
+            "id": "stonehide_amulet"
+        }
+    ],
+    "changeTarget": {
+        "interval": 5000,
+        "chance": 8
+    },
+    "immunities": {
+        "paralyze": false,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "celestial_fiend",
+    "threatDps": 265.7,
+    "burstDps": 265.7,
+    "avgHit": 342.8387,
+    "maxHit": 3688,
+    "manaCost": 0
+}

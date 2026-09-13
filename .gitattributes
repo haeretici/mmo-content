@@ -1,0 +1,6 @@
+# Sprite binaries — git-LFS before any PNG commit (P8 / S8).
+sprites/**/*.png filter=lfs diff=lfs merge=lfs -text
+sprites/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+sprites/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+sprites/**/*.webp filter=lfs diff=lfs merge=lfs -text
+sprites/**/*.gif filter=lfs diff=lfs merge=lfs -text

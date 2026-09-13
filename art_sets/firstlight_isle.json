@@ -1,0 +1,249 @@
+{
+    "id": "firstlight_isle",
+    "label": "Firstlight Isle",
+    "notes": "Outpost core. Opaque tiles bind (weight > 0). Overlay / stone_wall / scenery / furniture / ref_* families are editor stamps (weight 0). One row per autotile family. fills + scenery_extra hold extra family / none stamps (1\u20134 per key).",
+    "genre": "rpg_fantasy",
+    "kind": "tiles",
+    "roles": {
+        "floor": [
+            {
+                "id": "ancient_dirt_floor",
+                "weight": 12,
+                "roleId": "floor",
+                "kind": "tiles",
+                "wangFamily": "",
+                "wallAlign": ""
+            },
+            {
+                "id": "overgrown_grass_floor",
+                "weight": 6,
+                "roleId": "floor"
+            },
+            {
+                "id": "damp_wood_floor",
+                "weight": 3,
+                "roleId": "floor"
+            },
+            {
+                "id": "ref_grass_fill",
+                "weight": 0,
+                "roleId": "floor",
+                "kind": "tiles"
+            }
+        ],
+        "path": [
+            {
+                "id": "polished_dirt_path",
+                "weight": 3,
+                "roleId": "path"
+            },
+            {
+                "id": "dirt_wang_15",
+                "weight": 0,
+                "roleId": "path",
+                "kind": "overlays",
+                "wangFamily": "dirt"
+            },
+            {
+                "id": "ref_square_c",
+                "weight": 0,
+                "roleId": "path",
+                "kind": "overlays"
+            }
+        ],
+        "wall": [
+            {
+                "id": "damp_stone_wall",
+                "weight": 12,
+                "roleId": "wall"
+            },
+            {
+                "id": "stone_wall_pole",
+                "weight": 0,
+                "roleId": "wall",
+                "kind": "objects",
+                "wallFamily": "stone_wall",
+                "wallAlign": "pole"
+            },
+            {
+                "id": "ref_village_front_mid",
+                "weight": 0,
+                "roleId": "wall",
+                "kind": "objects"
+            }
+        ],
+        "water": [
+            {
+                "id": "shallow_water",
+                "weight": 4,
+                "roleId": "water"
+            },
+            {
+                "id": "damp_deep_water",
+                "weight": 4,
+                "roleId": "water"
+            },
+            {
+                "id": "water_wang_15",
+                "weight": 0,
+                "roleId": "water",
+                "kind": "overlays",
+                "wangFamily": "water"
+            },
+            {
+                "id": "ref_water_fill",
+                "weight": 0,
+                "roleId": "water",
+                "kind": "tiles"
+            },
+            {
+                "id": "ref_lava_fill",
+                "weight": 0,
+                "roleId": "water",
+                "kind": "tiles"
+            },
+            {
+                "id": "ref_green_lake_fill",
+                "weight": 0,
+                "roleId": "water",
+                "kind": "tiles"
+            },
+            {
+                "id": "ref_water_pool_fill",
+                "weight": 0,
+                "roleId": "water",
+                "kind": "tiles"
+            }
+        ],
+        "stairs_up": [
+            {
+                "id": "broken_cave_stairs",
+                "weight": 5,
+                "roleId": "stairs_up",
+                "render": {
+                    "anchor": "bottom_center"
+                }
+            }
+        ],
+        "scenery": [
+            {
+                "id": "simple_dead_tree",
+                "weight": 0,
+                "roleId": "scenery_blocking",
+                "kind": "objects",
+                "render": {
+                    "scale": 1.4,
+                    "anchor": "bottom_center"
+                }
+            },
+            {
+                "id": "abandoned_flower_patch",
+                "weight": 0,
+                "roleId": "scenery_cover",
+                "kind": "objects"
+            },
+            {
+                "id": "village_railing",
+                "weight": 0,
+                "roleId": "scenery_blocking",
+                "kind": "objects"
+            },
+            {
+                "id": "village_torch_stand",
+                "weight": 0,
+                "roleId": "scenery_cover",
+                "kind": "objects"
+            }
+        ],
+        "furniture": [
+            {
+                "id": "village_table",
+                "weight": 0,
+                "roleId": "furniture_blocking",
+                "kind": "objects"
+            },
+            {
+                "id": "village_bench",
+                "weight": 0,
+                "roleId": "furniture_blocking",
+                "kind": "objects"
+            },
+            {
+                "id": "village_crate",
+                "weight": 0,
+                "roleId": "furniture_blocking",
+                "kind": "objects"
+            },
+            {
+                "id": "village_barrel",
+                "weight": 0,
+                "roleId": "furniture_blocking",
+                "kind": "objects"
+            }
+        ],
+        "fills": [
+            {
+                "id": "ref_sand_fill",
+                "weight": 0,
+                "roleId": "floor",
+                "kind": "tiles"
+            },
+            {
+                "id": "ref_dirt_fill",
+                "weight": 0,
+                "roleId": "floor",
+                "kind": "tiles"
+            }
+        ],
+        "scenery_extra": [
+            {
+                "id": "ref_fence_v",
+                "weight": 0,
+                "roleId": "scenery_cover",
+                "kind": "objects",
+                "autoTile": {
+                    "kind": "none",
+                    "family": "fence",
+                    "slot": "v"
+                }
+            },
+            {
+                "id": "ref_fence_h",
+                "weight": 0,
+                "roleId": "scenery_cover",
+                "kind": "objects",
+                "autoTile": {
+                    "kind": "none",
+                    "family": "fence",
+                    "slot": "h"
+                }
+            },
+            {
+                "id": "ref_lake_single",
+                "weight": 0,
+                "roleId": "scenery_cover",
+                "kind": "objects",
+                "autoTile": {
+                    "kind": "none",
+                    "family": "lake",
+                    "slot": "single"
+                }
+            },
+            {
+                "id": "ref_mountain_01",
+                "weight": 0,
+                "roleId": "scenery_blocking",
+                "kind": "objects",
+                "autoTile": {
+                    "kind": "none",
+                    "family": "mountain",
+                    "slot": "01"
+                }
+            }
+        ]
+    },
+    "rules": {
+        "blockedEdgeOnly": true,
+        "pathMix": 0.18
+    }
+}

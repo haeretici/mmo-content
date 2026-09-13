@@ -1,0 +1,249 @@
+{
+    "id": "void_librarian",
+    "label": "Void Librarian",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A void librarian.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 115,
+    "level": 576,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 55000,
+    "lootValue": 71187.142857143,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 200,
+        "ice": 0,
+        "energy": 5,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 98,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "divine_missile_1",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 1,
+            "element": "physical",
+            "min": 135,
+            "max": 700,
+            "target": true
+        },
+        {
+            "id": "berserk_2",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 7,
+            "element": "physical",
+            "min": 90,
+            "max": 500,
+            "target": true
+        },
+        {
+            "id": "area_3",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 7,
+            "element": "lifedrain",
+            "min": 135,
+            "max": 280,
+            "radius": 5,
+            "target": true,
+            "effect": "me_magic_blue"
+        },
+        {
+            "id": "wave_4",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "energy",
+            "min": 210,
+            "max": 600,
+            "length": 8,
+            "spread": 0,
+            "target": false,
+            "effect": "me_energyarea"
+        },
+        {
+            "id": "wave_5",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 10,
+            "range": 4,
+            "element": "holy",
+            "min": 210,
+            "max": 700,
+            "length": 8,
+            "spread": 0,
+            "target": false,
+            "effect": "me_holyarea"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 90000,
+            "maxCount": 38
+        },
+        {
+            "name": "Crystal Coin",
+            "id": "crystal_coin",
+            "chance": 70000,
+            "maxCount": 5
+        },
+        {
+            "name": "Ultimate Mana Potion",
+            "id": "ultimate_mana_potion",
+            "chance": 70000,
+            "maxCount": 8
+        },
+        {
+            "name": "Ultimate Dual Potion",
+            "id": "ultimate_dual_potion",
+            "chance": 70000,
+            "maxCount": 4
+        },
+        {
+            "name": "Supreme Health Potion",
+            "id": "supreme_health_potion",
+            "chance": 70000,
+            "maxCount": 4
+        },
+        {
+            "name": "Berserk Potion",
+            "id": "berserk_potion",
+            "chance": 70000,
+            "maxCount": 2
+        },
+        {
+            "name": "Savant Potion",
+            "id": "savant_potion",
+            "chance": 70000,
+            "maxCount": 2
+        },
+        {
+            "name": "onyx chip",
+            "chance": 70000,
+            "maxCount": 12
+        },
+        {
+            "name": "Small Emerald",
+            "id": "small_emerald",
+            "chance": 70000,
+            "maxCount": 12
+        },
+        {
+            "name": "demon horn",
+            "chance": 70000
+        },
+        {
+            "name": "Stormbound Boots",
+            "id": "stormbound_boots",
+            "chance": 70000
+        },
+        {
+            "chance": 70000,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 70000
+        },
+        {
+            "name": "Stonehide Amulet",
+            "id": "stonehide_amulet",
+            "chance": 70000
+        },
+        {
+            "name": "Wand of Starstorm",
+            "id": "wand_of_starstorm",
+            "chance": 70000
+        },
+        {
+            "name": "gold token",
+            "chance": 30000,
+            "maxCount": 4
+        },
+        {
+            "name": "Assassin Dagger",
+            "id": "assassin_dagger",
+            "chance": 30000
+        },
+        {
+            "name": "Crystalline Armor",
+            "id": "crystalline_armor",
+            "chance": 30000
+        },
+        {
+            "name": "Dreaded Cleaver",
+            "id": "dreaded_cleaver",
+            "chance": 30000
+        },
+        {
+            "name": "frozen lightning",
+            "chance": 30000
+        },
+        {
+            "name": "sinister book",
+            "chance": 1000
+        },
+        {
+            "name": "Wand of Dimensions",
+            "id": "wand_of_dimensions",
+            "chance": 10
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 4
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "radiant_gargoyle_ravager",
+    "threatDps": 103.75,
+    "burstDps": 103.75,
+    "avgHit": 345.8333,
+    "maxHit": 700,
+    "manaCost": 0
+}

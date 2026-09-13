@@ -1,0 +1,208 @@
+{
+    "id": "undead_gladiator",
+    "label": "Undead Gladiator",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "An undead gladiator.",
+    "hp": 1000,
+    "hpMax": 1000,
+    "speed": 110,
+    "level": 424,
+    "armor": 35,
+    "mitigation": 1.54,
+    "maxBlock": 0,
+    "exp": 800,
+    "lootValue": 166.83982683983,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 80,
+        "ice": 0,
+        "energy": 20,
+        "earth": -10,
+        "holy": 10,
+        "death": -5
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": false
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 161
+        },
+        {
+            "id": "ranged_1",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 7,
+            "element": "physical",
+            "min": 0,
+            "max": 87,
+            "target": false,
+            "shootEffect": "ani_whirlwindsword"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "invisible_0",
+            "kind": "invisible",
+            "intervalMs": 2000,
+            "chance": 15,
+            "durationSec": 2,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "undead",
+    "bestiary": {
+        "class": "Undead",
+        "toKill": 1000,
+        "firstUnlock": 50,
+        "secondUnlock": 500,
+        "charmsPoints": 25,
+        "stars": 3,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 44000,
+            "maxCount": 100
+        },
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 50500,
+            "maxCount": 48
+        },
+        {
+            "chance": 30,
+            "name": "Stealth Ring",
+            "id": "stealth_ring"
+        },
+        {
+            "name": "Protection Amulet",
+            "id": "protection_amulet",
+            "chance": 2200
+        },
+        {
+            "name": "Two Handed Sword",
+            "id": "two_handed_sword",
+            "chance": 1900
+        },
+        {
+            "name": "Throwing Star",
+            "id": "throwing_star",
+            "chance": 15700,
+            "maxCount": 18
+        },
+        {
+            "chance": 11280,
+            "name": "Scimitar",
+            "id": "scimitar"
+        },
+        {
+            "name": "Knight Axe",
+            "id": "knight_axe",
+            "chance": 280
+        },
+        {
+            "name": "Plate Armor",
+            "id": "plate_armor",
+            "chance": 1700
+        },
+        {
+            "name": "Brass Armor",
+            "id": "brass_armor",
+            "chance": 4700
+        },
+        {
+            "name": "Brass Legs",
+            "id": "brass_legs",
+            "chance": 5500
+        },
+        {
+            "name": "Dark Helmet",
+            "id": "dark_helmet",
+            "chance": 1460
+        },
+        {
+            "name": "Crusader Helmet",
+            "id": "crusader_helmet",
+            "chance": 100
+        },
+        {
+            "name": "Plate Legs",
+            "id": "plate_legs",
+            "chance": 2444
+        },
+        {
+            "name": "Hunting Spear",
+            "id": "hunting_spear",
+            "chance": 4200
+        },
+        {
+            "name": "flask of warrior's sweat",
+            "chance": 210
+        },
+        {
+            "name": "Health Potion",
+            "id": "health_potion",
+            "chance": 350
+        },
+        {
+            "name": "Belted Cape",
+            "id": "belted_cape",
+            "chance": 5000
+        },
+        {
+            "name": "broken gladiator shield",
+            "chance": 5200
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": false,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "crystal_lizard_warrior",
+    "threatDps": 44.6,
+    "burstDps": 44.6,
+    "avgHit": 74.3333,
+    "maxHit": 161,
+    "manaCost": 0
+}

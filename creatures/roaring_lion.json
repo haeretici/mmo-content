@@ -1,0 +1,150 @@
+{
+    "id": "roaring_lion",
+    "label": "Roaring Lion",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A roaring lion.",
+    "hp": 1000,
+    "hpMax": 1000,
+    "speed": 105,
+    "level": 425,
+    "armor": 28,
+    "mitigation": 1.04,
+    "maxBlock": 0,
+    "exp": 800,
+    "lootValue": 157.84690849422,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 20,
+        "ice": -10,
+        "energy": 0,
+        "earth": 20,
+        "holy": 50,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": true,
+        "canPushItems": true,
+        "canPushCreatures": false,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": false
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "element": "physical",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "min": 48,
+            "max": 131,
+            "target": true
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Mammal",
+        "toKill": 1000,
+        "firstUnlock": 50,
+        "secondUnlock": 500,
+        "charmsPoints": 25,
+        "stars": 3,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "chance": 100000,
+            "maxCount": 114,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 25000,
+            "name": "Meat",
+            "id": "meat"
+        },
+        {
+            "chance": 25000,
+            "name": "Ham",
+            "id": "ham"
+        },
+        {
+            "chance": 16666,
+            "name": "lion's mane"
+        },
+        {
+            "chance": 10000,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 7692,
+            "name": "Small Ruby",
+            "id": "small_ruby"
+        },
+        {
+            "chance": 7142,
+            "name": "Small Amethyst",
+            "id": "small_amethyst"
+        },
+        {
+            "chance": 6666,
+            "name": "Small Topaz",
+            "id": "small_topaz"
+        },
+        {
+            "chance": 5555,
+            "name": "Small Sapphire",
+            "id": "small_sapphire"
+        },
+        {
+            "chance": 1612,
+            "name": "ankh"
+        },
+        {
+            "chance": 1204,
+            "name": "Power Band",
+            "id": "power_band"
+        },
+        {
+            "chance": 1010,
+            "name": "Crown Helmet",
+            "id": "crown_helmet"
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "nether_tiger",
+    "threatDps": 44.75,
+    "burstDps": 44.75,
+    "avgHit": 89.5,
+    "maxHit": 131,
+    "manaCost": 0
+}

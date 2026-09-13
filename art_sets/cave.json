@@ -1,0 +1,43 @@
+{
+  "id": "cave",
+  "label": "Cave",
+  "notes": "Slim art set (TileMap Phase 3): 1–2 tiles per terrain role. roleId links tile_roles. Scenery is editor palette only — procedural bind never stamps objects.",
+  "genre": "rpg_fantasy",
+  "kind": "tiles",
+  "roles": {
+    "floor": [
+      { "id": "damp_dirt_floor", "weight": 12, "roleId": "floor" },
+      { "id": "damp_moss_floor", "weight": 8, "roleId": "floor" }
+    ],
+    "path": [
+      { "id": "dark_gravel_path", "weight": 3, "roleId": "path" }
+    ],
+    "wall": [
+      { "id": "damp_cave_wall", "weight": 12, "roleId": "wall" }
+    ],
+    "water": [
+      { "id": "damp_deep_water", "weight": 4, "roleId": "water" }
+    ],
+    "stairs_up": [
+      {
+        "id": "broken_cave_stairs",
+        "weight": 5,
+        "roleId": "stairs_up",
+        "render": { "anchor": "bottom_center" }
+      }
+    ],
+    "scenery": [
+      {
+        "id": "simple_dead_tree",
+        "weight": 2,
+        "roleId": "scenery_blocking",
+        "kind": "objects",
+        "render": { "scale": 1.4, "anchor": "bottom_center" }
+      }
+    ]
+  },
+  "rules": {
+    "blockedEdgeOnly": true,
+    "pathMix": 0.18
+  }
+}

@@ -1,0 +1,298 @@
+{
+    "id": "pirate_rat_admiral",
+    "label": "Pirate Rat Admiral",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A pirate rat admiral.",
+    "hp": 1,
+    "hpMax": 1,
+    "speed": 115,
+    "level": 857,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 50000,
+    "lootValue": 40537.857142857,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 0,
+        "earth": 0,
+        "holy": 0,
+        "death": 0
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 70,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 270,
+            "max": 500
+        },
+        {
+            "id": "ranged_1",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 40,
+            "range": 7,
+            "element": "physical",
+            "min": 300,
+            "max": 600,
+            "target": true,
+            "shootEffect": "ani_whirlwindclub"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 40,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 300,
+            "max": 600,
+            "radius": 4,
+            "target": false,
+            "effect": "me_magic_red"
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 30,
+            "range": 4,
+            "element": "lifedrain",
+            "min": 600,
+            "max": 1000,
+            "length": 4,
+            "spread": 0,
+            "target": false,
+            "effect": "me_sound_purple"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "chance": 100000,
+            "minCount": 1,
+            "maxCount": 3,
+            "name": "Crystal Coin",
+            "id": "crystal_coin"
+        },
+        {
+            "chance": 55000,
+            "minCount": 1,
+            "maxCount": 39,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 40000,
+            "minCount": 1,
+            "maxCount": 19,
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion"
+        },
+        {
+            "chance": 40000,
+            "minCount": 1,
+            "maxCount": 19,
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion"
+        },
+        {
+            "chance": 30000,
+            "minCount": 1,
+            "maxCount": 19,
+            "name": "Great Health Potion",
+            "id": "great_health_potion"
+        },
+        {
+            "chance": 30000,
+            "minCount": 1,
+            "maxCount": 19,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 25000,
+            "minCount": 1,
+            "maxCount": 19,
+            "name": "Ultimate Mana Potion",
+            "id": "ultimate_mana_potion"
+        },
+        {
+            "chance": 22000,
+            "minCount": 1,
+            "maxCount": 9,
+            "name": "Savant Potion",
+            "id": "savant_potion"
+        },
+        {
+            "chance": 20000,
+            "minCount": 1,
+            "maxCount": 9,
+            "name": "Marksman Potion",
+            "id": "marksman_potion"
+        },
+        {
+            "chance": 17000,
+            "minCount": 3,
+            "maxCount": 102,
+            "name": "pirate coin"
+        },
+        {
+            "chance": 16000,
+            "minCount": 1,
+            "maxCount": 9,
+            "name": "Berserk Potion",
+            "id": "berserk_potion"
+        },
+        {
+            "chance": 8000,
+            "name": "Ratmiral's hat"
+        },
+        {
+            "chance": 7140,
+            "name": "small treasure chest"
+        },
+        {
+            "chance": 6250,
+            "name": "tiara"
+        },
+        {
+            "chance": 3570,
+            "name": "golden dustbin"
+        },
+        {
+            "chance": 2680,
+            "name": "amber"
+        },
+        {
+            "chance": 2680,
+            "name": "golden cheese wedge"
+        },
+        {
+            "chance": 2680,
+            "name": "soap"
+        },
+        {
+            "chance": 1790,
+            "name": "scrubbing brush"
+        },
+        {
+            "chance": 890,
+            "name": "cheesy membership card"
+        },
+        {
+            "chance": 890,
+            "name": "Exotic Amulet",
+            "id": "exotic_amulet"
+        },
+        {
+            "chance": 890,
+            "name": "Throwing Axe",
+            "id": "throwing_axe"
+        },
+        {
+            "chance": 890,
+            "name": "Bast Legs",
+            "id": "bast_legs"
+        },
+        {
+            "chance": 890,
+            "name": "Exotic Legs",
+            "id": "exotic_legs"
+        },
+        {
+            "chance": 890,
+            "name": "Jungle Bow",
+            "id": "jungle_bow"
+        },
+        {
+            "chance": 890,
+            "name": "Jungle Quiver",
+            "id": "jungle_quiver"
+        },
+        {
+            "chance": 890,
+            "name": "Jungle Flail",
+            "id": "jungle_flail"
+        },
+        {
+            "chance": 890,
+            "name": "Jungle Rod",
+            "id": "jungle_rod"
+        },
+        {
+            "chance": 890,
+            "name": "Jungle Wand",
+            "id": "jungle_wand"
+        },
+        {
+            "chance": 890,
+            "name": "Makeshift Boots",
+            "id": "makeshift_boots"
+        },
+        {
+            "chance": 890,
+            "name": "Make-Do Boots",
+            "id": "make_do_boots"
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": true,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "chaos_triton_assassin",
+    "threatDps": 492.5,
+    "burstDps": 492.5,
+    "avgHit": 469.0476,
+    "maxHit": 1000,
+    "manaCost": 0,
+    "summon": {
+        "maxSummons": 4,
+        "summons": [
+            {
+                "name": "Elite Pirate",
+                "id": "elite_pirate",
+                "chance": 30,
+                "interval": 1000
+            }
+        ]
+    }
+}

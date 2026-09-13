@@ -1,0 +1,283 @@
+{
+    "id": "black_vixen",
+    "label": "Black Vixen",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A black vixen.",
+    "hp": 3200,
+    "hpMax": 3200,
+    "speed": 100,
+    "level": 540,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 3200,
+    "lootValue": 810.5,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": -5,
+        "ice": 10,
+        "energy": 20,
+        "earth": 60,
+        "holy": 0,
+        "death": 50
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 3,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": false,
+        "canWalkOnPoison": false
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 117
+        },
+        {
+            "id": "ranged_1",
+            "kind": "ranged",
+            "intervalMs": 1000,
+            "chance": 20,
+            "range": 7,
+            "element": "physical",
+            "min": 40,
+            "max": 291,
+            "target": false,
+            "shootEffect": "ani_throwingstar"
+        },
+        {
+            "id": "slow_2",
+            "kind": "status",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 7,
+            "element": "physical",
+            "min": 0,
+            "max": 0,
+            "statusOnly": true,
+            "condition": {
+                "type": "slow",
+                "speedChange": -600,
+                "durationSec": 20
+            },
+            "effect": "me_magic_red",
+            "target": false
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 1000,
+            "chance": 14,
+            "range": 4,
+            "element": "death",
+            "min": 40,
+            "max": 283,
+            "length": 5,
+            "spread": 0,
+            "target": false,
+            "effect": "me_mortarea"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 4000,
+            "chance": 15,
+            "min": 150,
+            "max": 345,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        },
+        {
+            "id": "invisible_1",
+            "kind": "invisible",
+            "intervalMs": 2000,
+            "chance": 15,
+            "durationSec": 2,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 13600000,
+            "maxCount": 100
+        },
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 13600000,
+            "maxCount": 100
+        },
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 13600000,
+            "maxCount": 10
+        },
+        {
+            "name": "Nightshade Star",
+            "id": "nightshade_star",
+            "chance": 13600000,
+            "maxCount": 9
+        },
+        {
+            "name": "Black Pearl",
+            "id": "black_pearl",
+            "chance": 13600000,
+            "maxCount": 2
+        },
+        {
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion",
+            "chance": 13600000,
+            "maxCount": 2
+        },
+        {
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion",
+            "chance": 13600000,
+            "maxCount": 2
+        },
+        {
+            "name": "small enchanted emerald",
+            "chance": 13600000,
+            "maxCount": 2
+        },
+        {
+            "name": "Ultimate Mana Potion",
+            "id": "ultimate_mana_potion",
+            "chance": 13600000,
+            "maxCount": 2
+        },
+        {
+            "name": "Ultimate Dual Potion",
+            "id": "ultimate_dual_potion",
+            "chance": 13600000,
+            "maxCount": 2
+        },
+        {
+            "name": "fox paw",
+            "chance": 13600000,
+            "maxCount": 2
+        },
+        {
+            "name": "Lunar Rod",
+            "id": "lunar_rod",
+            "chance": 13600000
+        },
+        {
+            "chance": 13600000,
+            "name": "Stealth Ring",
+            "id": "stealth_ring"
+        },
+        {
+            "name": "werefox tail",
+            "chance": 13600000
+        },
+        {
+            "name": "Green Gem",
+            "id": "green_gem",
+            "chance": 400
+        },
+        {
+            "name": "troll green",
+            "chance": 400
+        },
+        {
+            "name": "Werewolf Amulet",
+            "id": "werewolf_amulet",
+            "chance": 400
+        },
+        {
+            "name": "Composite Hornbow",
+            "id": "composite_hornbow",
+            "chance": 250
+        },
+        {
+            "name": "Sai",
+            "id": "sai",
+            "chance": 250
+        },
+        {
+            "name": "silver token",
+            "chance": 250
+        },
+        {
+            "chance": 250,
+            "name": "werefox trophy"
+        },
+        {
+            "name": "foxtail",
+            "chance": 100
+        },
+        {
+            "name": "Wolf Backpack",
+            "id": "wolf_backpack",
+            "chance": 100
+        },
+        {
+            "name": "silver token",
+            "chance": 100
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "hyaena",
+    "threatDps": 84.96,
+    "burstDps": 84.96,
+    "avgHit": 101.1429,
+    "maxHit": 291,
+    "manaCost": 0,
+    "summon": {
+        "maxSummons": 2,
+        "summons": [
+            {
+                "name": "Werefox",
+                "id": "werefox",
+                "chance": 20,
+                "interval": 2000,
+                "count": 2
+            }
+        ]
+    }
+}

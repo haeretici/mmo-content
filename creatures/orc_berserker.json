@@ -1,0 +1,150 @@
+{
+    "id": "orc_berserker",
+    "label": "Orc Berserker",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "An orc berserker.",
+    "hp": 210,
+    "hpMax": 210,
+    "speed": 125,
+    "level": 268,
+    "armor": 12,
+    "mitigation": 0.3,
+    "maxBlock": 0,
+    "exp": 195,
+    "lootValue": 56.013839386058,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": 15,
+        "earth": -10,
+        "holy": 10,
+        "death": -10
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 60,
+        "health": 40
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": true,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": true,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": true,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": false,
+        "canWalkOnPoison": false
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 75
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "haste_0",
+            "kind": "haste",
+            "intervalMs": 2000,
+            "chance": 15,
+            "speedChange": 290,
+            "durationSec": 6,
+            "effect": "me_magic_red"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Humanoid",
+        "toKill": 1000,
+        "firstUnlock": 50,
+        "secondUnlock": 500,
+        "charmsPoints": 25,
+        "stars": 3,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "chance": 830,
+            "name": "Lamp",
+            "id": "lamp"
+        },
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 54000,
+            "maxCount": 12
+        },
+        {
+            "name": "Battle Axe",
+            "id": "battle_axe",
+            "chance": 6110
+        },
+        {
+            "name": "Halberd",
+            "id": "halberd",
+            "chance": 7280
+        },
+        {
+            "name": "Chain Armor",
+            "id": "chain_armor",
+            "chance": 890
+        },
+        {
+            "name": "Ham",
+            "id": "ham",
+            "chance": 10400
+        },
+        {
+            "name": "Hunting Spear",
+            "id": "hunting_spear",
+            "chance": 5000
+        },
+        {
+            "name": "orc tooth",
+            "chance": 3000
+        },
+        {
+            "name": "orcish gear",
+            "chance": 9400
+        },
+        {
+            "name": "orc leather",
+            "chance": 4000
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": false,
+        "outfit": false,
+        "invisible": false,
+        "bleed": false
+    },
+    "customSprite": "orc_berserker",
+    "threatDps": 18.75,
+    "burstDps": 18.75,
+    "avgHit": 37.5,
+    "maxHit": 75,
+    "manaCost": 590
+}

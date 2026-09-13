@@ -1,0 +1,1351 @@
+{
+    "version": 1,
+    "genre": "steampunk",
+    "updatedAt": "2026-07-22T21:17:01.499Z",
+    "creatures": [
+        {
+            "id": "aether_clockwork_colossus",
+            "technical": "Aether Clockwork Colossus",
+            "alias": "Aether Clockwork Colossus",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Aether_Clockwork_Colossus.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "aether_titan_stoker",
+            "technical": "Aether Titan Stoker",
+            "alias": "Titan Stoker",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Aether_Titan_Stoker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "aetherial_walking_locomotive_overseer",
+            "technical": "Aetherial Walking Locomotive Overseer",
+            "alias": "Aetherial Walking Locomotive",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Aetherial_Walking_Locomotive_Overseer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "boiler_cog_hound_watchman",
+            "technical": "Boiler Cog Hound Watchman",
+            "alias": "Boiler Cog Hound",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Boiler_Cog_Hound_Watchman.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "boiler_cog_spider_tinker",
+            "technical": "Boiler Cog Spider Tinker",
+            "alias": "Boiler Cog Spider",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Boiler_Cog_Spider_Tinker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "boiler_kraken_deckhand",
+            "technical": "Boiler Kraken Deckhand",
+            "alias": "Kraken Deckhand",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Boiler_Kraken_Deckhand.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "boiler_sky_dock_phantom",
+            "technical": "Boiler Sky Dock Phantom",
+            "alias": "Boiler Sky Dock Phantom",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Boiler_Sky_Dock_Phantom.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "brass_boiler_beast_inventor",
+            "technical": "Brass Boiler Beast Inventor",
+            "alias": "Brass Boiler Beast",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Brass_Boiler_Beast_Inventor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "bronze_boiler_room_mantis_captain",
+            "technical": "Bronze Boiler Room Mantis Captain",
+            "alias": "Bronze Boiler Room Mantis",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Bronze_Boiler_Room_Mantis_Captain.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "bronze_drake_raider",
+            "technical": "Bronze Drake Raider",
+            "alias": "Drake Raider",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Bronze_Drake_Raider.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "bronze_steamworks_phantom_skyraider",
+            "technical": "Bronze Steamworks Phantom Skyraider",
+            "alias": "Bronze Steamworks Phantom",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Bronze_Steamworks_Phantom_Skyraider.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "burnished_copper_scarab",
+            "technical": "Burnished Copper Scarab",
+            "alias": "Burnished Copper Scarab",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Burnished_Copper_Scarab.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "burnished_drake",
+            "technical": "Burnished Drake",
+            "alias": "Burnished Drake",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Burnished_Drake.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "burnished_skyrail_behemoth_tinker",
+            "technical": "Burnished Skyrail Behemoth Tinker",
+            "alias": "Burnished Skyrail Behemoth",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Burnished_Skyrail_Behemoth_Tinker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cast_iron_valve_serpent",
+            "technical": "Cast-Iron Valve Serpent",
+            "alias": "Cast-Iron Valve Serpent",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Cast_Iron_Valve_Serpent.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "chrono_automaton_guard",
+            "technical": "Chrono Automaton Guard",
+            "alias": "Automaton Guard",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Chrono_Automaton_Guard.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "chrono_dirigible_squid_sentinel",
+            "technical": "Chrono Dirigible Squid Sentinel",
+            "alias": "Dirigible Squid",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Chrono_Dirigible_Squid_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "chrono_gear_wolf_inventor",
+            "technical": "Chrono Gear Wolf Inventor",
+            "alias": "Chrono Gear Wolf",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Chrono_Gear_Wolf_Inventor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cinder_steam_elemental_engineer",
+            "technical": "Cinder Steam Elemental Engineer",
+            "alias": "Steam Elemental",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Cinder_Steam_Elemental_Engineer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "clockwork_iron_horse",
+            "technical": "Clockwork Iron Horse",
+            "alias": "Clockwork Iron Horse",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Clockwork_Iron_Horse.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "clockwork_walking_locomotive_guardian",
+            "technical": "Clockwork Walking Locomotive Guardian",
+            "alias": "Walking Locomotive",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Clockwork_Walking_Locomotive_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "clockwork_walking_locomotive_mechanic",
+            "technical": "Clockwork Walking Locomotive Mechanic",
+            "alias": "Clockwork Walking Locomotive",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Clockwork_Walking_Locomotive_Mechanic.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "coal_airship_kraken_engineer",
+            "technical": "Coal Airship Kraken Engineer",
+            "alias": "Coal Airship Kraken",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Coal_Airship_Kraken_Engineer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "coal_boiler_crab_porter",
+            "technical": "Coal Boiler Crab Porter",
+            "alias": "Coal Boiler Crab",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Coal_Boiler_Crab_Porter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "coal_mechanical_minotaur",
+            "technical": "Coal Mechanical Minotaur",
+            "alias": "Coal Mechanical Minotaur",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Coal_Mechanical_Minotaur.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cogged_scarab_inventor",
+            "technical": "Cogged Scarab Inventor",
+            "alias": "Scarab Inventor",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Cogged_Scarab_Inventor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cogged_squid_stoker",
+            "technical": "Cogged Squid Stoker",
+            "alias": "Squid Stoker",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Cogged_Squid_Stoker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "cogged_titan_stoker",
+            "technical": "Cogged Titan Stoker",
+            "alias": "Titan Stoker",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Cogged_Titan_Stoker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "copper_clockwork_colossus_surveyor",
+            "technical": "Copper Clockwork Colossus Surveyor",
+            "alias": "Copper Clockwork Colossus",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Copper_Clockwork_Colossus_Surveyor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "copper_factory_warden",
+            "technical": "Copper Factory Warden",
+            "alias": "Factory Warden",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Copper_Factory_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "dirigible_boiler_crab_surveyor",
+            "technical": "Dirigible Boiler Crab Surveyor",
+            "alias": "Dirigible Boiler Crab",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Dirigible_Boiler_Crab_Surveyor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ember_steam_elemental_mechanic",
+            "technical": "Ember Steam Elemental Mechanic",
+            "alias": "Ember Steam Elemental",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Ember_Steam_Elemental_Mechanic.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "factory_boiler_crab_skyraider",
+            "technical": "Factory Boiler Crab Skyraider",
+            "alias": "Factory Boiler Crab",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Factory_Boiler_Crab_Skyraider.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "fog_gear_hydra_guardian",
+            "technical": "Fog Gear Hydra Guardian",
+            "alias": "Fog Gear Hydra",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Fog_Gear_Hydra_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "gadget_mechanical_minotaur",
+            "technical": "Gadget Mechanical Minotaur",
+            "alias": "Gadget Mechanical Minotaur",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Gadget_Mechanical_Minotaur.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "gadget_rail_yard_titan",
+            "technical": "Gadget Rail Yard Titan",
+            "alias": "Gadget Rail Yard Titan",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Gadget_Rail_Yard_Titan.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "gasket_bridge_district_mantis",
+            "technical": "Gasket Bridge District Mantis",
+            "alias": "Gasket Bridge District Mantis",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Gasket_Bridge_District_Mantis.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "gasket_clockwork_owl",
+            "technical": "Gasket Clockwork Owl",
+            "alias": "Gasket Clockwork Owl",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Gasket_Clockwork_Owl.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "gear_ornate_sentinel_captain",
+            "technical": "Gear Ornate Sentinel Captain",
+            "alias": "Gear Ornate Sentinel",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Gear_Ornate_Sentinel_Captain.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "gear_windup_panther",
+            "technical": "Gear Windup Panther",
+            "alias": "Gear Windup Panther",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Gear_Windup_Panther.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "gilded_piston_titan_engineer",
+            "technical": "Gilded Piston Titan Engineer",
+            "alias": "Piston Titan",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Gilded_Piston_Titan_Engineer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hammered_golem_stoker",
+            "technical": "Hammered Golem Stoker",
+            "alias": "Golem Stoker",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Hammered_Golem_Stoker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hammered_soot_phantom",
+            "technical": "Hammered Soot Phantom",
+            "alias": "Hammered Soot Phantom",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Hammered_Soot_Phantom.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hex_automaton_watchman",
+            "technical": "Hex Automaton Watchman",
+            "alias": "Automaton Watchman",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Hex_Automaton_Watchman.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hex_clockwork_colossus_pilot",
+            "technical": "Hex Clockwork Colossus Pilot",
+            "alias": "Clockwork Colossus",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Hex_Clockwork_Colossus_Pilot.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hex_gasket_imp_mechanic",
+            "technical": "Hex Gasket Imp Mechanic",
+            "alias": "Gasket Imp",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Hex_Gasket_Imp_Mechanic.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "hex_soot_phantom_sentinel",
+            "technical": "Hex Soot Phantom Sentinel",
+            "alias": "Hex Soot Phantom",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Hex_Soot_Phantom_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "industrial_cog_spider_aeronaut",
+            "technical": "Industrial Cog Spider Aeronaut",
+            "alias": "Industrial Cog Spider",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Industrial_Cog_Spider_Aeronaut.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iron_chrono_beetle_warden",
+            "technical": "Iron Chrono Beetle Warden",
+            "alias": "Iron Chrono Beetle",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Iron_Chrono_Beetle_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iron_clockwork_knight",
+            "technical": "Iron Clockwork Knight",
+            "alias": "Clockwork Knight",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Iron_Clockwork_Knight.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iron_golem",
+            "technical": "Iron Golem",
+            "alias": "Iron Golem",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Iron_Golem.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iron_mechanical_minotaur_sentinel",
+            "technical": "Iron Mechanical Minotaur Sentinel",
+            "alias": "Iron Mechanical Minotaur",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Iron_Mechanical_Minotaur_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "iron_windup_panther_porter",
+            "technical": "Iron Windup Panther Porter",
+            "alias": "Iron Windup Panther",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Iron_Windup_Panther_Porter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lacquered_factory_squid_engineer",
+            "technical": "Lacquered Factory Squid Engineer",
+            "alias": "Lacquered Factory Squid",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Lacquered_Factory_Squid_Engineer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "lacquered_wisp_navigator",
+            "technical": "Lacquered Wisp Navigator",
+            "alias": "Wisp Navigator",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Lacquered_Wisp_Navigator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "mechanical_aether_wisp_foreman",
+            "technical": "Mechanical Aether Wisp Foreman",
+            "alias": "Aether Wisp",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Mechanical_Aether_Wisp_Foreman.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "mechanical_airship_kraken_foreman",
+            "technical": "Mechanical Airship Kraken Foreman",
+            "alias": "Mechanical Airship Kraken",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Mechanical_Airship_Kraken_Foreman.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ornate_dockyard_spider",
+            "technical": "Ornate Dockyard Spider",
+            "alias": "Ornate Dockyard Spider",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Ornate_Dockyard_Spider.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ornate_iron_horse_watchman",
+            "technical": "Ornate Iron Horse Watchman",
+            "alias": "Iron Horse",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Ornate_Iron_Horse_Watchman.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ornate_windup_panther",
+            "technical": "Ornate Windup Panther",
+            "alias": "Ornate Windup Panther",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Ornate_Windup_Panther.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "piston_skybridge_leviathan_guardian",
+            "technical": "Piston Skybridge Leviathan Guardian",
+            "alias": "Piston Skybridge Leviathan",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Piston_Skybridge_Leviathan_Guardian.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "polished_minotaur_engineer",
+            "technical": "Polished Minotaur Engineer",
+            "alias": "Minotaur Engineer",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Polished_Minotaur_Engineer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "polished_ogre_sentinel",
+            "technical": "Polished Ogre Sentinel",
+            "alias": "Ogre Sentinel",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Polished_Ogre_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "polished_skyrail_behemoth_artificer",
+            "technical": "Polished Skyrail Behemoth Artificer",
+            "alias": "Polished Skyrail Behemoth",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Polished_Skyrail_Behemoth_Artificer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "polished_valve_serpent",
+            "technical": "Polished Valve Serpent",
+            "alias": "Valve Serpent",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Polished_Valve_Serpent.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "polished_windup_soldier_watchman",
+            "technical": "Polished Windup Soldier Watchman",
+            "alias": "Polished Windup Soldier",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Polished_Windup_Soldier_Watchman.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "pressure_aetherforge_golem",
+            "technical": "Pressure Aetherforge Golem",
+            "alias": "Pressure Aetherforge Golem",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Pressure_Aetherforge_Golem.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "rusted_brass_hawk_watchman",
+            "technical": "Rusted Brass Hawk Watchman",
+            "alias": "Rusted Brass Hawk",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Rusted_Brass_Hawk_Watchman.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "rusted_steam_golem",
+            "technical": "Rusted Steam Golem",
+            "alias": "Rusted Steam Golem",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Rusted_Steam_Golem.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "smog_minotaur",
+            "technical": "Smog Minotaur",
+            "alias": "Smog Minotaur",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Smog_Minotaur.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "smog_steam_powered_leviathan_deckhand",
+            "technical": "Smog Steam-Powered Leviathan Deckhand",
+            "alias": "Smog Steam-Powered Leviathan",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Smog_Steam_Powered_Leviathan_Deckhand.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "smog_steam_powered_leviathan_warden",
+            "technical": "Smog Steam-Powered Leviathan Warden",
+            "alias": "Smog Steam-Powered Leviathan",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Smog_Steam_Powered_Leviathan_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "soot_ornate_sentinel",
+            "technical": "Soot Ornate Sentinel",
+            "alias": "Soot Ornate Sentinel",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Soot_Ornate_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "soot_owl_inventor",
+            "technical": "Soot Owl Inventor",
+            "alias": "Owl Inventor",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Soot_Owl_Inventor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "soot_valve_hawk_navigator",
+            "technical": "Soot Valve Hawk Navigator",
+            "alias": "Soot Valve Hawk",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Soot_Valve_Hawk_Navigator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "sooty_steam_powered_leviathan_inventor",
+            "technical": "Sooty Steam-Powered Leviathan Inventor",
+            "alias": "Steam-Powered Leviathan",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Sooty_Steam_Powered_Leviathan_Inventor.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "spark_warden_stoker",
+            "technical": "Spark Warden Stoker",
+            "alias": "Warden Stoker",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Spark_Warden_Stoker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "spring_pressure_drake",
+            "technical": "Spring Pressure Drake",
+            "alias": "Pressure Drake",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Spring_Pressure_Drake.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "ticked_colossus_aeronaut",
+            "technical": "Ticked Colossus Aeronaut",
+            "alias": "Colossus Aeronaut",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Ticked_Colossus_Aeronaut.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tin_steam_mantis_stoker",
+            "technical": "Tin Steam Mantis Stoker",
+            "alias": "Tin Steam Mantis",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Tin_Steam_Mantis_Stoker.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tin_steamworks_soldier_deckhand",
+            "technical": "Tin Steamworks Soldier Deckhand",
+            "alias": "Tin Steamworks Soldier",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Tin_Steamworks_Soldier_Deckhand.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "tin_warden_mechanic",
+            "technical": "Tin Warden Mechanic",
+            "alias": "Warden Mechanic",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Tin_Warden_Mechanic.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "valve_aether_wisp",
+            "technical": "Valve Aether Wisp",
+            "alias": "Valve Aether Wisp",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Valve_Aether_Wisp.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "valve_boiler_beast",
+            "technical": "Valve Boiler Beast",
+            "alias": "Boiler Beast",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Valve_Boiler_Beast.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "valve_colossus",
+            "technical": "Valve Colossus",
+            "alias": "Valve Colossus",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Valve_Colossus.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "vented_imp_warden",
+            "technical": "Vented Imp Warden",
+            "alias": "Imp Warden",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Vented_Imp_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "vented_rail_yard_wisp",
+            "technical": "Vented Rail Yard Wisp",
+            "alias": "Vented Rail Yard Wisp",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Vented_Rail_Yard_Wisp.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "victorian_colossus_sentinel",
+            "technical": "Victorian Colossus Sentinel",
+            "alias": "Colossus Sentinel",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Victorian_Colossus_Sentinel.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "victorian_elemental",
+            "technical": "Victorian Elemental",
+            "alias": "Victorian Elemental",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Victorian_Elemental.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "victorian_gear_hydra_overseer",
+            "technical": "Victorian Gear Hydra Overseer",
+            "alias": "Victorian Gear Hydra",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Victorian_Gear_Hydra_Overseer.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "whirring_gasket_imp_porter",
+            "technical": "Whirring Gasket Imp Porter",
+            "alias": "Whirring Gasket Imp",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Whirring_Gasket_Imp_Porter.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "whirring_gasworks_locomotive_navigator",
+            "technical": "Whirring Gasworks Locomotive Navigator",
+            "alias": "Whirring Gasworks Locomotive",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Whirring_Gasworks_Locomotive_Navigator.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "whirring_ornate_sentinel_raider",
+            "technical": "Whirring Ornate Sentinel Raider",
+            "alias": "Whirring Ornate Sentinel",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Whirring_Ornate_Sentinel_Raider.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "windup_pressure_drake_warden",
+            "technical": "Windup Pressure Drake Warden",
+            "alias": "Windup Pressure Drake",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Windup_Pressure_Drake_Warden.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "windup_spring_fox",
+            "technical": "Windup Spring Fox",
+            "alias": "Windup Spring Fox",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Windup_Spring_Fox.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        },
+        {
+            "id": "wrought_mechanical_minotaur",
+            "technical": "Wrought Mechanical Minotaur",
+            "alias": "Mechanical Minotaur",
+            "genre": "steampunk",
+            "status": "original_only",
+            "sprites": {
+                "original": "assets/sprites/steampunk/creatures/original/Wrought_Mechanical_Minotaur.png",
+                "transformed": null
+            },
+            "tags": [],
+            "source": "pipeline",
+            "createdAt": "2026-07-22"
+        }
+    ]
+}

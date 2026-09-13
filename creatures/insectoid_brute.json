@@ -1,0 +1,194 @@
+{
+    "id": "insectoid_brute",
+    "label": "Insectoid Brute",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "An insectoid brute.",
+    "hp": 3800,
+    "hpMax": 3800,
+    "speed": 115,
+    "level": 558,
+    "armor": 52,
+    "mitigation": 1.71,
+    "maxBlock": 0,
+    "exp": 2400,
+    "lootValue": 1012.3547630024,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 30,
+        "ice": -7,
+        "energy": 10,
+        "earth": 100,
+        "holy": 0,
+        "death": -5
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 100
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 95,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": false,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 0,
+            "max": 302
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 15,
+            "range": 7,
+            "element": "physical",
+            "min": 0,
+            "max": 480,
+            "radius": 3,
+            "target": true,
+            "effect": "me_explosionhit",
+            "shootEffect": "ani_explosion"
+        }
+    ],
+    "race": "venom",
+    "bestiary": {
+        "class": "Vermin",
+        "toKill": 1000,
+        "firstUnlock": 50,
+        "secondUnlock": 500,
+        "charmsPoints": 25,
+        "stars": 3,
+        "occurrence": 2
+    },
+    "loot": [
+        {
+            "name": "Small Ruby",
+            "id": "small_ruby",
+            "chance": 8180,
+            "maxCount": 2
+        },
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 49000,
+            "maxCount": 100
+        },
+        {
+            "name": "Gold Coin",
+            "id": "gold_coin",
+            "chance": 50000,
+            "maxCount": 97
+        },
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 66000,
+            "maxCount": 3
+        },
+        {
+            "chance": 3270,
+            "name": "Ring of Mending",
+            "id": "ring_of_mending"
+        },
+        {
+            "name": "Steel Boots",
+            "id": "steel_boots",
+            "chance": 130
+        },
+        {
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion",
+            "chance": 8950,
+            "maxCount": 4
+        },
+        {
+            "chance": 2600,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 4000,
+            "maxCount": 3
+        },
+        {
+            "name": "Gold Ingot",
+            "id": "gold_ingot",
+            "chance": 5160
+        },
+        {
+            "name": "kollos shell",
+            "chance": 15390
+        },
+        {
+            "name": "compound eye",
+            "chance": 15720
+        },
+        {
+            "name": "Calopteryx Cape",
+            "id": "calopteryx_cape",
+            "chance": 360
+        },
+        {
+            "name": "Carapace Shield",
+            "id": "carapace_shield",
+            "chance": 310
+        },
+        {
+            "name": "Hive Scythe",
+            "id": "hive_scythe",
+            "chance": 700
+        },
+        {
+            "name": "Buggy Backpack",
+            "id": "buggy_backpack",
+            "chance": 460
+        },
+        {
+            "name": "Tarsal Arrow",
+            "id": "tarsal_arrow",
+            "chance": 10210,
+            "maxCount": 5
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": false,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "rune_stone_bugbear",
+    "threatDps": 93.5,
+    "burstDps": 93.5,
+    "avgHit": 162.6087,
+    "maxHit": 480,
+    "manaCost": 0
+}

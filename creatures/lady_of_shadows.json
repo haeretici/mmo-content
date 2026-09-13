@@ -1,0 +1,312 @@
+{
+    "id": "lady_of_shadows",
+    "label": "Lady Of Shadows",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A lady of shadows.",
+    "hp": 250000,
+    "hpMax": 250000,
+    "speed": 185,
+    "level": 975,
+    "armor": 0,
+    "mitigation": 0,
+    "maxBlock": 0,
+    "exp": 50000,
+    "lootValue": 33200.459459459,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 5,
+        "ice": 15,
+        "energy": 5,
+        "earth": 20,
+        "holy": 1,
+        "death": 60
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 98,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": true,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 1069,
+            "max": 2406
+        },
+        {
+            "id": "wave_1",
+            "kind": "wave",
+            "intervalMs": 6000,
+            "chance": 13,
+            "range": 4,
+            "element": "death",
+            "min": 1604,
+            "max": 2005,
+            "length": 8,
+            "spread": 0,
+            "target": false,
+            "effect": "me_mortarea"
+        },
+        {
+            "id": "area_2",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 13,
+            "range": 4,
+            "element": "death",
+            "min": 535,
+            "max": 802,
+            "radius": 4,
+            "target": true,
+            "effect": "me_smallclouds",
+            "shootEffect": "ani_death"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 3000,
+            "chance": 25,
+            "min": 600,
+            "max": 2700,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        },
+        {
+            "id": "haste_1",
+            "kind": "haste",
+            "intervalMs": 2000,
+            "chance": 15,
+            "speedChange": 320,
+            "durationSec": 5,
+            "effect": "me_magic_red"
+        }
+    ],
+    "race": "blood",
+    "loot": [
+        {
+            "chance": 10000,
+            "maxCount": 50,
+            "name": "Gold Coin",
+            "id": "gold_coin"
+        },
+        {
+            "chance": 10000,
+            "maxCount": 50,
+            "name": "Platinum Coin",
+            "id": "platinum_coin"
+        },
+        {
+            "chance": 10000,
+            "maxCount": 10,
+            "name": "Small Amethyst",
+            "id": "small_amethyst"
+        },
+        {
+            "chance": 10000,
+            "maxCount": 10,
+            "name": "Small Diamond",
+            "id": "small_diamond"
+        },
+        {
+            "chance": 10000,
+            "maxCount": 10,
+            "name": "Small Ruby",
+            "id": "small_ruby"
+        },
+        {
+            "chance": 10000,
+            "maxCount": 10,
+            "name": "Small Topaz",
+            "id": "small_topaz"
+        },
+        {
+            "chance": 10000,
+            "maxCount": 100,
+            "name": "Great Mana Potion",
+            "id": "great_mana_potion"
+        },
+        {
+            "chance": 10000,
+            "maxCount": 100,
+            "name": "Great Dual Potion",
+            "id": "great_dual_potion"
+        },
+        {
+            "chance": 12000,
+            "maxCount": 2,
+            "name": "cluster of solace"
+        },
+        {
+            "chance": 2000,
+            "maxCount": 3,
+            "name": "blue crystal shard"
+        },
+        {
+            "chance": 5000,
+            "maxCount": 5,
+            "name": "green crystal shard"
+        },
+        {
+            "chance": 2000,
+            "maxCount": 2,
+            "name": "cluster of solace"
+        },
+        {
+            "chance": 5000,
+            "maxCount": 3,
+            "name": "violet crystal shard"
+        },
+        {
+            "chance": 6000,
+            "name": "Giant Shimmering Pearl",
+            "id": "giant_shimmering_pearl"
+        },
+        {
+            "chance": 2000,
+            "name": "Green Gem",
+            "id": "green_gem"
+        },
+        {
+            "chance": 2000,
+            "name": "Savant Potion",
+            "id": "savant_potion"
+        },
+        {
+            "chance": 2000,
+            "name": "Onyx Pendant",
+            "id": "onyx_pendant"
+        },
+        {
+            "chance": 1000,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "chance": 2000,
+            "name": "Celestial Band",
+            "id": "celestial_band"
+        },
+        {
+            "chance": 2000,
+            "name": "Shadow Sceptre",
+            "id": "shadow_sceptre"
+        },
+        {
+            "chance": 1000,
+            "name": "Spellbook of Lost Souls",
+            "id": "spellbook_of_lost_souls"
+        },
+        {
+            "chance": 1000,
+            "name": "Spellbook of Warding",
+            "id": "spellbook_of_warding"
+        },
+        {
+            "chance": 1000,
+            "name": "Bone Skull Staff",
+            "id": "bone_skull_staff"
+        },
+        {
+            "chance": 1000,
+            "name": "Yellow Gem",
+            "id": "yellow_gem"
+        },
+        {
+            "chance": 1000,
+            "name": "Wand of Defiance",
+            "id": "wand_of_defiance"
+        },
+        {
+            "chance": 100000,
+            "name": "gold token"
+        },
+        {
+            "chance": 100000,
+            "name": "silver token"
+        },
+        {
+            "chance": 200,
+            "name": "Arcane Staff",
+            "id": "arcane_staff"
+        },
+        {
+            "chance": 200,
+            "name": "shadow mask"
+        },
+        {
+            "chance": 200,
+            "name": "shadow paint"
+        },
+        {
+            "chance": 200,
+            "name": "Book of Lies",
+            "id": "book_of_lies"
+        },
+        {
+            "chance": 200,
+            "name": "Crude Gloomforged Spellbook",
+            "id": "crude_gloomforged_spellbook"
+        },
+        {
+            "chance": 500,
+            "unique": true,
+            "name": "part of a rune"
+        },
+        {
+            "chance": 200,
+            "name": "Sapphire Amulet",
+            "id": "sapphire_amulet"
+        },
+        {
+            "chance": 200,
+            "name": "Gloomforged Spellbook",
+            "id": "gloomforged_spellbook"
+        }
+    ],
+    "changeTarget": {
+        "interval": 2000,
+        "chance": 20
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "umbral_ghoul",
+    "threatDps": 951.3,
+    "burstDps": 1029.495,
+    "avgHit": 1621.5341,
+    "maxHit": 2406,
+    "manaCost": 0
+}

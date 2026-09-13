@@ -1,0 +1,284 @@
+{
+    "id": "girtablilu_warrior",
+    "label": "Girtablilu Warrior",
+    "source": "pipeline",
+    "displayScale": 1,
+    "notes": "A girtablilu warrior.",
+    "hp": 8500,
+    "hpMax": 8500,
+    "speed": 180,
+    "level": 638,
+    "armor": 76,
+    "mitigation": 2.22,
+    "maxBlock": 0,
+    "exp": 5800,
+    "lootValue": 3225.737704918,
+    "aggro": true,
+    "resists": {
+        "physical": 0,
+        "fire": 0,
+        "ice": 0,
+        "energy": -14,
+        "earth": 10,
+        "holy": -10,
+        "death": 15
+    },
+    "canBlock": false,
+    "strategiesTarget": {
+        "nearest": 70,
+        "health": 10,
+        "damage": 10,
+        "random": 10
+    },
+    "flags": {
+        "targetDistance": 1,
+        "runHealth": 0,
+        "staticAttackChance": 90,
+        "aggroRange": 7,
+        "loseTargetDistance": 12,
+        "summonable": false,
+        "attackable": true,
+        "hostile": true,
+        "convinceable": false,
+        "pushable": false,
+        "rewardBoss": false,
+        "illusionable": false,
+        "canPushItems": true,
+        "canPushCreatures": true,
+        "healthHidden": false,
+        "canWalkOnEnergy": true,
+        "canWalkOnFire": true,
+        "canWalkOnPoison": true
+    },
+    "attacks": [
+        {
+            "id": "melee_0",
+            "kind": "melee",
+            "intervalMs": 2000,
+            "chance": 100,
+            "range": 1,
+            "element": "physical",
+            "min": 79,
+            "max": 178
+        },
+        {
+            "id": "area_1",
+            "kind": "area",
+            "intervalMs": 2000,
+            "chance": 40,
+            "range": 4,
+            "element": "death",
+            "min": 198,
+            "max": 257,
+            "radius": 4,
+            "target": false,
+            "effect": "me_mortarea"
+        },
+        {
+            "id": "ranged_2",
+            "kind": "ranged",
+            "intervalMs": 2000,
+            "chance": 20,
+            "range": 5,
+            "element": "earth",
+            "min": 79,
+            "max": 178,
+            "target": true,
+            "shootEffect": "ani_poisonarrow"
+        },
+        {
+            "id": "wave_3",
+            "kind": "wave",
+            "intervalMs": 2000,
+            "chance": 40,
+            "range": 4,
+            "element": "earth",
+            "min": 79,
+            "max": 158,
+            "length": 3,
+            "spread": 2,
+            "target": false,
+            "effect": "me_green_rings"
+        }
+    ],
+    "defenseSpells": [
+        {
+            "id": "heal_0",
+            "kind": "heal",
+            "intervalMs": 2000,
+            "chance": 10,
+            "min": 150,
+            "max": 550,
+            "hpBelow": 0.7,
+            "effect": "me_magic_blue"
+        }
+    ],
+    "race": "blood",
+    "bestiary": {
+        "class": "Magical",
+        "toKill": 2500,
+        "firstUnlock": 100,
+        "secondUnlock": 1000,
+        "charmsPoints": 50,
+        "stars": 4,
+        "occurrence": 0
+    },
+    "loot": [
+        {
+            "name": "Platinum Coin",
+            "id": "platinum_coin",
+            "chance": 70000,
+            "maxCount": 25
+        },
+        {
+            "name": "Ultimate Health Potion",
+            "id": "ultimate_health_potion",
+            "chance": 15360,
+            "maxCount": 4
+        },
+        {
+            "name": "Gold Ingot",
+            "id": "gold_ingot",
+            "chance": 14130,
+            "maxCount": 2
+        },
+        {
+            "name": "green crystal shard",
+            "chance": 6420,
+            "maxCount": 3
+        },
+        {
+            "name": "red crystal fragment",
+            "chance": 5830,
+            "maxCount": 3
+        },
+        {
+            "name": "girtablilu warrior carapace",
+            "chance": 4650,
+            "maxCount": 1
+        },
+        {
+            "name": "cyan crystal fragment",
+            "chance": 4530,
+            "maxCount": 3
+        },
+        {
+            "name": "scorpion charm",
+            "chance": 4240
+        },
+        {
+            "name": "Green Gem",
+            "id": "green_gem",
+            "chance": 4060
+        },
+        {
+            "name": "Violet Gem",
+            "id": "violet_gem",
+            "chance": 3410
+        },
+        {
+            "name": "blue crystal shard",
+            "chance": 2880,
+            "maxCount": 3
+        },
+        {
+            "name": "Crowbar",
+            "id": "crowbar",
+            "chance": 2830
+        },
+        {
+            "name": "Diamond Sceptre",
+            "id": "diamond_sceptre",
+            "chance": 2590
+        },
+        {
+            "name": "violet crystal shard",
+            "chance": 2470
+        },
+        {
+            "name": "Yellow Gem",
+            "id": "yellow_gem",
+            "chance": 2350
+        },
+        {
+            "name": "Frost Rapier",
+            "id": "frost_rapier",
+            "chance": 2240
+        },
+        {
+            "name": "Emberbound Coat",
+            "id": "emberbound_coat",
+            "chance": 2180
+        },
+        {
+            "name": "Epee",
+            "id": "epee",
+            "chance": 2120
+        },
+        {
+            "name": "Wyrmbone Staff",
+            "id": "wyrmbone_staff",
+            "chance": 2000
+        },
+        {
+            "name": "Knight Axe",
+            "id": "knight_axe",
+            "chance": 2000
+        },
+        {
+            "name": "Beastslayer Axe",
+            "id": "beastslayer_axe",
+            "chance": 1940
+        },
+        {
+            "name": "green crystal fragment",
+            "chance": 1710
+        },
+        {
+            "name": "Blue Gem",
+            "id": "blue_gem",
+            "chance": 1530
+        },
+        {
+            "chance": 1530,
+            "name": "Red Gem",
+            "id": "red_gem"
+        },
+        {
+            "name": "Blue Robe",
+            "id": "blue_robe",
+            "chance": 1060
+        },
+        {
+            "name": "Focus Cape",
+            "id": "focus_cape",
+            "chance": 1060
+        },
+        {
+            "name": "Fur Armor",
+            "id": "fur_armor",
+            "chance": 820
+        },
+        {
+            "name": "Frostbound Robe",
+            "id": "frostbound_robe",
+            "chance": 650
+        }
+    ],
+    "changeTarget": {
+        "interval": 4000,
+        "chance": 10
+    },
+    "immunities": {
+        "paralyze": true,
+        "outfit": false,
+        "invisible": true,
+        "bleed": false
+    },
+    "customSprite": "sun_orc_guard",
+    "threatDps": 146.3,
+    "burstDps": 146.3,
+    "avgHit": 146.3,
+    "maxHit": 257,
+    "manaCost": 0
+}

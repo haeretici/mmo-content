@@ -1,0 +1,14 @@
+{
+    "name": "engine-content",
+    "version": "0.1.0",
+    "private": true,
+    "description": "JSON defs and hybrid v2 maps. Data only — no game tick.",
+    "license": "MIT",
+    "type": "commonjs",
+    "engines": {
+        "node": ">=24.0.0"
+    },
+    "scripts": {
+        "test": "node tests/pack.js && php tests/pack.php"
+    }
+}
