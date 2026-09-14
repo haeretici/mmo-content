@@ -1001,6 +1001,19 @@ final class Pack
         if (!isset($maps[$defaultMap])) {
             throw new RuntimeException("defaultMap '{$defaultMap}' not found");
         }
+        $dialogs = self::loadKeyedDir($abs . DIRECTORY_SEPARATOR . 'dialogs');
+        foreach ($creatures as &$c) {
+            if (!isset($c['dialog']) && isset($c['dialogId'], $dialogs[$c['dialogId']])) {
+                $c['dialog'] = $dialogs[$c['dialogId']];
+            }
+        }
+        unset($c);
+        foreach ($npcs as &$npc) {
+            if (!isset($npc['dialog']) && isset($npc['dialogId'], $dialogs[$npc['dialogId']])) {
+                $npc['dialog'] = $dialogs[$npc['dialogId']];
+            }
+        }
+        unset($npc);
         $templates = $creatures + $npcs;
         return [
             'root' => $abs,
@@ -1018,7 +1031,7 @@ final class Pack
             'spells' => self::loadOptionalDocument($abs . DIRECTORY_SEPARATOR . 'spells.json'),
             'classes' => self::loadOptionalDocument($abs . DIRECTORY_SEPARATOR . 'classes.json'),
             'strategies' => self::loadOptionalDocument($abs . DIRECTORY_SEPARATOR . 'strategies.json'),
-            'dialogs' => self::loadKeyedDir($abs . DIRECTORY_SEPARATOR . 'dialogs'),
+            'dialogs' => $dialogs,
             'artSets' => self::loadKeyedDir($abs . DIRECTORY_SEPARATOR . 'art_sets'),
             'tileRoles' => self::loadKeyedDir($abs . DIRECTORY_SEPARATOR . 'tile_roles'),
             'mapsManifest' => self::loadOptionalDocument($mapsDir . DIRECTORY_SEPARATOR . 'manifest.json'),

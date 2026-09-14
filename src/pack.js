@@ -827,6 +827,19 @@ function loadPack(root) {
     if (!maps[defaultMap]) {
         throw new Error(`defaultMap '${defaultMap}' not found`);
     }
+    const dialogs = loadKeyedDir(path.join(abs, 'dialogs'));
+    for (const id of Object.keys(creatures)) {
+        const c = creatures[id];
+        if (!c.dialog && c.dialogId && dialogs[c.dialogId]) {
+            c.dialog = dialogs[c.dialogId];
+        }
+    }
+    for (const id of Object.keys(npcs)) {
+        const n = npcs[id];
+        if (!n.dialog && n.dialogId && dialogs[n.dialogId]) {
+            n.dialog = dialogs[n.dialogId];
+        }
+    }
     const templates = Object.assign(Object.create(null), creatures, npcs);
     return {
         root: abs,
@@ -844,7 +857,7 @@ function loadPack(root) {
         spells: loadOptionalDocument(path.join(abs, 'spells.json')),
         classes: loadOptionalDocument(path.join(abs, 'classes.json')),
         strategies: loadOptionalDocument(path.join(abs, 'strategies.json')),
-        dialogs: loadKeyedDir(path.join(abs, 'dialogs')),
+        dialogs,
         artSets: loadKeyedDir(path.join(abs, 'art_sets')),
         tileRoles: loadKeyedDir(path.join(abs, 'tile_roles')),
         mapsManifest: loadOptionalDocument(path.join(mapsDir, 'manifest.json')),
