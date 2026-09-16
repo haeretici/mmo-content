@@ -84,6 +84,17 @@ function main() {
     assert.strictEqual(pack.equipment.items.length, 1705);
     assert.strictEqual(pack.spells.spells.length, 145);
     assert.strictEqual(pack.classes.classes.length, 6);
+    assert.ok(pack.starters);
+    assert.strictEqual(pack.starters.vocations.guardian.equips.weapon, 'dagger');
+    assert.strictEqual(pack.starters.vocations.adventurer.equips.weapon, 'dagger');
+    assert.strictEqual(pack.starters.vocations.mystic.equips.weapon, 'light_jo_staff');
+    assert.strictEqual(pack.starters.vocations.warden.equips.weapon, 'frostbite_wand');
+    assert.strictEqual(pack.starters.vocations.adept.equips.weapon, 'scorcher_wand');
+    assert.ok(pack.starters.vocations.scout.quiver.some((r) => r.id === 'simple_arrow' && r.count === 100));
+    const starterBlob = JSON.stringify(pack.starters);
+    assert.ok(!starterBlob.includes('hunter_bow'));
+    assert.ok(!starterBlob.includes('nunchaku'));
+    assert.ok(!starterBlob.includes('steel_plate'));
     assert.strictEqual(Object.keys(pack.dialogs).length, 9);
     assert.strictEqual(Object.keys(pack.artSets).length, 8);
     assert.strictEqual(Object.keys(pack.tileRoles).length, 17);

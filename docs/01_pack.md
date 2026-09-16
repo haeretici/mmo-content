@@ -19,6 +19,7 @@ One directory the **server** loads at boot. Map-editor writes maps. Content-mana
 | `tiles/tiles.json` | palette: `id` u16, `name`, `walk`, `friction`, `color` |
 | `creatures/<id>.json` | HuntDL kits (1593). Talkable NPCs are creatures with `isNpc` + `dialogs/` |
 | `equipment.json` | one catalog document (1705 items) |
+| `starters.json` | L1 vocation kits (Client analog; not L50 hunt baselines) |
 | `spells.json` `classes.json` `strategies.json` | keep-list documents |
 | `dialogs/` `art_sets/` `tile_roles/` | keep-list dirs |
 | `schemas/` | keep-list (`art_sets` `classes` `creatures` `dialogs` `equipment` `spells` `strategies` `tile_roles` + `defs/`) |

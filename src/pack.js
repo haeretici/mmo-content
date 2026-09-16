@@ -567,6 +567,60 @@ function loadOptionalDocument(filePath) {
     return value;
 }
 
+function addStarterItemId(ids, value) {
+    if (typeof value === 'string' && KIND_RE.test(value)) {
+        ids.push(value);
+        return;
+    }
+    if (!isPlainObject(value)) return;
+    const id = value.id != null ? String(value.id) : (value.itemId != null ? String(value.itemId) : '');
+    if (KIND_RE.test(id)) ids.push(id);
+}
+
+function collectStarterItemIds(doc) {
+    const ids = [];
+    if (doc.baseEquips && isPlainObject(doc.baseEquips)) {
+        const keys = Object.keys(doc.baseEquips);
+        for (let i = 0; i < keys.length; i++) addStarterItemId(ids, doc.baseEquips[keys[i]]);
+    }
+    const vocs = doc.vocations && isPlainObject(doc.vocations) ? doc.vocations : {};
+    const vocKeys = Object.keys(vocs);
+    for (let v = 0; v < vocKeys.length; v++) {
+        const voc = vocKeys[v];
+        if (!KIND_RE.test(voc)) throw new Error(`starters vocation bad id '${voc}'`);
+        const spec = vocs[voc];
+        if (!isPlainObject(spec)) throw new Error(`starters vocation '${voc}' must be object`);
+        if (spec.equips != null) {
+            if (!isPlainObject(spec.equips)) throw new Error(`starters '${voc}' equips must be object`);
+            const ek = Object.keys(spec.equips);
+            for (let i = 0; i < ek.length; i++) addStarterItemId(ids, spec.equips[ek[i]]);
+        }
+        const lists = ['inventory', 'quiver'];
+        for (let l = 0; l < lists.length; l++) {
+            const list = spec[lists[l]];
+            if (list == null) continue;
+            if (!Array.isArray(list)) throw new Error(`starters '${voc}' ${lists[l]} must be array`);
+            for (let i = 0; i < list.length; i++) addStarterItemId(ids, list[i]);
+        }
+    }
+    return ids;
+}
+
+function validateStarters(doc, equipment) {
+    if (!doc) return doc;
+    const ids = collectStarterItemIds(doc);
+    const list = equipment && Array.isArray(equipment.items) ? equipment.items : null;
+    if (!list) return doc;
+    const have = Object.create(null);
+    for (let i = 0; i < list.length; i++) {
+        if (list[i] && list[i].id != null) have[String(list[i].id)] = true;
+    }
+    for (let i = 0; i < ids.length; i++) {
+        if (!have[ids[i]]) throw new Error(`starters references missing item '${ids[i]}'`);
+    }
+    return doc;
+}
+
 function loadHybridMap(dir, mapId, tilesById, creatures, npcs, opts) {
     const bounds = validateBounds(readJson(path.join(dir, 'bounds.json')), mapId);
     const collectPins = !opts || opts.collectPins !== false;
@@ -841,6 +895,7 @@ function loadPack(root) {
         }
     }
     const templates = Object.assign(Object.create(null), creatures, npcs);
+    const equipment = loadOptionalDocument(path.join(abs, 'equipment.json'));
     return {
         root: abs,
         id: manifest.id,
@@ -853,10 +908,11 @@ function loadPack(root) {
         items,
         creatures,
         npcs,
-        equipment: loadOptionalDocument(path.join(abs, 'equipment.json')),
+        equipment,
         spells: loadOptionalDocument(path.join(abs, 'spells.json')),
         classes: loadOptionalDocument(path.join(abs, 'classes.json')),
         strategies: loadOptionalDocument(path.join(abs, 'strategies.json')),
+        starters: validateStarters(loadOptionalDocument(path.join(abs, 'starters.json')), equipment),
         dialogs,
         artSets: loadKeyedDir(path.join(abs, 'art_sets')),
         tileRoles: loadKeyedDir(path.join(abs, 'tile_roles')),

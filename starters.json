@@ -1,0 +1,82 @@
+{
+    "version": 1,
+    "notes": "L1 Client analog (BASE_EQUIPS + VOCATION_PACKS). Not Hunt Simulator L50. Adventurer is an explicit copy of guardian (Client falls back to the guardian pack).",
+    "baseEquips": {
+        "helmet": "leather_helmet",
+        "armor": "jacket",
+        "legs": "leather_legs",
+        "boots": "leather_boots",
+        "backpack": "backpack"
+    },
+    "vocations": {
+        "guardian": {
+            "equips": {
+                "weapon": "dagger",
+                "shield": "wooden_shield"
+            },
+            "inventory": [
+                { "id": "meat", "count": 1 },
+                { "id": "mana_potion", "count": 2 },
+                { "id": "small_health_potion", "count": 10 }
+            ]
+        },
+        "scout": {
+            "equips": {
+                "weapon": "bow",
+                "shield": "quiver"
+            },
+            "inventory": [
+                { "id": "meat", "count": 1 },
+                { "id": "mana_potion", "count": 5 },
+                { "id": "small_health_potion", "count": 7 }
+            ],
+            "quiver": [
+                { "id": "simple_arrow", "count": 100 }
+            ]
+        },
+        "mystic": {
+            "equips": {
+                "weapon": "light_jo_staff"
+            },
+            "inventory": [
+                { "id": "meat", "count": 1 },
+                { "id": "mana_potion", "count": 5 },
+                { "id": "small_health_potion", "count": 7 }
+            ]
+        },
+        "warden": {
+            "equips": {
+                "weapon": "frostbite_wand",
+                "shield": "novice_spellbook"
+            },
+            "inventory": [
+                { "id": "meat", "count": 1 },
+                { "id": "mana_potion", "count": 10 },
+                { "id": "small_health_potion", "count": 2 }
+            ]
+        },
+        "adept": {
+            "equips": {
+                "weapon": "scorcher_wand",
+                "shield": "novice_spellbook"
+            },
+            "inventory": [
+                { "id": "meat", "count": 1 },
+                { "id": "mana_potion", "count": 10 },
+                { "id": "small_health_potion", "count": 2 }
+            ]
+        },
+        "adventurer": {
+            "notes": "Explicit guardian copy. Client uses VOCATION_PACKS.guardian when vocation is missing.",
+            "equips": {
+                "weapon": "dagger",
+                "shield": "wooden_shield"
+            },
+            "inventory": [
+                { "id": "meat", "count": 1 },
+                { "id": "mana_potion", "count": 2 },
+                { "id": "small_health_potion", "count": 10 }
+            ]
+        }
+    }
+}

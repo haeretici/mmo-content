@@ -1031,6 +1031,7 @@ final class Pack
             'spells' => self::loadOptionalDocument($abs . DIRECTORY_SEPARATOR . 'spells.json'),
             'classes' => self::loadOptionalDocument($abs . DIRECTORY_SEPARATOR . 'classes.json'),
             'strategies' => self::loadOptionalDocument($abs . DIRECTORY_SEPARATOR . 'strategies.json'),
+            'starters' => self::loadOptionalDocument($abs . DIRECTORY_SEPARATOR . 'starters.json'),
             'dialogs' => $dialogs,
             'artSets' => self::loadKeyedDir($abs . DIRECTORY_SEPARATOR . 'art_sets'),
             'tileRoles' => self::loadKeyedDir($abs . DIRECTORY_SEPARATOR . 'tile_roles'),
