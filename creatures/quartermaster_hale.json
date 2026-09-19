@@ -1,7 +1,7 @@
 {
     "id": "quartermaster_hale",
     "label": "Hale",
-    "notes": "Outpost quest officer. Amulet + Herb accept/turn-in via player.storage firstlight.morris.amulet and firstlight.morris.herbs. No shop. C.4 wander radius 2. Not a hunt target.",
+    "notes": "Outpost quest officer. Amulet + Herb accept/turn-in via player.storage firstlight.morris.amulet and firstlight.morris.herbs. No shop. C.4 wander radius 2 + idle voices. Not a hunt target.",
     "customSprite": "quartermaster_hale",
     "hp": 80,
     "hpMax": 80,
@@ -17,6 +17,12 @@
     "dialogId": "quartermaster_hale",
     "walkInterval": 2000,
     "walkRadius": 2,
+    "voices": [
+        { "text": "Work if you want it. Talk to me." },
+        { "text": "Jobs pay in gold. Ask." }
+    ],
+    "voiceInterval": 15000,
+    "voiceChance": 25,
     "canBlock": false,
     "attacks": [],
     "flags": {

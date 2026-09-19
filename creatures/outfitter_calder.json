@@ -1,7 +1,7 @@
 {
     "id": "outfitter_calder",
     "label": "Calder",
-    "notes": "Outpost vendor-lite (tools and food). Trade opens shop. Currency gold_coin. C.4 wander radius 2. Not a hunt target.",
+    "notes": "Outpost vendor-lite (tools and food). Trade opens shop. Currency gold_coin. C.4 wander radius 2 + idle voices. Not a hunt target.",
     "customSprite": "outfitter_calder",
     "hp": 80,
     "hpMax": 80,
@@ -17,6 +17,12 @@
     "dialogId": "outfitter_calder",
     "walkInterval": 2000,
     "walkRadius": 2,
+    "voices": [
+        { "text": "Ropes and shovels if you need them." },
+        { "text": "Don't leave the hill hungry." }
+    ],
+    "voiceInterval": 15000,
+    "voiceChance": 25,
     "shop": {
         "currency": "gold_coin",
         "items": [

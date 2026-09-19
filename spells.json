@@ -1339,6 +1339,7 @@
                 }
             },
             "requiresTarget": false,
+            "selfTarget": true,
             "level": 1,
             "vocations": [
                 "adept",
@@ -1517,6 +1518,10 @@
                 }
             },
             "requiresTarget": false,
+            "shape": {
+                "type": "area",
+                "code": 5
+            },
             "vocations": [
                 "warden"
             ],
@@ -1545,6 +1550,7 @@
                 }
             },
             "requiresTarget": true,
+            "allowOnSelf": false,
             "vocations": [
                 "warden"
             ],
@@ -4673,6 +4679,10 @@
                 }
             },
             "requiresTarget": false,
+            "shape": {
+                "type": "area",
+                "code": 5
+            },
             "level": 150,
             "vocations": [
                 "mystic"
@@ -4701,6 +4711,7 @@
                 }
             },
             "requiresTarget": true,
+            "allowOnSelf": false,
             "level": 18,
             "vocations": [
                 "mystic"

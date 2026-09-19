@@ -1,7 +1,7 @@
 {
     "id": "smith_brannok",
     "label": "Brannok",
-    "notes": "Outpost vendor-lite (weapons and armor). Trade opens shop. Currency gold_coin. Mapped rows only. C.4 wander radius 2. Not a hunt target.",
+    "notes": "Outpost vendor-lite (weapons and armor). Trade opens shop. Currency gold_coin. Mapped rows only. C.4 wander radius 2 + idle voices. Not a hunt target.",
     "customSprite": "smith_brannok",
     "hp": 80,
     "hpMax": 80,
@@ -17,6 +17,12 @@
     "dialogId": "smith_brannok",
     "walkInterval": 2000,
     "walkRadius": 2,
+    "voices": [
+        { "text": "Need a blade or a shield?" },
+        { "text": "Steel if you have the coin." }
+    ],
+    "voiceInterval": 15000,
+    "voiceChance": 25,
     "shop": {
         "currency": "gold_coin",
         "items": [

@@ -473,7 +473,15 @@
         },
         "requiresTarget": {
           "type": "boolean",
-          "description": "Whether cast needs a primary target for center/aim."
+          "description": "Whether cast needs a living creature as primary (heal friend, strikes). Not self-only."
+        },
+        "selfTarget": {
+          "type": "boolean",
+          "description": "Always origin on the caster. Ignores CAST targetId / sticky / aim. Omit: inferred for shapeless heal/support that are not requiresTarget / chain / field."
+        },
+        "allowOnSelf": {
+          "type": "boolean",
+          "description": "If false, a requiresTarget spell may not target the caster (heal friend). Default true."
         }
       }
     }
